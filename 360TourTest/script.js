@@ -58,7 +58,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    "borderRadius": 0,
    "horizontalAlign": "center",
    "minWidth": 25,
-   "click": "this.setComponentVisibility(this.Container_9EFCCEBF_96CF_F03B_41D8_719389C3A0EB, true, 0, this.effect_98AADBB0_96C5_F0C5_41B2_1C4D08E503DB, 'showEffect', false); this.playList_19A6BB20_3EB1_44CB_41B5_4F9E2357AA3C.set('selectedIndex', 0)",
+   "click": "this.setComponentVisibility(this.Container_9EFCCEBF_96CF_F03B_41D8_719389C3A0EB, true, 0, this.effect_98AADBB0_96C5_F0C5_41B2_1C4D08E503DB, 'showEffect', false); this.playList_15EA2A33_3E91_44CD_41A6_19745971D26B.set('selectedIndex', 0)",
    "toolTipTextShadowBlurRadius": 3,
    "toolTipOpacity": 0.7,
    "toolTipShadowVerticalLength": 0,
@@ -298,7 +298,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        {
         "toolTip": "Out View",
         "class": "HotspotPanoramaOverlayArea",
-        "click": "this.startPanoramaWithCamera(this.panorama_25553EB7_3D4C_162F_41C4_ABE3C7F9C5B0, this.camera_16A9DBD4_3EB1_5B4B_41C6_4C66860D1FD6); this.mainPlayList.set('selectedIndex', 1)",
+        "click": "this.startPanoramaWithCamera(this.panorama_25553EB7_3D4C_162F_41C4_ABE3C7F9C5B0, this.camera_1513CB12_3E91_44CF_41C7_26EC5EA980FD); this.mainPlayList.set('selectedIndex', 1)",
         "mapColor": "#FF0000",
         "displayTooltipInTouchScreens": true
        }
@@ -352,7 +352,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        {
         "mapColor": "#FF0000",
         "class": "HotspotPanoramaOverlayArea",
-        "click": "this.startPanoramaWithCamera(this.panorama_25789C34_3D4C_1A20_41A5_C0AD56C4B00F, this.camera_16BADBCA_3EB1_5B5F_41BF_1CE5D670C0BF); this.mainPlayList.set('selectedIndex', 2)"
+        "click": "this.startPanoramaWithCamera(this.panorama_25789C34_3D4C_1A20_41A5_C0AD56C4B00F, this.camera_15043B08_3E91_44DB_41C9_E840ADEDF2F4); this.mainPlayList.set('selectedIndex', 2)"
        }
       ],
       "items": [
@@ -404,7 +404,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        {
         "mapColor": "#FF0000",
         "class": "HotspotPanoramaOverlayArea",
-        "click": "this.startPanoramaWithCamera(this.panorama_2554CA98_3D4C_3EE1_41C5_3E8526A1D270, this.camera_16422BF3_3EB1_5B4D_4192_30824E383DA3); this.mainPlayList.set('selectedIndex', 3)"
+        "click": "this.startPanoramaWithCamera(this.panorama_2554CA98_3D4C_3EE1_41C5_3E8526A1D270, this.camera_12FDBB31_3E91_44CD_419A_FCC8B49C99CD); this.mainPlayList.set('selectedIndex', 3)"
        }
       ],
       "items": [
@@ -456,7 +456,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        {
         "mapColor": "#FF0000",
         "class": "HotspotPanoramaOverlayArea",
-        "click": "this.startPanoramaWithCamera(this.panorama_255448EA_3D4C_1A21_41C9_3DB54CE3D3DC, this.camera_1655ABE9_3EB1_5B5D_4199_BC2C9483DAC7); this.mainPlayList.set('selectedIndex', 4)"
+        "click": "this.startPanoramaWithCamera(this.panorama_255448EA_3D4C_1A21_41C9_3DB54CE3D3DC, this.camera_12ECBB26_3E91_44D4_41CA_A550014D2731); this.mainPlayList.set('selectedIndex', 4)"
        }
       ],
       "items": [
@@ -508,7 +508,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        {
         "mapColor": "#FF0000",
         "class": "HotspotPanoramaOverlayArea",
-        "click": "this.startPanoramaWithCamera(this.panorama_257A7074_3D4C_0A21_41A8_648C8CC16F7F, this.camera_16A61BDE_3EB1_5B77_4197_3BD960533CBC); this.mainPlayList.set('selectedIndex', 5)"
+        "click": "this.startPanoramaWithCamera(this.panorama_257A7074_3D4C_0A21_41A8_648C8CC16F7F, this.camera_12E06B1C_3E91_44F4_41B5_044AAE318C03); this.mainPlayList.set('selectedIndex', 5)"
        }
       ],
       "items": [
@@ -597,7 +597,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           {
            "toolTip": "Living Room",
            "class": "HotspotPanoramaOverlayArea",
-           "click": "this.startPanoramaWithCamera(this.panorama_2554CA98_3D4C_3EE1_41C5_3E8526A1D270, this.camera_168C7BC1_3EB1_5B4D_41C2_DB53B72AE932); this.mainPlayList.set('selectedIndex', 3)",
+           "click": "this.startPanoramaWithCamera(this.panorama_2554CA98_3D4C_3EE1_41C5_3E8526A1D270, this.camera_1537EB06_3E91_44D7_41C3_F4D8E0A01557); this.mainPlayList.set('selectedIndex', 3)",
            "mapColor": "#FF0000",
            "displayTooltipInTouchScreens": true
           }
@@ -651,7 +651,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           {
            "mapColor": "#FF0000",
            "class": "HotspotPanoramaOverlayArea",
-           "click": "this.startPanoramaWithCamera(this.panorama_2A3212FD_3D4C_0E23_41C0_04B3E12E8F14, this.camera_16C4CB99_3EB1_5BFC_41B1_0A9DFECF89CC); this.mainPlayList.set('selectedIndex', 0)"
+           "click": "this.startPanoramaWithCamera(this.panorama_2A3212FD_3D4C_0E23_41C0_04B3E12E8F14, this.camera_157EFAD6_3E91_4577_4173_C97BC7E548C6); this.mainPlayList.set('selectedIndex', 0)"
           }
          ],
          "items": [
@@ -703,7 +703,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           {
            "mapColor": "#FF0000",
            "class": "HotspotPanoramaOverlayArea",
-           "click": "this.startPanoramaWithCamera(this.panorama_25553EB7_3D4C_162F_41C4_ABE3C7F9C5B0, this.camera_16F3CBA2_3EB1_5BCC_41C6_956E1862D3EB); this.mainPlayList.set('selectedIndex', 1)"
+           "click": "this.startPanoramaWithCamera(this.panorama_25553EB7_3D4C_162F_41C4_ABE3C7F9C5B0, this.camera_154D3AE5_3E91_4554_41C4_08FAAE773052); this.mainPlayList.set('selectedIndex', 1)"
           }
          ],
          "items": [
@@ -755,7 +755,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           {
            "mapColor": "#FF0000",
            "class": "HotspotPanoramaOverlayArea",
-           "click": "this.startPanoramaWithCamera(this.panorama_255448EA_3D4C_1A21_41C9_3DB54CE3D3DC, this.camera_169F0BB7_3EB1_5B34_41BE_A702B91163AC); this.mainPlayList.set('selectedIndex', 4)"
+           "click": "this.startPanoramaWithCamera(this.panorama_255448EA_3D4C_1A21_41C9_3DB54CE3D3DC, this.camera_15269AFC_3E91_453B_41A9_165E4F3889F1); this.mainPlayList.set('selectedIndex', 4)"
           }
          ],
          "items": [
@@ -807,7 +807,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           {
            "mapColor": "#FF0000",
            "class": "HotspotPanoramaOverlayArea",
-           "click": "this.startPanoramaWithCamera(this.panorama_257A7074_3D4C_0A21_41A8_648C8CC16F7F, this.camera_16E01BAD_3EB1_5BD4_41C3_C0FB0D252F4E); this.mainPlayList.set('selectedIndex', 5)"
+           "click": "this.startPanoramaWithCamera(this.panorama_257A7074_3D4C_0A21_41A8_648C8CC16F7F, this.camera_155BAAE5_3E91_4554_41CC_4A70542B2135); this.mainPlayList.set('selectedIndex', 5)"
           }
          ],
          "items": [
@@ -903,7 +903,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
              {
               "toolTip": "Pool",
               "class": "HotspotPanoramaOverlayArea",
-              "click": "this.startPanoramaWithCamera(this.panorama_25789C34_3D4C_1A20_41A5_C0AD56C4B00F, this.camera_197DFB37_3EB1_5B35_41B0_AF4A13600FBC); this.mainPlayList.set('selectedIndex', 2)",
+              "click": "this.startPanoramaWithCamera(this.panorama_25789C34_3D4C_1A20_41A5_C0AD56C4B00F, this.camera_15CF1A62_3E91_454F_41BB_8149ED9D2933); this.mainPlayList.set('selectedIndex', 2)",
               "mapColor": "#FF0000",
               "displayTooltipInTouchScreens": true
              }
@@ -957,7 +957,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
              {
               "mapColor": "#FF0000",
               "class": "HotspotPanoramaOverlayArea",
-              "click": "this.startPanoramaWithCamera(this.panorama_2A3212FD_3D4C_0E23_41C0_04B3E12E8F14, this.camera_19778B41_3EB1_5B4D_41B0_15AC41B313E8); this.mainPlayList.set('selectedIndex', 0)"
+              "click": "this.startPanoramaWithCamera(this.panorama_2A3212FD_3D4C_0E23_41C0_04B3E12E8F14, this.camera_15D9CA72_3E91_454F_41C6_5B6213AE114B); this.mainPlayList.set('selectedIndex', 0)"
              }
             ],
             "items": [
@@ -1009,7 +1009,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
              {
               "mapColor": "#FF0000",
               "class": "HotspotPanoramaOverlayArea",
-              "click": "this.startPanoramaWithCamera(this.panorama_2554CA98_3D4C_3EE1_41C5_3E8526A1D270, this.camera_1912CB5E_3EB1_5B74_41A9_431F61DCB566); this.mainPlayList.set('selectedIndex', 3)"
+              "click": "this.startPanoramaWithCamera(this.panorama_2554CA98_3D4C_3EE1_41C5_3E8526A1D270, this.camera_15B57A97_3E91_45F4_41C0_1FCF3047925B); this.mainPlayList.set('selectedIndex', 3)"
              }
             ],
             "items": [
@@ -1061,7 +1061,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
              {
               "mapColor": "#FF0000",
               "class": "HotspotPanoramaOverlayArea",
-              "click": "this.startPanoramaWithCamera(this.panorama_255448EA_3D4C_1A21_41C9_3DB54CE3D3DC, this.camera_191B1B55_3EB1_5B74_41A4_DAB13434FE8A); this.mainPlayList.set('selectedIndex', 4)"
+              "click": "this.startPanoramaWithCamera(this.panorama_255448EA_3D4C_1A21_41C9_3DB54CE3D3DC, this.camera_15AA6A97_3E91_45F4_41C5_8F880778F148); this.mainPlayList.set('selectedIndex', 4)"
              }
             ],
             "items": [
@@ -1113,7 +1113,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
              {
               "mapColor": "#FF0000",
               "class": "HotspotPanoramaOverlayArea",
-              "click": "this.startPanoramaWithCamera(this.panorama_257A7074_3D4C_0A21_41A8_648C8CC16F7F, this.camera_19616B4B_3EB1_5B5D_41C1_88F3D422BF18); this.mainPlayList.set('selectedIndex', 5)"
+              "click": "this.startPanoramaWithCamera(this.panorama_257A7074_3D4C_0A21_41A8_648C8CC16F7F, this.camera_15A07A81_3E91_45CD_41B6_1AA402C42A35); this.mainPlayList.set('selectedIndex', 5)"
              }
             ],
             "items": [
@@ -1216,7 +1216,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                 {
                  "toolTip": "Bedroom",
                  "class": "HotspotPanoramaOverlayArea",
-                 "click": "this.startPanoramaWithCamera(this.panorama_255448EA_3D4C_1A21_41C9_3DB54CE3D3DC, this.camera_16DB2B86_3EB1_5BD4_41CD_3F17C0E616F8); this.mainPlayList.set('selectedIndex', 4)",
+                 "click": "this.startPanoramaWithCamera(this.panorama_255448EA_3D4C_1A21_41C9_3DB54CE3D3DC, this.camera_15650AC6_3E91_4557_41CD_27C4633883AA); this.mainPlayList.set('selectedIndex', 4)",
                  "mapColor": "#FF0000",
                  "displayTooltipInTouchScreens": true
                 }
@@ -1270,7 +1270,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                 {
                  "mapColor": "#FF0000",
                  "class": "HotspotPanoramaOverlayArea",
-                 "click": "this.startPanoramaWithCamera(this.panorama_2A3212FD_3D4C_0E23_41C0_04B3E12E8F14, this.camera_193F6B71_3EB1_5B4C_41C0_04AF0672BAB9); this.mainPlayList.set('selectedIndex', 0)"
+                 "click": "this.startPanoramaWithCamera(this.panorama_2A3212FD_3D4C_0E23_41C0_04B3E12E8F14, this.camera_15869AB7_3E91_4535_41C2_45CD1529C988); this.mainPlayList.set('selectedIndex', 0)"
                 }
                ],
                "items": [
@@ -1322,7 +1322,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                 {
                  "mapColor": "#FF0000",
                  "class": "HotspotPanoramaOverlayArea",
-                 "click": "this.startPanoramaWithCamera(this.panorama_25553EB7_3D4C_162F_41C4_ABE3C7F9C5B0, this.camera_192D7B7B_3EB1_5B3C_41C8_9F4D12446BD4); this.mainPlayList.set('selectedIndex', 1)"
+                 "click": "this.startPanoramaWithCamera(this.panorama_25553EB7_3D4C_162F_41C4_ABE3C7F9C5B0, this.camera_1594AAB7_3E91_4535_41C0_A0C56527B69A); this.mainPlayList.set('selectedIndex', 1)"
                 }
                ],
                "items": [
@@ -1374,7 +1374,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                 {
                  "mapColor": "#FF0000",
                  "class": "HotspotPanoramaOverlayArea",
-                 "click": "this.startPanoramaWithCamera(this.panorama_25789C34_3D4C_1A20_41A5_C0AD56C4B00F, this.camera_19003B68_3EB1_5B5C_41AB_310A0F754F67); this.mainPlayList.set('selectedIndex', 2)"
+                 "click": "this.startPanoramaWithCamera(this.panorama_25789C34_3D4C_1A20_41A5_C0AD56C4B00F, this.camera_15BFFAA7_3E91_45D5_41BE_10224113F6D8); this.mainPlayList.set('selectedIndex', 2)"
                 }
                ],
                "items": [
@@ -1426,7 +1426,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                 {
                  "mapColor": "#FF0000",
                  "class": "HotspotPanoramaOverlayArea",
-                 "click": "this.startPanoramaWithCamera(this.panorama_2554CA98_3D4C_3EE1_41C5_3E8526A1D270, this.camera_16D63B8F_3EB1_5BD4_41CD_D6C3ED8D68CC); this.mainPlayList.set('selectedIndex', 3)"
+                 "click": "this.startPanoramaWithCamera(this.panorama_2554CA98_3D4C_3EE1_41C5_3E8526A1D270, this.camera_15706AC6_3E91_4557_418E_E1DF702D181A); this.mainPlayList.set('selectedIndex', 3)"
                 }
                ],
                "items": [
@@ -1536,7 +1536,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                    {
                     "mapColor": "#FF0000",
                     "class": "HotspotPanoramaOverlayArea",
-                    "click": "this.startPanoramaWithCamera(this.panorama_25789C34_3D4C_1A20_41A5_C0AD56C4B00F, this.camera_1671EBFD_3EB1_5B35_41C8_E6A382138A5A); this.mainPlayList.set('selectedIndex', 2)"
+                    "click": "this.startPanoramaWithCamera(this.panorama_25789C34_3D4C_1A20_41A5_C0AD56C4B00F, this.camera_12C8BB3B_3E91_5B3D_418F_5FD599F5F001); this.mainPlayList.set('selectedIndex', 2)"
                    }
                   ],
                   "items": [
@@ -1588,7 +1588,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                    {
                     "mapColor": "#FF0000",
                     "class": "HotspotPanoramaOverlayArea",
-                    "click": "this.startPanoramaWithCamera(this.panorama_2A3212FD_3D4C_0E23_41C0_04B3E12E8F14, this.camera_166F8C07_3EB1_5CD4_41C8_F215DF95702E); this.mainPlayList.set('selectedIndex', 0)"
+                    "click": "this.startPanoramaWithCamera(this.panorama_2A3212FD_3D4C_0E23_41C0_04B3E12E8F14, this.camera_12D93B45_3E91_5B55_41C7_7B0C49834DB6); this.mainPlayList.set('selectedIndex', 0)"
                    }
                   ],
                   "items": [
@@ -1640,7 +1640,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                    {
                     "mapColor": "#FF0000",
                     "class": "HotspotPanoramaOverlayArea",
-                    "click": "this.startPanoramaWithCamera(this.panorama_25553EB7_3D4C_162F_41C4_ABE3C7F9C5B0, this.camera_161F4C12_3EB1_5CCF_41C2_A812DCC34404); this.mainPlayList.set('selectedIndex', 1)"
+                    "click": "this.startPanoramaWithCamera(this.panorama_25553EB7_3D4C_162F_41C4_ABE3C7F9C5B0, this.camera_12A62B4F_3E91_5B55_41C8_8FDBDE122733); this.mainPlayList.set('selectedIndex', 1)"
                    }
                   ],
                   "items": [
@@ -1692,7 +1692,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                    {
                     "mapColor": "#FF0000",
                     "class": "HotspotPanoramaOverlayArea",
-                    "click": "this.startPanoramaWithCamera(this.panorama_2554CA98_3D4C_3EE1_41C5_3E8526A1D270, this.camera_16388C26_3EB1_5CD7_41CC_CC2EC5B0A674); this.mainPlayList.set('selectedIndex', 3)"
+                    "click": "this.startPanoramaWithCamera(this.panorama_2554CA98_3D4C_3EE1_41C5_3E8526A1D270, this.camera_12824B64_3E91_5B4B_41C6_255E141E5268); this.mainPlayList.set('selectedIndex', 3)"
                    }
                   ],
                   "items": [
@@ -1744,7 +1744,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                    {
                     "toolTip": "View Deck",
                     "class": "HotspotPanoramaOverlayArea",
-                    "click": "this.startPanoramaWithCamera(this.panorama_257A7074_3D4C_0A21_41A8_648C8CC16F7F, this.camera_160A2C1C_3EB1_5CFB_41C5_02CFD30EE1D8); this.mainPlayList.set('selectedIndex', 5)",
+                    "click": "this.startPanoramaWithCamera(this.panorama_257A7074_3D4C_0A21_41A8_648C8CC16F7F, this.camera_12B53B59_3E91_5B7C_41C7_97C68D1F5E89); this.mainPlayList.set('selectedIndex', 5)",
                     "mapColor": "#FF0000",
                     "displayTooltipInTouchScreens": true
                    }
@@ -1863,7 +1863,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                       {
                        "mapColor": "#FF0000",
                        "class": "HotspotPanoramaOverlayArea",
-                       "click": "this.startPanoramaWithCamera(this.panorama_25789C34_3D4C_1A20_41A5_C0AD56C4B00F, this.camera_1A673C69_3EB1_5D5D_41B4_6BB403E54FC4); this.mainPlayList.set('selectedIndex', 2)"
+                       "click": "this.startPanoramaWithCamera(this.panorama_25789C34_3D4C_1A20_41A5_C0AD56C4B00F, this.camera_1291CB6E_3E91_5B57_41C4_F213148CFF32); this.mainPlayList.set('selectedIndex', 2)"
                       }
                      ],
                      "items": [
@@ -1915,7 +1915,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                       {
                        "toolTip": "Bedroom",
                        "class": "HotspotPanoramaOverlayArea",
-                       "click": "this.startPanoramaWithCamera(this.panorama_255448EA_3D4C_1A21_41C9_3DB54CE3D3DC, this.camera_1A169C92_3EB1_5DCF_41C8_76CE8060863D); this.mainPlayList.set('selectedIndex', 4)",
+                       "click": "this.startPanoramaWithCamera(this.panorama_255448EA_3D4C_1A21_41C9_3DB54CE3D3DC, this.camera_1248AB97_3E91_5BF5_41CA_8F8E7EFD3974); this.mainPlayList.set('selectedIndex', 4)",
                        "mapColor": "#FF0000",
                        "displayTooltipInTouchScreens": true
                       }
@@ -1969,7 +1969,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                       {
                        "mapColor": "#FF0000",
                        "class": "HotspotPanoramaOverlayArea",
-                       "click": "this.startPanoramaWithCamera(this.panorama_2A3212FD_3D4C_0E23_41C0_04B3E12E8F14, this.camera_1A1B7C74_3EB1_5D4B_41A4_9EF808EA09B4); this.mainPlayList.set('selectedIndex', 0)"
+                       "click": "this.startPanoramaWithCamera(this.panorama_2A3212FD_3D4C_0E23_41C0_04B3E12E8F14, this.camera_129E7B78_3E91_5B3B_41C3_43AC9AF3F8B3); this.mainPlayList.set('selectedIndex', 0)"
                       }
                      ],
                      "items": [
@@ -2021,7 +2021,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                       {
                        "mapColor": "#FF0000",
                        "class": "HotspotPanoramaOverlayArea",
-                       "click": "this.startPanoramaWithCamera(this.panorama_25553EB7_3D4C_162F_41C4_ABE3C7F9C5B0, this.camera_1A1F6C7E_3EB1_5D37_41A0_2476197A6BAE); this.mainPlayList.set('selectedIndex', 1)"
+                       "click": "this.startPanoramaWithCamera(this.panorama_25553EB7_3D4C_162F_41C4_ABE3C7F9C5B0, this.camera_126CAB82_3E91_5BCF_41C2_A0B6C880396B); this.mainPlayList.set('selectedIndex', 1)"
                       }
                      ],
                      "items": [
@@ -2073,7 +2073,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                       {
                        "mapColor": "#FF0000",
                        "class": "HotspotPanoramaOverlayArea",
-                       "click": "this.startPanoramaWithCamera(this.panorama_257A7074_3D4C_0A21_41A8_648C8CC16F7F, this.camera_1A12CC88_3EB1_5DDB_4189_524C97C5A8B0); this.mainPlayList.set('selectedIndex', 5)"
+                       "click": "this.startPanoramaWithCamera(this.panorama_257A7074_3D4C_0A21_41A8_648C8CC16F7F, this.camera_127A0B8C_3E91_5BD4_41C0_8D77EE58A78C); this.mainPlayList.set('selectedIndex', 5)"
                       }
                      ],
                      "items": [
@@ -2293,7 +2293,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    "toolTipShadowOpacity": 1,
    "verticalAlign": "middle",
    "mode": "toggle",
-   "maxHeight": 70,
+   "maxHeight": 60,
    "height": "76.75%",
    "width": "17.15%",
    "paddingLeft": 0,
@@ -2314,7 +2314,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    "toolTipOpacity": 0.7,
    "toolTipShadowVerticalLength": 0,
    "toolTipPaddingBottom": 4,
-   "maxWidth": 70,
+   "maxWidth": 60,
    "shadow": false,
    "minHeight": 1,
    "cursor": "hand",
@@ -2342,7 +2342,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    "paddingRight": 0,
    "verticalAlign": "middle",
    "mode": "push",
-   "maxHeight": 70,
+   "maxHeight": 60,
    "height": "76.75%",
    "width": "17.15%",
    "transparencyActive": false,
@@ -2351,7 +2351,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    "borderRadius": 0,
    "horizontalAlign": "center",
    "minWidth": 1,
-   "maxWidth": 70,
+   "maxWidth": 60,
    "shadow": false,
    "minHeight": 1,
    "cursor": "hand",
@@ -2686,14 +2686,14 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PlayList",
-  "id": "playList_19A6EB20_3EB1_44CB_4191_14E42CF4ECBB",
+  "id": "playList_15EA4A33_3E91_44CD_41C5_00EFFD3FF08E",
   "items": [
    {
     "begin": "this.registerKey('visibility_Container_9EFCCEBF_96CF_F03B_41D8_719389C3A0EB', this.Container_9EFCCEBF_96CF_F03B_41D8_719389C3A0EB.get('visible')); this.registerKey('visibility_ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472', this.ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472.get('visible')); this.fixTogglePlayPauseButton(this.MainViewerVideoPlayer); this.setComponentVisibility(this.Container_86F3A56C_8E22_5B1D_41CA_9CE53436FE56, false, -1, this.effect_22973FB1_2DD9_0423_41C1_E1E03953DCCE, 'hideEffect', false); this.setComponentVisibility(this.Container_807F782A_8E23_A905_41DE_623121285A09, false, -1, this.effect_22974FB2_2DD9_0421_41BA_84205292D043, 'hideEffect', false); this.setComponentVisibility(this.ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472, false, -1, this.effect_3876CD6E_2DF9_0421_41C1_F0AB7F279824, 'hideEffect', false); this.setComponentVisibility(this.Container_9EFCCEBF_96CF_F03B_41D8_719389C3A0EB, false, -1, this.effect_22899FB3_2DD9_0427_41BB_298AEB3D2851, 'hideEffect', false); this.setComponentVisibility(this.IconButton_AF1EA938_BF1B_7043_41E3_6C338E6745CB, true, -1, this.effect_2289DFB3_2DD9_0427_41AE_A35795880BA7, 'showEffect', false)",
     "media": "this.video_210B394E_3D54_1A60_41A3_CB42BEC0D3EC",
-    "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.playList_19A6EB20_3EB1_44CB_4191_14E42CF4ECBB, 0, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.playList_19A6EB20_3EB1_44CB_4191_14E42CF4ECBB, 0, this.video_210B394E_3D54_1A60_41A3_CB42BEC0D3EC)",
+    "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.playList_15EA4A33_3E91_44CD_41C5_00EFFD3FF08E, 0, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.playList_15EA4A33_3E91_44CD_41C5_00EFFD3FF08E, 0, this.video_210B394E_3D54_1A60_41A3_CB42BEC0D3EC)",
     "class": "VideoPlayListItem",
-    "end": "this.setComponentVisibility(this.Container_86F3A56C_8E22_5B1D_41CA_9CE53436FE56, true, -1, this.effect_22975FB2_2DD9_0421_41B4_7A2443082F44, 'showEffect', false); this.setComponentVisibility(this.Container_86F3A56C_8E22_5B1D_41CA_9CE53436FE56, true, -1, this.effect_22975FB2_2DD9_0421_41B4_7A2443082F44, 'showEffect', false); this.setComponentVisibility(this.Container_807F782A_8E23_A905_41DE_623121285A09, true, -1, this.effect_22977FB2_2DD9_0421_41C1_F53B037346DF, 'showEffect', false); this.setComponentVisibility(this.Container_807F782A_8E23_A905_41DE_623121285A09, true, -1, this.effect_22977FB2_2DD9_0421_41C1_F53B037346DF, 'showEffect', false); if(this.existsKey('visibility_ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472')){ if(this.getKey('visibility_ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472')) { this.setComponentVisibility(this.ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472, true, -1, this.effect_1A080C93_3EB1_5DCD_41CC_2AC212ABE261, 'showEffect', false); } else { this.setComponentVisibility(this.ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472, false, -1, this.effect_3876CD6E_2DF9_0421_41C1_F0AB7F279824, 'hideEffect', false); } }; this.unregisterKey('visibility_ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472'); if(this.existsKey('visibility_Container_9EFCCEBF_96CF_F03B_41D8_719389C3A0EB')){ if(this.getKey('visibility_Container_9EFCCEBF_96CF_F03B_41D8_719389C3A0EB')) { this.setComponentVisibility(this.Container_9EFCCEBF_96CF_F03B_41D8_719389C3A0EB, true, -1, this.effect_1A081C94_3EB1_5DCB_41A4_80AA5DEF7447, 'showEffect', false); } else { this.setComponentVisibility(this.Container_9EFCCEBF_96CF_F03B_41D8_719389C3A0EB, false, -1, this.effect_22899FB3_2DD9_0427_41BB_298AEB3D2851, 'hideEffect', false); } }; this.unregisterKey('visibility_Container_9EFCCEBF_96CF_F03B_41D8_719389C3A0EB'); this.setComponentVisibility(this.IconButton_AF1EA938_BF1B_7043_41E3_6C338E6745CB, false, -1, this.effect_2289EFB3_2DD9_0427_41C0_ACB5A72AE218, 'hideEffect', false); this.setComponentVisibility(this.IconButton_AF1EA938_BF1B_7043_41E3_6C338E6745CB, false, -1, this.effect_2289EFB3_2DD9_0427_41C0_ACB5A72AE218, 'hideEffect', false)",
+    "end": "this.setComponentVisibility(this.Container_86F3A56C_8E22_5B1D_41CA_9CE53436FE56, true, -1, this.effect_22975FB2_2DD9_0421_41B4_7A2443082F44, 'showEffect', false); this.setComponentVisibility(this.Container_86F3A56C_8E22_5B1D_41CA_9CE53436FE56, true, -1, this.effect_22975FB2_2DD9_0421_41B4_7A2443082F44, 'showEffect', false); this.setComponentVisibility(this.Container_807F782A_8E23_A905_41DE_623121285A09, true, -1, this.effect_22977FB2_2DD9_0421_41C1_F53B037346DF, 'showEffect', false); this.setComponentVisibility(this.Container_807F782A_8E23_A905_41DE_623121285A09, true, -1, this.effect_22977FB2_2DD9_0421_41C1_F53B037346DF, 'showEffect', false); if(this.existsKey('visibility_ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472')){ if(this.getKey('visibility_ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472')) { this.setComponentVisibility(this.ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472, true, -1, this.effect_124F4B97_3E91_5BF5_419C_38EB92E4212C, 'showEffect', false); } else { this.setComponentVisibility(this.ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472, false, -1, this.effect_3876CD6E_2DF9_0421_41C1_F0AB7F279824, 'hideEffect', false); } }; this.unregisterKey('visibility_ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472'); if(this.existsKey('visibility_Container_9EFCCEBF_96CF_F03B_41D8_719389C3A0EB')){ if(this.getKey('visibility_Container_9EFCCEBF_96CF_F03B_41D8_719389C3A0EB')) { this.setComponentVisibility(this.Container_9EFCCEBF_96CF_F03B_41D8_719389C3A0EB, true, -1, this.effect_124F0B97_3E91_5BF5_418E_7895D4F21513, 'showEffect', false); } else { this.setComponentVisibility(this.Container_9EFCCEBF_96CF_F03B_41D8_719389C3A0EB, false, -1, this.effect_22899FB3_2DD9_0427_41BB_298AEB3D2851, 'hideEffect', false); } }; this.unregisterKey('visibility_Container_9EFCCEBF_96CF_F03B_41D8_719389C3A0EB'); this.setComponentVisibility(this.IconButton_AF1EA938_BF1B_7043_41E3_6C338E6745CB, false, -1, this.effect_2289EFB3_2DD9_0427_41C0_ACB5A72AE218, 'hideEffect', false); this.setComponentVisibility(this.IconButton_AF1EA938_BF1B_7043_41E3_6C338E6745CB, false, -1, this.effect_2289EFB3_2DD9_0427_41C0_ACB5A72AE218, 'hideEffect', false)",
     "player": "this.MainViewerVideoPlayer"
    }
   ]
@@ -3032,10 +3032,10 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  "this.photo_2536E7CB_3D54_F667_41C8_0C74E4EA5879",
  {
   "class": "PlayList",
-  "id": "playList_19A6BB20_3EB1_44CB_41B5_4F9E2357AA3C",
+  "id": "playList_15EA2A33_3E91_44CD_41A6_19745971D26B",
   "items": [
    {
-    "begin": "this.loopAlbum(this.playList_19A6BB20_3EB1_44CB_41B5_4F9E2357AA3C, 0)",
+    "begin": "this.loopAlbum(this.playList_15EA2A33_3E91_44CD_41A6_19745971D26B, 0)",
     "class": "PhotoAlbumPlayListItem",
     "media": "this.album_1AE8DEB7_0EE7_8CC7_4198_F5B75788CCF6",
     "player": "this.ViewerAreaLabeled_9FD7235A_96CD_9045_41D9_23A3BCBDB1C6PhotoAlbumPlayer"
@@ -3081,14 +3081,14 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "easing": "linear",
   "class": "FadeInEffect",
-  "id": "effect_1F6EDAE8_3EB1_455B_41C9_45578F62A0AC",
-  "duration": 200
+  "id": "effect_168227E1_3EB3_4B4D_41C5_B5F97D4B0163",
+  "duration": 300
  },
  {
   "easing": "linear",
   "class": "FadeOutEffect",
-  "id": "effect_1F6EEAE8_3EB1_455C_41A8_DA37B3B917B7",
-  "duration": 200
+  "id": "effect_168207E1_3EB3_4B4D_41B7_B04E1A175CD6",
+  "duration": 300
  },
  {
   "easing": "linear",
@@ -3134,7 +3134,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_197DFB37_3EB1_5B35_41B0_AF4A13600FBC",
+  "id": "camera_15CF1A62_3E91_454F_41BB_8149ED9D2933",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3168,7 +3168,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_19778B41_3EB1_5B4D_41B0_15AC41B313E8",
+  "id": "camera_15D9CA72_3E91_454F_41C6_5B6213AE114B",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3202,7 +3202,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_19616B4B_3EB1_5B5D_41C1_88F3D422BF18",
+  "id": "camera_15A07A81_3E91_45CD_41B6_1AA402C42A35",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3236,7 +3236,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_191B1B55_3EB1_5B74_41A4_DAB13434FE8A",
+  "id": "camera_15AA6A97_3E91_45F4_41C5_8F880778F148",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3270,7 +3270,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_1912CB5E_3EB1_5B74_41A9_431F61DCB566",
+  "id": "camera_15B57A97_3E91_45F4_41C0_1FCF3047925B",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3304,7 +3304,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_19003B68_3EB1_5B5C_41AB_310A0F754F67",
+  "id": "camera_15BFFAA7_3E91_45D5_41BE_10224113F6D8",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3338,7 +3338,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_193F6B71_3EB1_5B4C_41C0_04AF0672BAB9",
+  "id": "camera_15869AB7_3E91_4535_41C2_45CD1529C988",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3372,7 +3372,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_192D7B7B_3EB1_5B3C_41C8_9F4D12446BD4",
+  "id": "camera_1594AAB7_3E91_4535_41C0_A0C56527B69A",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3406,7 +3406,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_16DB2B86_3EB1_5BD4_41CD_3F17C0E616F8",
+  "id": "camera_15650AC6_3E91_4557_41CD_27C4633883AA",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3440,7 +3440,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_16D63B8F_3EB1_5BD4_41CD_D6C3ED8D68CC",
+  "id": "camera_15706AC6_3E91_4557_418E_E1DF702D181A",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3474,7 +3474,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_16C4CB99_3EB1_5BFC_41B1_0A9DFECF89CC",
+  "id": "camera_157EFAD6_3E91_4577_4173_C97BC7E548C6",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3508,7 +3508,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_16F3CBA2_3EB1_5BCC_41C6_956E1862D3EB",
+  "id": "camera_154D3AE5_3E91_4554_41C4_08FAAE773052",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3542,7 +3542,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_16E01BAD_3EB1_5BD4_41C3_C0FB0D252F4E",
+  "id": "camera_155BAAE5_3E91_4554_41CC_4A70542B2135",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3576,7 +3576,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_169F0BB7_3EB1_5B34_41BE_A702B91163AC",
+  "id": "camera_15269AFC_3E91_453B_41A9_165E4F3889F1",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3610,7 +3610,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_168C7BC1_3EB1_5B4D_41C2_DB53B72AE932",
+  "id": "camera_1537EB06_3E91_44D7_41C3_F4D8E0A01557",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3644,7 +3644,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_16BADBCA_3EB1_5B5F_41BF_1CE5D670C0BF",
+  "id": "camera_15043B08_3E91_44DB_41C9_E840ADEDF2F4",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3678,7 +3678,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_16A9DBD4_3EB1_5B4B_41C6_4C66860D1FD6",
+  "id": "camera_1513CB12_3E91_44CF_41C7_26EC5EA980FD",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3712,7 +3712,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_16A61BDE_3EB1_5B77_4197_3BD960533CBC",
+  "id": "camera_12E06B1C_3E91_44F4_41B5_044AAE318C03",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3746,7 +3746,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_1655ABE9_3EB1_5B5D_4199_BC2C9483DAC7",
+  "id": "camera_12ECBB26_3E91_44D4_41CA_A550014D2731",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3780,7 +3780,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_16422BF3_3EB1_5B4D_4192_30824E383DA3",
+  "id": "camera_12FDBB31_3E91_44CD_419A_FCC8B49C99CD",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3814,7 +3814,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_1671EBFD_3EB1_5B35_41C8_E6A382138A5A",
+  "id": "camera_12C8BB3B_3E91_5B3D_418F_5FD599F5F001",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3848,7 +3848,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_166F8C07_3EB1_5CD4_41C8_F215DF95702E",
+  "id": "camera_12D93B45_3E91_5B55_41C7_7B0C49834DB6",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3882,7 +3882,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_161F4C12_3EB1_5CCF_41C2_A812DCC34404",
+  "id": "camera_12A62B4F_3E91_5B55_41C8_8FDBDE122733",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3916,7 +3916,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_160A2C1C_3EB1_5CFB_41C5_02CFD30EE1D8",
+  "id": "camera_12B53B59_3E91_5B7C_41C7_97C68D1F5E89",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3950,7 +3950,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_16388C26_3EB1_5CD7_41CC_CC2EC5B0A674",
+  "id": "camera_12824B64_3E91_5B4B_41C6_255E141E5268",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -3984,7 +3984,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_1A673C69_3EB1_5D5D_41B4_6BB403E54FC4",
+  "id": "camera_1291CB6E_3E91_5B57_41C4_F213148CFF32",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -4018,7 +4018,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_1A1B7C74_3EB1_5D4B_41A4_9EF808EA09B4",
+  "id": "camera_129E7B78_3E91_5B3B_41C3_43AC9AF3F8B3",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -4052,7 +4052,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_1A1F6C7E_3EB1_5D37_41A0_2476197A6BAE",
+  "id": "camera_126CAB82_3E91_5BCF_41C2_A0B6C880396B",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -4086,7 +4086,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_1A12CC88_3EB1_5DDB_4189_524C97C5A8B0",
+  "id": "camera_127A0B8C_3E91_5BD4_41C0_8D77EE58A78C",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -4120,7 +4120,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  {
   "class": "PanoramaCamera",
-  "id": "camera_1A169C92_3EB1_5DCF_41C8_76CE8060863D",
+  "id": "camera_1248AB97_3E91_5BF5_41CA_8F8E7EFD3974",
   "automaticZoomSpeed": 10,
   "initialPosition": {
    "class": "PanoramaCameraPosition",
@@ -4185,7 +4185,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "easing": "cubic_in_out",
   "class": "FadeInEffect",
-  "id": "effect_1A080C93_3EB1_5DCD_41CC_2AC212ABE261",
+  "id": "effect_124F4B97_3E91_5BF5_419C_38EB92E4212C",
   "duration": 1000
  },
  "this.effect_3876CD6E_2DF9_0421_41C1_F0AB7F279824",
@@ -4198,7 +4198,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  {
   "easing": "cubic_in_out",
   "class": "FadeInEffect",
-  "id": "effect_1A081C94_3EB1_5DCB_41A4_80AA5DEF7447",
+  "id": "effect_124F0B97_3E91_5BF5_418E_7895D4F21513",
   "duration": 1000
  },
  "this.effect_22899FB3_2DD9_0427_41BB_298AEB3D2851",
@@ -4548,7 +4548,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "borderRadius": 0,
     "horizontalAlign": "center",
     "minWidth": 25,
-    "click": "this.setMediaBehaviour(this.playList_19A6EB20_3EB1_44CB_4191_14E42CF4ECBB, 0); this.MainViewerVideoPlayer.play()",
+    "click": "this.setMediaBehaviour(this.playList_15EA4A33_3E91_44CD_41C5_00EFFD3FF08E, 0); this.MainViewerVideoPlayer.play()",
     "toolTipTextShadowBlurRadius": 3,
     "toolTipOpacity": 0.7,
     "toolTipShadowVerticalLength": 0,
@@ -4648,7 +4648,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "horizontalAlign": "center",
     "pressedIconURL": "skin/IconButton_843BBEF5_8E22_690F_419D_28CBDD771ACC_pressed.png",
     "minWidth": 25,
-    "click": "if(!this.ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472.get('visible')){ this.setComponentVisibility(this.ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472, true, 0, this.effect_1F6EDAE8_3EB1_455B_41C9_45578F62A0AC, 'showEffect', false) } else if(this.ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472.get('visible')){ this.setComponentVisibility(this.ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472, false, 0, this.effect_1F6EEAE8_3EB1_455C_41A8_DA37B3B917B7, 'hideEffect', false) }",
+    "click": "if(!this.ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472.get('visible')){ this.setComponentVisibility(this.ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472, true, 0, this.effect_168227E1_3EB3_4B4D_41C5_B5F97D4B0163, 'showEffect', false) } else if(this.ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472.get('visible')){ this.setComponentVisibility(this.ThumbnailList_862E7BE1_9245_D8B3_41CA_4BB70D195472, false, 0, this.effect_168207E1_3EB3_4B4D_41B7_B04E1A175CD6, 'hideEffect', false) }",
     "toolTipTextShadowBlurRadius": 3,
     "toolTipOpacity": 0.7,
     "toolTipShadowVerticalLength": 0,
@@ -4680,7 +4680,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "Container",
   "paddingRight": 0,
   "verticalAlign": "middle",
-  "width": 420,
+  "width": 450,
   "height": 80,
   "scrollBarWidth": 10,
   "scrollBarMargin": 2,
@@ -4688,12 +4688,12 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "borderSize": 0,
   "layout": "horizontal",
   "horizontalAlign": "right",
-  "minWidth": 400,
+  "minWidth": 450,
   "gap": 1,
   "borderRadius": 5,
   "contentOpaque": false,
   "top": "2%",
-  "minHeight": 40,
+  "minHeight": 60,
   "paddingBottom": 0,
   "shadow": false,
   "id": "Container_807F782A_8E23_A905_41DE_623121285A09",
@@ -4741,7 +4741,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
       "toolTipShadowOpacity": 1,
       "verticalAlign": "middle",
       "mode": "toggle",
-      "maxHeight": 70,
+      "maxHeight": 60,
       "height": "76.75%",
       "width": "17.15%",
       "paddingLeft": 0,
@@ -4762,7 +4762,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
       "toolTipOpacity": 0.7,
       "toolTipShadowVerticalLength": 0,
       "toolTipPaddingBottom": 4,
-      "maxWidth": 70,
+      "maxWidth": 60,
       "shadow": false,
       "minHeight": 1,
       "cursor": "hand",
@@ -4791,7 +4791,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
       "toolTipShadowOpacity": 1,
       "verticalAlign": "middle",
       "mode": "toggle",
-      "maxHeight": 70,
+      "maxHeight": 60,
       "height": "76.75%",
       "width": "17.15%",
       "paddingLeft": 0,
@@ -4812,7 +4812,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
       "toolTipOpacity": 0.7,
       "toolTipShadowVerticalLength": 0,
       "toolTipPaddingBottom": 4,
-      "maxWidth": 70,
+      "maxWidth": 60,
       "shadow": false,
       "minHeight": 1,
       "cursor": "hand",
@@ -4871,7 +4871,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
       "toolTipShadowOpacity": 1,
       "verticalAlign": "middle",
       "mode": "toggle",
-      "maxHeight": 70,
+      "maxHeight": 60,
       "height": "76.75%",
       "width": "82.76%",
       "paddingLeft": 0,
@@ -4891,7 +4891,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
       "toolTipOpacity": 0.7,
       "toolTipShadowVerticalLength": 0,
       "toolTipPaddingBottom": 4,
-      "maxWidth": 70,
+      "maxWidth": 60,
       "shadow": false,
       "minHeight": 1,
       "cursor": "hand",
