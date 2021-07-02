@@ -183,8 +183,9 @@
                 return;
             }
 
-            showPreloader();
-loadTour()
+            document.body.addEventListener("click", onBodyClick);
+document.body.addEventListener("touchend", onBodyClick);
+showPreloader()
         }
 
         function playVideo(video) {
@@ -241,7 +242,7 @@ loadTour()
     </style>
 </head>
 <body onload="onLoad()">
-    <div id="preloadContainer" style="background-color:rgba(0,0,0,1)"><div style="z-index: 4; position: absolute; background-image: url('loading/HTMLImage_4E568CCE_4231_BD0D_41A1_1EAE12FDFE03.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 0%; bottom: 0%; width: 100.00%; height: 100.00%"></div><div style="z-index: 5; position: absolute; background-image: url('loading/HTMLImage_4EF8EFF9_4233_BB17_419E_438F9A8223F6.gif'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 44.08%; bottom: 19.78%; width: 16.48%; height: 1.98%"></div></div>
+    <div id="preloadContainer" style="background-color:rgba(0,0,0,1)"><div style="z-index: 4; position: absolute; background-image: url('loading/HTMLImage_6949B16D_6220_C852_41D5_F09130F84573.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 0%; bottom: 0%; width: 99.69%; height: 100.00%"></div><div style="z-index: 5; position: absolute; background-image: url('loading/HTMLImage_6E02F3BB_6239_AAFF_41D1_B74EAAC6C15E.gif'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 38.83%; bottom: 15.17%; width: 21.49%; height: 2.64%"></div><div style="z-index: 6; position: absolute; right: 0%; top: 23.95604395604395%; width: 100.00%; height: 5.49%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;"><SPAN STYLE="letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:30px;">AAAAAAAAAAAAAAAAAAAAAAAAAA</SPAN></SPAN></DIV></div></div><div style="z-index: 7; position: absolute; right: 0%; top: 29.670329670329675%; width: 99.88%; height: 5.49%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;"><SPAN STYLE="letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:20px;">eeeeeeeee</SPAN></SPAN></DIV></div></div></div>
     <div id="viewer"></div>
 </body>
 </html>
