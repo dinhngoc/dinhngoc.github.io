@@ -1,0 +1,87 @@
+#: locale=es
+
+## Tour
+
+### Description
+
+### Title
+tour.name = New American Home light
+
+## Skin
+
+### Label
+Label_59C25EAD_56AC_4A10_41CA_CB010D0C74A2.text = Photography by Jeff Davis
+
+### Tooltip
+IconButton_68CA5182_6070_7D3E_419C_BF635DC7C626.toolTip = PHOTO ALBUM
+IconButton_85265B23_8D1E_B01D_41E0_8CB2C82C1F5E.toolTip = SHOW FLOORPLANS
+IconButton_E37CA9B7_E983_F12E_41E9_5FA0638D4D8D.toolTip = ACTIVATE VR MODE (MOBILE ONLY)
+IconButton_EF8BF2CF_E362_CA64_41CB_5CE4DACA5634.toolTip = PANORAMA LIST
+
+## Media
+
+### Title
+album_5890DEBF_56DC_4A71_41B1_FF6CF35E4D3A.label = Photo Album
+album_5890DEBF_56DC_4A71_41B1_FF6CF35E4D3A_0.label = Picture2_20160107094355
+album_5890DEBF_56DC_4A71_41B1_FF6CF35E4D3A_19.label = Picture45_20160107101227
+album_5890DEBF_56DC_4A71_41B1_FF6CF35E4D3A_4.label = Picture22_20160107094838
+album_5890DEBF_56DC_4A71_41B1_FF6CF35E4D3A_8.label = Picture26_20160107100710
+map_810031DD_8D2D_5025_41D8_C77E6268DA22.label = FIRST FLOOR
+map_8A7041EE_8D1A_F3E7_41DE_950B34D5B150.label = GROUND FLOOR
+map_8AD6600C_8D1A_F02B_41C9_C9DE167AC9E2.label = BASEMENT
+panorama_530C11DB_555C_D631_41A7_564516B4480D.label = Kitchen
+panorama_5962C029_5567_B611_41C0_CD4C112B12ED.label = Master Bedroom
+panorama_78D64E4D_7F5D_8978_41D5_3B24567E9A08.label = Pool
+panorama_8FA8ACF1_842F_9EE9_41E0_258ADBEA645B.label = Great Room 2
+panorama_97846A08_9FDA_E6C0_41E2_9487DC65E14F.label = Great Room
+photo_59DD90F6_575C_57F0_41C7_A3BD64A0E450.label = Picture47_20160107101249
+
+## Hotspot
+
+### Tooltip
+HotspotMapOverlayArea_4FA1B5F0_446A_4C9F_4195_68A8D905C479.toolTip = Great Room 2
+HotspotMapOverlayArea_4FA225EF_446A_4C81_41C8_458B2457E12B.toolTip = Kitchen
+HotspotMapOverlayArea_4FA275EF_446A_4C81_41CD_1D5959544766.toolTip = Master Bedroom
+HotspotMapOverlayArea_4FA315EF_446A_4C81_4197_13158E926D09.toolTip = Great Room
+HotspotMapOverlayArea_4FA9D5ED_446A_4C81_41B1_BD8EED321886.toolTip = Pool
+HotspotPanoramaOverlayArea_4B6042EB_4476_4480_41D0_B95C87AE7D56.toolTip = Go to Kitchen
+HotspotPanoramaOverlayArea_4FA015EF_446A_4C81_41B5_13CBF8459E33.toolTip = Go to Pool
+HotspotPanoramaOverlayArea_4FA035EF_446A_4C81_41B4_EC7EF333178F.toolTip = Go to Kitchen
+HotspotPanoramaOverlayArea_4FA0F5EF_446A_4C81_41CA_1851B0E71567.toolTip = Kohler Prolific
+HotspotPanoramaOverlayArea_4FA115F0_446A_4C9F_41CD_DCB707F995DB.toolTip = Sierra Pacific Windows
+HotspotPanoramaOverlayArea_4FA135EF_446A_4C81_41A3_6BAEFD42605B.toolTip = DuPont
+HotspotPanoramaOverlayArea_4FA185F0_446A_4C9F_41CD_E27E4462383D.toolTip = THERMADOR
+HotspotPanoramaOverlayArea_4FA1E5F0_446A_4C9F_41CA_10023D5D1402.toolTip = Go to Great Room 2
+HotspotPanoramaOverlayArea_4FA245EF_446A_4C81_4157_4E71C107E036.toolTip = Sherwin Williams
+HotspotPanoramaOverlayArea_4FA295EF_446A_4C81_41C0_FD521C03F14E.toolTip = Thermador
+HotspotPanoramaOverlayArea_4FA2E5EF_446A_4C81_416A_AE07B6790B64.toolTip = Phantom Screens
+HotspotPanoramaOverlayArea_4FA315EF_446A_4C81_41BB_A2A649F99D34.toolTip = Go to Great Room 1
+HotspotPanoramaOverlayArea_4FA325EF_446A_4C81_41BA_F632A6932273.toolTip = Go to Pool
+HotspotPanoramaOverlayArea_4FA335EF_446A_4C81_41CF_99E86A6B49E9.toolTip = Progress Lighting
+HotspotPanoramaOverlayArea_4FA345EF_446A_4C81_41C1_03894C61A39B.toolTip = Sierra Pacific Windows
+HotspotPanoramaOverlayArea_4FA385EF_446A_4C81_41BC_39BD8F322D4B.toolTip = Progress Lighting
+HotspotPanoramaOverlayArea_4FA395EF_446A_4C81_41C0_09954D31D26C.toolTip = Phantom Screens
+HotspotPanoramaOverlayArea_4FA3E5EF_446A_4C81_41C1_20D2196DF40B.toolTip = Sierra Pacific
+HotspotPanoramaOverlayArea_4FA845ED_446A_4C81_41B0_2298B606A67A.toolTip = Go to Kitchen
+HotspotPanoramaOverlayArea_4FA855ED_446A_4C81_41B2_C6CE4B148C79.toolTip = Owens Corning
+HotspotPanoramaOverlayArea_4FA875ED_446A_4C81_41CB_2F19951B3E46.toolTip = Daltile
+HotspotPanoramaOverlayArea_4FA895ED_446A_4C81_41C3_B97BF4060E1A.toolTip = Go To Great Room 2
+HotspotPanoramaOverlayArea_4FA8B5ED_446A_4C81_41B5_49A7666276CB.toolTip = DuPont
+HotspotPanoramaOverlayArea_4FA8C5ED_446A_4C81_41C8_7BE9B0F33FB5.toolTip = Sherwin Williams
+HotspotPanoramaOverlayArea_4FA8E5ED_446A_4C81_41C5_F694B53EC9F1.toolTip = Kohler Sensate
+HotspotPanoramaOverlayArea_4FA965ED_446A_4C81_41B6_FBFB37D89A02.toolTip = Go to Great Room 1
+HotspotPanoramaOverlayArea_4FA9B5ED_446A_4C81_41C0_E5005CC148F7.toolTip = Progress Lighting: Hubbell
+HotspotPanoramaOverlayArea_4FAC55EE_446A_4C83_41C0_E363AF0E7E9C.toolTip = Progress Lighting Hubbell
+HotspotPanoramaOverlayArea_4FACC5EE_446A_4C83_41B3_D363F8EF95E1.toolTip = Go to Pool
+HotspotPanoramaOverlayArea_4FACF5EE_446A_4C83_41B4_85E694C94664.toolTip = Kohler
+HotspotPanoramaOverlayArea_4FAD15EE_446A_4C83_41CE_5D41C23CDD71.toolTip = DuPont
+HotspotPanoramaOverlayArea_4FAD35EE_446A_4C83_41B7_D9A3FF371C7D.toolTip = Thermador
+HotspotPanoramaOverlayArea_4FAD55EE_446A_4C83_41AF_B85C3A70F7B5.toolTip = Owens Corning
+HotspotPanoramaOverlayArea_4FADB5EE_446A_4C83_41B4_0AA6DCE546C3.toolTip = Sierra Pacific Windows
+HotspotPanoramaOverlayArea_4FADE5EE_446A_4C83_41B9_85900A306530.toolTip = Thermador
+HotspotPanoramaOverlayArea_4FAE15ED_446A_4C81_41D1_10FA4DA78686.toolTip = Go to Master Bedroom
+HotspotPanoramaOverlayArea_4FAE25ED_446A_4C81_41CA_6617BC6F5E2E.toolTip = Siera Pacific Windows
+HotspotPanoramaOverlayArea_4FAED5EE_446A_4C83_41D0_3CB95E6E9082.toolTip = Progress Lighting
+HotspotPanoramaOverlayArea_4FAEE5ED_446A_4C81_41BB_61F03C4E637B.toolTip = Sierra Pacific Windows
+HotspotPanoramaOverlayArea_4FAF55EE_446A_4C83_4185_E721E7E6ECC7.toolTip = Go to Great Room 1
+HotspotPanoramaOverlayArea_4FAFD5EE_446A_4C83_41C9_50A84E151E07.toolTip = Thermador
