@@ -1,0 +1,151 @@
+{
+    "Scene": [
+        {
+            "Sentence": [
+                {
+                    "SentenceId": 1,
+                    "actor": 1,
+                    "textNihon": "いらっしゃいませ",
+                    "textSub": "Irasshaimase",
+                    "fbx": "s1n",
+                    "audio": "S1n.wav"
+
+                },
+                {
+                    "SentenceId": 2,
+                    "actor": 1,
+                    "textNihon": "何名様ですか",
+                    "textSub": "Nanmeisamadesu ka",
+                    "fbx": "s2n",
+                    "audio": "S2n.wav"
+
+                },
+                {
+                    "SentenceId": 3,
+                    "actor": 2,
+                    "textNihon": "一人です",
+                    "textSub": "Hitori desu",
+                    "fbx": "s2k",
+                    "audio": "S2k.wav"
+
+                },
+                {
+                    "SentenceId": 4,
+                    "actor": 1,
+                    "textNihon": "お席へご案内します。こちらへどうぞ",
+                    "textSub": "O seki e go an'nai shimasu. Kochira e dōzo",
+                    "fbx": "s3n",
+                    "audio": "S3n.wav"
+
+                },
+                {
+                    "SentenceId": 5,
+                    "actor": 2,
+                    "textNihon": "はい",
+                    "textSub": "Hai",
+                    "fbx": "s3k",
+                    "audio": "S3k.wav"
+
+                }
+            ]
+        },
+        {
+            "Sentence": [
+                {
+                    "SentenceId": 1,
+                    "actor": 1,
+                    "textNihon": "ご注文はお決まりになりましたか",
+                    "textSub": "Go chūmon wa okimari ni narimashita ka",
+                    "fbx": "s4n",
+                    "audio": "S4n.wav"
+
+                },
+                {
+                    "SentenceId": 2,
+                    "actor": 2,
+                    "textNihon": "はい。注文をお願いします",
+                    "textSub": "Hai. Chūmon o onegaishimasu",
+                    "fbx": "s4k",
+                    "audio": "S4k.wav"
+
+                },
+                {
+                    "SentenceId": 3,
+                    "actor": 2,
+                    "textNihon": "カレーライスをお願いします",
+                    "textSub": "Karēraisu o onegaishimasu",
+                    "fbx": "s5k",
+                    "audio": "S5k.wav"
+
+                },
+                {
+                    "SentenceId": 4,
+                    "actor": 1,
+                    "textNihon": "カレーライスをお願いします",
+                    "textSub": "Karēraisudesu ne. Dewa, otsukuri shimasunode, omachikudasai",
+                    "fbx": "s6n",
+                    "audio": "S6n.wav"
+
+                },
+                {
+                    "SentenceId": 5,
+                    "actor": 1,
+                    "textNihon": "失礼します。おまたせしました。カレーライスでございます",
+                    "textSub": "Shitsureishimasu. O matase shimashita. Karēraisudegozaimasu",
+                    "fbx": "s7n",
+                    "audio": "S7n.wav"
+
+                },
+                {
+                    "SentenceId": 6,
+                    "actor": 2,
+                    "textNihon": "ありがとうございます",
+                    "textSub": "Arigatōgozaimasu",
+                    "fbx": "s7k",
+                    "audio": "S7k.wav"
+
+                }
+            ]
+        },
+        {
+            "Sentence": [
+                {
+                    "SentenceId": 1,
+                    "actor": 1,
+                    "textNihon": "一万円お預かりいたします。こちら千円のお返しですね",
+                    "textSub": "Ichiman'en o azukari itashimasu. Kochira sen'en no okaeshidesu ne",
+                    "fbx": "s9n",
+                    "audio": "S9n.wav"
+
+                },
+                {
+                    "SentenceId": 2,
+                    "actor": 2,
+                    "textNihon": "はい",
+                    "textSub": "Hai",
+                    "fbx": "s9k",
+                    "audio": "S9k.wav"
+
+                },
+                {
+                    "SentenceId": 3,
+                    "actor": 1,
+                    "textNihon": "ありがとうございます",
+                    "textSub": "Arigatōgozaimasu",
+                    "fbx": "s11n",
+                    "audio": "S11n.wav"
+
+                },
+                {
+                    "SentenceId": 4,
+                    "actor": 2,
+                    "textNihon": "はい。ごちそうさまでした。",
+                    "textSub": "Hai. Gochisōsamadeshita.",
+                    "fbx": "s11k",
+                    "audio": "S11k.wav"
+
+                }
+            ]
+        }
+    ]
+}
