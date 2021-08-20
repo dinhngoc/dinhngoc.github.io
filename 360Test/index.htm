@@ -3,7 +3,7 @@
 <head>
 <meta name="description" content="Virtual Tour"/>
 <script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-116087-1", "auto"); ga("send", "pageview");ga("create", "UA-116087-3", "auto", "client1"); ga("client1.send", "pageview");</script>
-    <title>Untitled 3</title>
+    <title>Virtual Tour 360</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="user-scalable=no, initial-scale=0.5, width=device-width" />
     <script src="lib/tdvplayer.js"></script>
@@ -183,8 +183,9 @@
                 return;
             }
 
-            showPreloader();
-loadTour()
+            document.body.addEventListener("click", onBodyClick);
+document.body.addEventListener("touchend", onBodyClick);
+showPreloader()
         }
 
         function playVideo(video) {
@@ -235,13 +236,13 @@ loadTour()
         }
     </script>
     <style type="text/css">
-        html, body { width: 100%; height: 100%; margin: 0; padding: 0; }
-        #viewer { background-color: #FFFFFF; z-index:1; position:absolute; width: 100%; height: 100%; top: 0; }
+        html, body { background-color: #000000;  width: 100%; height: 100%; margin: 0; padding: 0; }
+        #viewer { background-color: #000000; z-index:1; position:absolute; width: 100%; height: 100%; top: 0; }
         #preloadContainer { z-index:2; position:relative; width:100%; height:100%; transition: opacity 1s; -webkit-transition: opacity 1s; -moz-transition: opacity 1s; -o-transition: opacity 1s;}
     </style>
 </head>
 <body onload="onLoad()">
-    <div id="preloadContainer" style="background-color:rgba(255,255,255,1)"><div style="z-index: 4; position: absolute; left: 0%; top: 50%; width: 100.00%; height: 10.00%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;"><SPAN STYLE="letter-spacing:0px;color:#777777;font-size:14px;font-family:Arial, Helvetica, sans-serif;">Loading virtual tour. Please wait...</SPAN></DIV><p STYLE="margin:0; line-height:12px;"><BR STYLE="letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p></div></div></div>
+    <div id="preloadContainer" style="background-color:rgba(0,0,0,1)"><div style="z-index: 4; position: absolute; background-image: url('loading/HTMLImage_7B78FDEB_7779_AC34_41D2_355E24093195.png'); background-size: cover; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 0%; bottom: 0%; width: 100.00%; height: 100.00%"></div><div style="z-index: 5; position: absolute; background-image: url('loading/HTMLImage_7BE812BA_7747_5414_41DB_09D216E3DBE8.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; left: 0%; top: 18.14%; width: 100.00%; height: 14.07%"></div><div style="z-index: 6; position: absolute; background-image: url('loading/HTMLImage_67E1E869_7749_5434_4195_C8638379BE09.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; left: 0%; bottom: 33.18%; width: 100.00%; height: 28.13%"></div><div style="z-index: 7; position: absolute; background-image: url('loading/HTMLImage_780B0288_774B_74F4_418D_6E17EA0D31B4.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; left: 0%; bottom: 5.49%; width: 100.00%; height: 9.45%"></div></div>
     <div id="viewer"></div>
 </body>
 </html>
