@@ -1,0 +1,15 @@
+#: locale=en
+
+## Tour
+
+### Description
+
+### Title
+tour.name = Untitled 1
+
+## Media
+
+### Title
+panorama_F8BE3944_F2D5_5C6A_41A2_410FDAED36DA.label = CAM 01_WM
+video_E1712FB1_F2D5_542A_41CA_DAFA1CD1D6FD.label = green screen dancing girl 01
+video_E1FDC506_F33D_75F6_41E6_15764AF96123.label = HoiAnDor
