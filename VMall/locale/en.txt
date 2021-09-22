@@ -5,7 +5,7 @@
 ### Description
 
 ### Title
-tour.name = Untitled 5
+tour.name = VMall
 
 ## Media
 
