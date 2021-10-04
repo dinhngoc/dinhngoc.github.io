@@ -1226,7 +1226,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    "backgroundColor": "#404040",
    "class": "Menu",
    "opacity": 0.4,
-   "id": "Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+   "id": "Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
    "rollOverOpacity": 0.8,
    "selectedFontColor": "#FFFFFF",
    "children": [
@@ -1365,13 +1365,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
       "id": "overlay_1723D9CD_06F1_2FEE_4195_F17AB1536320",
       "maps": [
        {
-        "hfov": 10.99,
-        "yaw": 1.51,
+        "hfov": 6.93,
+        "yaw": 7.51,
         "image": {
          "levels": [
           {
            "height": 16,
-           "width": 21,
+           "width": 19,
            "url": "media/panorama_0C5F0BFE_0673_59B7_4157_C15F289CED2D_0_HS_1_0_map.gif",
            "class": "ImageResourceLevel"
           }
@@ -1379,7 +1379,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
          "class": "ImageResource"
         },
         "class": "HotspotPanoramaOverlayMap",
-        "pitch": -13.63
+        "pitch": -17.78
        }
       ],
       "enabledInCardboard": true,
@@ -1393,21 +1393,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
       "class": "HotspotPanoramaOverlay",
       "items": [
        {
-        "yaw": 1.51,
+        "yaw": 7.51,
         "class": "HotspotPanoramaOverlayImage",
-        "hfov": 10.99,
+        "hfov": 6.93,
         "image": {
          "levels": [
           {
-           "height": 115,
-           "width": 157,
+           "height": 83,
+           "width": 101,
            "url": "media/panorama_0C5F0BFE_0673_59B7_4157_C15F289CED2D_0_HS_1_0.png",
            "class": "ImageResourceLevel"
           }
          ],
          "class": "ImageResource"
         },
-        "pitch": -13.63
+        "pitch": -17.78
        }
       ]
      },
@@ -1416,8 +1416,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
       "id": "overlay_305D80C4_3C32_C9AD_41CD_C92E2612E11E",
       "maps": [
        {
-        "hfov": 11.67,
-        "yaw": 1.46,
+        "hfov": 11.36,
+        "yaw": 2.57,
         "image": {
          "levels": [
           {
@@ -1430,7 +1430,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
          "class": "ImageResource"
         },
         "class": "HotspotPanoramaOverlayMap",
-        "pitch": -4.9
+        "pitch": -14.18
        }
       ],
       "enabledInCardboard": true,
@@ -1438,16 +1438,16 @@ TDV.PlayerAPI.defineScript({ "definitions": [
       "areas": [
        {
         "mapColor": "#FF0000",
-        "click": "this.startPanoramaWithCamera(this.panorama_0FD85D6E_0673_DED7_40FD_D23817113C40, this.camera_5DA8DA07_4B73_C549_41CF_6E803089D513); this.mainPlayList.set('selectedIndex', 1); eval('localStorage.setItem(\"displayIndex\", 1);');",
+        "click": "this.startPanoramaWithCamera(this.panorama_0FD85D6E_0673_DED7_40FD_D23817113C40, this.camera_6F5DECD4_4B91_DEC8_41B4_77EE1CB883E1); this.mainPlayList.set('selectedIndex', 1); eval('localStorage.setItem(\"displayIndex\", 1);');",
         "class": "HotspotPanoramaOverlayArea"
        }
       ],
       "class": "HotspotPanoramaOverlay",
       "items": [
        {
-        "yaw": 1.46,
+        "yaw": 2.57,
         "class": "HotspotPanoramaOverlayImage",
-        "hfov": 11.67,
+        "hfov": 11.36,
         "image": {
          "levels": [
           {
@@ -1459,7 +1459,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
          ],
          "class": "ImageResource"
         },
-        "pitch": -4.9
+        "pitch": -14.18
        }
       ]
      }
@@ -1498,7 +1498,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
        "class": "PanoramaMapLocation"
       }
      ],
-     "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+     "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
      "partial": false,
      "pitch": 0,
      "thumbnailUrl": "media/panorama_0FD85D6E_0673_DED7_40FD_D23817113C40_t.jpg",
@@ -1515,13 +1515,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
          "id": "overlay_12BCBCD9_06FF_E5F6_4132_6BD2D8AC4E5A",
          "maps": [
           {
-           "hfov": 10.94,
-           "yaw": 1,
+           "hfov": 6.44,
+           "yaw": 1.53,
            "image": {
             "levels": [
              {
               "height": 16,
-              "width": 24,
+              "width": 19,
               "url": "media/panorama_0FD85D6E_0673_DED7_40FD_D23817113C40_0_HS_1_0_map.gif",
               "class": "ImageResourceLevel"
              }
@@ -1529,7 +1529,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
             "class": "ImageResource"
            },
            "class": "HotspotPanoramaOverlayMap",
-           "pitch": -14.51
+           "pitch": -17.67
           }
          ],
          "enabledInCardboard": true,
@@ -1543,21 +1543,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
          "class": "HotspotPanoramaOverlay",
          "items": [
           {
-           "yaw": 1,
+           "yaw": 1.53,
            "class": "HotspotPanoramaOverlayImage",
-           "hfov": 10.94,
+           "hfov": 6.44,
            "image": {
             "levels": [
              {
-              "height": 104,
-              "width": 157,
+              "height": 77,
+              "width": 93,
               "url": "media/panorama_0FD85D6E_0673_DED7_40FD_D23817113C40_0_HS_1_0.png",
               "class": "ImageResourceLevel"
              }
             ],
             "class": "ImageResource"
            },
-           "pitch": -14.51
+           "pitch": -17.67
           }
          ]
         },
@@ -1566,13 +1566,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
          "id": "overlay_1690DD0C_06F1_246E_4197_6AD3CD66470D",
          "maps": [
           {
-           "hfov": 11.44,
-           "yaw": -177.99,
+           "hfov": 6.13,
+           "yaw": 174.37,
            "image": {
             "levels": [
              {
-              "height": 16,
-              "width": 26,
+              "height": 17,
+              "width": 16,
               "url": "media/panorama_0FD85D6E_0673_DED7_40FD_D23817113C40_0_HS_3_0_map.gif",
               "class": "ImageResourceLevel"
              }
@@ -1580,7 +1580,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
             "class": "ImageResource"
            },
            "class": "HotspotPanoramaOverlayMap",
-           "pitch": -7.98
+           "pitch": -18.69
           }
          ],
          "enabledInCardboard": true,
@@ -1594,21 +1594,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
          "class": "HotspotPanoramaOverlay",
          "items": [
           {
-           "yaw": -177.99,
+           "yaw": 174.37,
            "class": "HotspotPanoramaOverlayImage",
-           "hfov": 11.44,
+           "hfov": 6.13,
            "image": {
             "levels": [
              {
-              "height": 97,
-              "width": 160,
+              "height": 96,
+              "width": 89,
               "url": "media/panorama_0FD85D6E_0673_DED7_40FD_D23817113C40_0_HS_3_0.png",
               "class": "ImageResourceLevel"
              }
             ],
             "class": "ImageResource"
            },
-           "pitch": -7.98
+           "pitch": -18.69
           }
          ]
         },
@@ -1617,13 +1617,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
          "id": "overlay_311D0F38_3C32_38E6_41B9_16CD7FB2884F",
          "maps": [
           {
-           "hfov": 23.04,
-           "yaw": 0.64,
+           "hfov": 11.96,
+           "yaw": 1.7,
            "image": {
             "levels": [
              {
-              "height": 107,
-              "width": 160,
+              "height": 65,
+              "width": 85,
               "url": "media/panorama_0FD85D6E_0673_DED7_40FD_D23817113C40_0_HS_4_0_0_map.gif",
               "class": "ImageResourceLevel"
              }
@@ -1631,7 +1631,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
             "class": "ImageResource"
            },
            "class": "HotspotPanoramaOverlayMap",
-           "pitch": -5.15
+           "pitch": -12.66
           }
          ],
          "enabledInCardboard": true,
@@ -1639,28 +1639,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
          "areas": [
           {
            "mapColor": "#FF0000",
-           "click": "this.startPanoramaWithCamera(this.panorama_0FDDECDB_0673_FFFD_4192_A5DD1F1D9544, this.camera_5DD29AE4_4B73_DAC8_41B1_DDA7584FAA5E); this.mainPlayList.set('selectedIndex', 2); eval('localStorage.setItem(\"displayIndex\", 2);');",
+           "click": "this.startPanoramaWithCamera(this.panorama_0FDDECDB_0673_FFFD_4192_A5DD1F1D9544, this.camera_6F3E3DE9_4B91_DED9_41CA_AC9936C8D669); this.mainPlayList.set('selectedIndex', 2); eval('localStorage.setItem(\"displayIndex\", 2);');",
            "class": "HotspotPanoramaOverlayArea"
           }
          ],
          "class": "HotspotPanoramaOverlay",
          "items": [
           {
-           "yaw": 0.64,
+           "yaw": 1.7,
            "class": "HotspotPanoramaOverlayImage",
-           "hfov": 23.04,
+           "hfov": 11.96,
            "image": {
             "levels": [
              {
-              "height": 214,
-              "width": 321,
+              "height": 130,
+              "width": 170,
               "url": "media/panorama_0FD85D6E_0673_DED7_40FD_D23817113C40_0_HS_4_0.png",
               "class": "ImageResourceLevel"
              }
             ],
             "class": "ImageResource"
            },
-           "pitch": -5.15
+           "pitch": -12.66
           }
          ]
         },
@@ -1669,13 +1669,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
          "id": "overlay_3114B52C_3C32_48FE_41B5_406CC4DEDCA5",
          "maps": [
           {
-           "hfov": 15.74,
-           "yaw": -179.67,
+           "hfov": 12.91,
+           "yaw": 174.46,
            "image": {
             "levels": [
              {
-              "height": 82,
-              "width": 109,
+              "height": 68,
+              "width": 91,
               "url": "media/panorama_0FD85D6E_0673_DED7_40FD_D23817113C40_0_HS_5_0_0_map.gif",
               "class": "ImageResourceLevel"
              }
@@ -1683,7 +1683,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
             "class": "ImageResource"
            },
            "class": "HotspotPanoramaOverlayMap",
-           "pitch": -0.88
+           "pitch": -12.57
           }
          ],
          "enabledInCardboard": true,
@@ -1691,28 +1691,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
          "areas": [
           {
            "mapColor": "#FF0000",
-           "click": "this.startPanoramaWithCamera(this.panorama_0C5F0BFE_0673_59B7_4157_C15F289CED2D, this.camera_5DEACAF8_4B73_DAC7_41C5_010A61ADD53C); this.mainPlayList.set('selectedIndex', 0); eval('localStorage.setItem(\"displayIndex\", 0);');",
+           "click": "this.startPanoramaWithCamera(this.panorama_0C5F0BFE_0673_59B7_4157_C15F289CED2D, this.camera_6F2C9E09_4B91_DD59_41B8_38F7B7056A81); this.mainPlayList.set('selectedIndex', 0); eval('localStorage.setItem(\"displayIndex\", 0);');",
            "class": "HotspotPanoramaOverlayArea"
           }
          ],
          "class": "HotspotPanoramaOverlay",
          "items": [
           {
-           "yaw": -179.67,
+           "yaw": 174.46,
            "class": "HotspotPanoramaOverlayImage",
-           "hfov": 15.74,
+           "hfov": 12.91,
            "image": {
             "levels": [
              {
-              "height": 165,
-              "width": 218,
+              "height": 137,
+              "width": 183,
               "url": "media/panorama_0FD85D6E_0673_DED7_40FD_D23817113C40_0_HS_5_0.png",
               "class": "ImageResourceLevel"
              }
             ],
             "class": "ImageResource"
            },
-           "pitch": -0.88
+           "pitch": -12.57
           }
          ]
         }
@@ -1751,7 +1751,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
           "class": "PanoramaMapLocation"
          }
         ],
-        "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+        "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
         "partial": false,
         "pitch": 0,
         "thumbnailUrl": "media/panorama_0FDDECDB_0673_FFFD_4192_A5DD1F1D9544_t.jpg",
@@ -1768,13 +1768,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
             "id": "overlay_15ADB079_06F3_1CB6_418B_9B6CDA887ED8",
             "maps": [
              {
-              "hfov": 11.17,
-              "yaw": 0.38,
+              "hfov": 5.54,
+              "yaw": 4.03,
               "image": {
                "levels": [
                 {
                  "height": 16,
-                 "width": 20,
+                 "width": 17,
                  "url": "media/panorama_0FDDECDB_0673_FFFD_4192_A5DD1F1D9544_0_HS_1_0_map.gif",
                  "class": "ImageResourceLevel"
                 }
@@ -1782,7 +1782,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                "class": "ImageResource"
               },
               "class": "HotspotPanoramaOverlayMap",
-              "pitch": -14.88
+              "pitch": -17.5
              }
             ],
             "enabledInCardboard": true,
@@ -1796,21 +1796,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
             "class": "HotspotPanoramaOverlay",
             "items": [
              {
-              "yaw": 0.38,
+              "yaw": 4.03,
               "class": "HotspotPanoramaOverlayImage",
-              "hfov": 11.17,
+              "hfov": 5.54,
               "image": {
                "levels": [
                 {
-                 "height": 122,
-                 "width": 160,
+                 "height": 74,
+                 "width": 80,
                  "url": "media/panorama_0FDDECDB_0673_FFFD_4192_A5DD1F1D9544_0_HS_1_0.png",
                  "class": "ImageResourceLevel"
                 }
                ],
                "class": "ImageResource"
               },
-              "pitch": -14.88
+              "pitch": -17.5
              }
             ]
            },
@@ -1819,13 +1819,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
             "id": "overlay_157DAC36_06F1_24BA_4180_B0CB15CF6B9B",
             "maps": [
              {
-              "hfov": 10.19,
-              "yaw": -177.74,
+              "hfov": 5.43,
+              "yaw": -175.69,
               "image": {
                "levels": [
                 {
-                 "height": 16,
-                 "width": 19,
+                 "height": 18,
+                 "width": 16,
                  "url": "media/panorama_0FDDECDB_0673_FFFD_4192_A5DD1F1D9544_0_HS_3_0_map.gif",
                  "class": "ImageResourceLevel"
                 }
@@ -1833,7 +1833,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                "class": "ImageResource"
               },
               "class": "HotspotPanoramaOverlayMap",
-              "pitch": -15.01
+              "pitch": -12.46
              }
             ],
             "enabledInCardboard": true,
@@ -1847,21 +1847,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
             "class": "HotspotPanoramaOverlay",
             "items": [
              {
-              "yaw": -177.74,
+              "yaw": -175.69,
               "class": "HotspotPanoramaOverlayImage",
-              "hfov": 10.19,
+              "hfov": 5.43,
               "image": {
                "levels": [
                 {
-                 "height": 118,
-                 "width": 146,
+                 "height": 89,
+                 "width": 77,
                  "url": "media/panorama_0FDDECDB_0673_FFFD_4192_A5DD1F1D9544_0_HS_3_0.png",
                  "class": "ImageResourceLevel"
                 }
                ],
                "class": "ImageResource"
               },
-              "pitch": -15.01
+              "pitch": -12.46
              }
             ]
            },
@@ -1870,13 +1870,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
             "id": "overlay_31745591_3C35_CBA6_41C4_8DB2A929AC58",
             "maps": [
              {
-              "hfov": 10.99,
-              "yaw": -177.99,
+              "hfov": 7.06,
+              "yaw": -178.95,
               "image": {
                "levels": [
                 {
-                 "height": 93,
-                 "width": 76,
+                 "height": 56,
+                 "width": 49,
                  "url": "media/panorama_0FDDECDB_0673_FFFD_4192_A5DD1F1D9544_0_HS_4_0_0_map.gif",
                  "class": "ImageResourceLevel"
                 }
@@ -1884,7 +1884,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                "class": "ImageResource"
               },
               "class": "HotspotPanoramaOverlayMap",
-              "pitch": -5.9
+              "pitch": -8.88
              }
             ],
             "enabledInCardboard": true,
@@ -1892,28 +1892,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
             "areas": [
              {
               "mapColor": "#FF0000",
-              "click": "this.startPanoramaWithCamera(this.panorama_0FDA99B5_0673_D9B5_417F_B1B5EF3D6F24, this.camera_5C120B85_4B73_DB48_41B9_6CB67CDAD7F6); this.mainPlayList.set('selectedIndex', 3)",
+              "click": "this.startPanoramaWithCamera(this.panorama_0FDA99B5_0673_D9B5_417F_B1B5EF3D6F24, this.camera_6F92DE7E_4B91_DDBB_41BD_FCF4E1D2F7D8); this.mainPlayList.set('selectedIndex', 3)",
               "class": "HotspotPanoramaOverlayArea"
              }
             ],
             "class": "HotspotPanoramaOverlay",
             "items": [
              {
-              "yaw": -177.99,
+              "yaw": -178.95,
               "class": "HotspotPanoramaOverlayImage",
-              "hfov": 10.99,
+              "hfov": 7.06,
               "image": {
                "levels": [
                 {
-                 "height": 186,
-                 "width": 153,
+                 "height": 113,
+                 "width": 99,
                  "url": "media/panorama_0FDDECDB_0673_FFFD_4192_A5DD1F1D9544_0_HS_4_0.png",
                  "class": "ImageResourceLevel"
                 }
                ],
                "class": "ImageResource"
               },
-              "pitch": -5.9
+              "pitch": -8.88
              }
             ]
            },
@@ -1922,13 +1922,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
             "id": "overlay_311F0A3C_3C35_F8DE_41B4_7AAC3D3CC66B",
             "maps": [
              {
-              "hfov": 13.93,
-              "yaw": 0.35,
+              "hfov": 9.11,
+              "yaw": -0.32,
               "image": {
                "levels": [
                 {
-                 "height": 100,
-                 "width": 97,
+                 "height": 65,
+                 "width": 65,
                  "url": "media/panorama_0FDDECDB_0673_FFFD_4192_A5DD1F1D9544_0_HS_5_0_0_map.gif",
                  "class": "ImageResourceLevel"
                 }
@@ -1936,7 +1936,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                "class": "ImageResource"
               },
               "class": "HotspotPanoramaOverlayMap",
-              "pitch": -6.41
+              "pitch": -14.46
              }
             ],
             "enabledInCardboard": true,
@@ -1944,28 +1944,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
             "areas": [
              {
               "mapColor": "#FF0000",
-              "click": "this.startPanoramaWithCamera(this.panorama_0FD85D6E_0673_DED7_40FD_D23817113C40, this.camera_5C21ABA3_4B73_DB49_41BB_FA1851FEA8AC); this.mainPlayList.set('selectedIndex', 1)",
+              "click": "this.startPanoramaWithCamera(this.panorama_0FD85D6E_0673_DED7_40FD_D23817113C40, this.camera_6F80AE8D_4B91_DD59_41A0_A636FC793D1F); this.mainPlayList.set('selectedIndex', 1)",
               "class": "HotspotPanoramaOverlayArea"
              }
             ],
             "class": "HotspotPanoramaOverlay",
             "items": [
              {
-              "yaw": 0.35,
+              "yaw": -0.32,
               "class": "HotspotPanoramaOverlayImage",
-              "hfov": 13.93,
+              "hfov": 9.11,
               "image": {
                "levels": [
                 {
-                 "height": 200,
-                 "width": 194,
+                 "height": 130,
+                 "width": 130,
                  "url": "media/panorama_0FDDECDB_0673_FFFD_4192_A5DD1F1D9544_0_HS_5_0.png",
                  "class": "ImageResourceLevel"
                 }
                ],
                "class": "ImageResource"
               },
-              "pitch": -6.41
+              "pitch": -14.46
              }
             ]
            }
@@ -2004,7 +2004,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
              "class": "PanoramaMapLocation"
             }
            ],
-           "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+           "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
            "partial": false,
            "pitch": 0,
            "thumbnailUrl": "media/panorama_0FDA99B5_0673_D9B5_417F_B1B5EF3D6F24_t.jpg",
@@ -2021,13 +2021,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                "id": "overlay_15F363E3_06F7_E3DA_4166_E1ADD25A8F16",
                "maps": [
                 {
-                 "hfov": 10.72,
-                 "yaw": -2.39,
+                 "hfov": 5.21,
+                 "yaw": -2.02,
                  "image": {
                   "levels": [
                    {
                     "height": 16,
-                    "width": 21,
+                    "width": 16,
                     "url": "media/panorama_0FDA99B5_0673_D9B5_417F_B1B5EF3D6F24_0_HS_1_0_map.gif",
                     "class": "ImageResourceLevel"
                    }
@@ -2035,7 +2035,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                   "class": "ImageResource"
                  },
                  "class": "HotspotPanoramaOverlayMap",
-                 "pitch": -14.13
+                 "pitch": -16.3
                 }
                ],
                "enabledInCardboard": true,
@@ -2049,21 +2049,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                "class": "HotspotPanoramaOverlay",
                "items": [
                 {
-                 "yaw": -2.39,
+                 "yaw": -2.02,
                  "class": "HotspotPanoramaOverlayImage",
-                 "hfov": 10.72,
+                 "hfov": 5.21,
                  "image": {
                   "levels": [
                    {
-                    "height": 115,
-                    "width": 153,
+                    "height": 74,
+                    "width": 75,
                     "url": "media/panorama_0FDA99B5_0673_D9B5_417F_B1B5EF3D6F24_0_HS_1_0.png",
                     "class": "ImageResourceLevel"
                    }
                   ],
                   "class": "ImageResource"
                  },
-                 "pitch": -14.13
+                 "pitch": -16.3
                 }
                ]
               },
@@ -2072,13 +2072,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                "id": "overlay_122DE14B_06F1_1CEA_4197_5318700943E8",
                "maps": [
                 {
-                 "hfov": 10.42,
-                 "yaw": -179.62,
+                 "hfov": 5.73,
+                 "yaw": -179.72,
                  "image": {
                   "levels": [
                    {
                     "height": 16,
-                    "width": 23,
+                    "width": 19,
                     "url": "media/panorama_0FDA99B5_0673_D9B5_417F_B1B5EF3D6F24_0_HS_3_0_map.gif",
                     "class": "ImageResourceLevel"
                    }
@@ -2086,7 +2086,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                   "class": "ImageResource"
                  },
                  "class": "HotspotPanoramaOverlayMap",
-                 "pitch": -15.39
+                 "pitch": -18.79
                 }
                ],
                "enabledInCardboard": true,
@@ -2100,21 +2100,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                "class": "HotspotPanoramaOverlay",
                "items": [
                 {
-                 "yaw": -179.62,
+                 "yaw": -179.72,
                  "class": "HotspotPanoramaOverlayImage",
-                 "hfov": 10.42,
+                 "hfov": 5.73,
                  "image": {
                   "levels": [
                    {
-                    "height": 101,
-                    "width": 150,
+                    "height": 69,
+                    "width": 84,
                     "url": "media/panorama_0FDA99B5_0673_D9B5_417F_B1B5EF3D6F24_0_HS_3_0.png",
                     "class": "ImageResourceLevel"
                    }
                   ],
                   "class": "ImageResource"
                  },
-                 "pitch": -15.39
+                 "pitch": -18.79
                 }
                ]
               },
@@ -2123,13 +2123,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                "id": "overlay_31032CAC_3C36_39FD_41C9_8B987E7CD4B2",
                "maps": [
                 {
-                 "hfov": 8.42,
-                 "yaw": -179.28,
+                 "hfov": 6.44,
+                 "yaw": -179.43,
                  "image": {
                   "levels": [
                    {
-                    "height": 86,
-                    "width": 58,
+                    "height": 46,
+                    "width": 46,
                     "url": "media/panorama_0FDA99B5_0673_D9B5_417F_B1B5EF3D6F24_0_HS_4_0_0_map.gif",
                     "class": "ImageResourceLevel"
                    }
@@ -2137,7 +2137,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                   "class": "ImageResource"
                  },
                  "class": "HotspotPanoramaOverlayMap",
-                 "pitch": -6.91
+                 "pitch": -14.97
                 }
                ],
                "enabledInCardboard": true,
@@ -2145,28 +2145,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                "areas": [
                 {
                  "mapColor": "#FF0000",
-                 "click": "this.startPanoramaWithCamera(this.panorama_0FDDECDB_0673_FFFD_4192_A5DD1F1D9544, this.camera_5C77BC33_4B73_DD49_41C3_FE8F81978EE6); this.mainPlayList.set('selectedIndex', 2)",
+                 "click": "this.startPanoramaWithCamera(this.panorama_0FDDECDB_0673_FFFD_4192_A5DD1F1D9544, this.camera_6E767EFA_4B91_DABB_41D2_113165E82E9B); this.mainPlayList.set('selectedIndex', 2)",
                  "class": "HotspotPanoramaOverlayArea"
                 }
                ],
                "class": "HotspotPanoramaOverlay",
                "items": [
                 {
-                 "yaw": -179.28,
+                 "yaw": -179.43,
                  "class": "HotspotPanoramaOverlayImage",
-                 "hfov": 8.42,
+                 "hfov": 6.44,
                  "image": {
                   "levels": [
                    {
-                    "height": 172,
-                    "width": 117,
+                    "height": 93,
+                    "width": 92,
                     "url": "media/panorama_0FDA99B5_0673_D9B5_417F_B1B5EF3D6F24_0_HS_4_0.png",
                     "class": "ImageResourceLevel"
                    }
                   ],
                   "class": "ImageResource"
                  },
-                 "pitch": -6.91
+                 "pitch": -14.97
                 }
                ]
               },
@@ -2175,13 +2175,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                "id": "overlay_31610C45_3C36_78AF_41B2_40154727DEF2",
                "maps": [
                 {
-                 "hfov": 11.33,
-                 "yaw": -2.21,
+                 "hfov": 8.5,
+                 "yaw": -1.53,
                  "image": {
                   "levels": [
                    {
-                    "height": 79,
-                    "width": 79,
+                    "height": 52,
+                    "width": 60,
                     "url": "media/panorama_0FDA99B5_0673_D9B5_417F_B1B5EF3D6F24_0_HS_5_0_0_map.gif",
                     "class": "ImageResourceLevel"
                    }
@@ -2189,7 +2189,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                   "class": "ImageResource"
                  },
                  "class": "HotspotPanoramaOverlayMap",
-                 "pitch": -6.66
+                 "pitch": -11.8
                 }
                ],
                "enabledInCardboard": true,
@@ -2197,28 +2197,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                "areas": [
                 {
                  "mapColor": "#FF0000",
-                 "click": "this.startPanoramaWithCamera(this.panorama_0FD8B8AB_0673_265D_4181_2D7C532277BA, this.camera_5C857C45_4B73_DDC9_41CF_FE2400A4967D); this.mainPlayList.set('selectedIndex', 4)",
+                 "click": "this.startPanoramaWithCamera(this.panorama_0FD8B8AB_0673_265D_4181_2D7C532277BA, this.camera_6E64CF0A_4B91_DB5B_41D0_2029B3E27860); this.mainPlayList.set('selectedIndex', 4)",
                  "class": "HotspotPanoramaOverlayArea"
                 }
                ],
                "class": "HotspotPanoramaOverlay",
                "items": [
                 {
-                 "yaw": -2.21,
+                 "yaw": -1.53,
                  "class": "HotspotPanoramaOverlayImage",
-                 "hfov": 11.33,
+                 "hfov": 8.5,
                  "image": {
                   "levels": [
                    {
-                    "height": 158,
-                    "width": 158,
+                    "height": 104,
+                    "width": 120,
                     "url": "media/panorama_0FDA99B5_0673_D9B5_417F_B1B5EF3D6F24_0_HS_5_0.png",
                     "class": "ImageResourceLevel"
                    }
                   ],
                   "class": "ImageResource"
                  },
-                 "pitch": -6.66
+                 "pitch": -11.8
                 }
                ]
               }
@@ -2248,8 +2248,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
            "adjacentPanoramas": [
             {
              "panorama": "this.panorama_0FDDECDB_0673_FFFD_4192_A5DD1F1D9544",
-             "yaw": -179.28,
-             "backwardYaw": -177.99,
+             "yaw": -179.43,
+             "backwardYaw": -178.95,
              "class": "AdjacentPanorama",
              "distance": 1
             },
@@ -2264,7 +2264,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                 "class": "PanoramaMapLocation"
                }
               ],
-              "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+              "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
               "partial": false,
               "pitch": 0,
               "thumbnailUrl": "media/panorama_0FD8B8AB_0673_265D_4181_2D7C532277BA_t.jpg",
@@ -2281,13 +2281,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                   "id": "overlay_1382DAC3_06F3_EDDA_4199_4640AB09737B",
                   "maps": [
                    {
-                    "hfov": 11.08,
-                    "yaw": -3.01,
+                    "hfov": 5.34,
+                    "yaw": 1.12,
                     "image": {
                      "levels": [
                       {
                        "height": 16,
-                       "width": 23,
+                       "width": 17,
                        "url": "media/panorama_0FD8B8AB_0673_265D_4181_2D7C532277BA_0_HS_1_0_map.gif",
                        "class": "ImageResourceLevel"
                       }
@@ -2295,7 +2295,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                      "class": "ImageResource"
                     },
                     "class": "HotspotPanoramaOverlayMap",
-                    "pitch": -11.37
+                    "pitch": -12.27
                    }
                   ],
                   "enabledInCardboard": true,
@@ -2309,21 +2309,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                   "class": "HotspotPanoramaOverlay",
                   "items": [
                    {
-                    "yaw": -3.01,
+                    "yaw": 1.12,
                     "class": "HotspotPanoramaOverlayImage",
-                    "hfov": 11.08,
+                    "hfov": 5.34,
                     "image": {
                      "levels": [
                       {
-                       "height": 108,
-                       "width": 156,
+                       "height": 67,
+                       "width": 75,
                        "url": "media/panorama_0FD8B8AB_0673_265D_4181_2D7C532277BA_0_HS_1_0.png",
                        "class": "ImageResourceLevel"
                       }
                      ],
                      "class": "ImageResource"
                     },
-                    "pitch": -11.37
+                    "pitch": -12.27
                    }
                   ]
                  },
@@ -2332,13 +2332,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                   "id": "overlay_121F44F8_06F1_25B6_416C_4F213A9D0F56",
                   "maps": [
                    {
-                    "hfov": 10.89,
-                    "yaw": -179.37,
+                    "hfov": 5.53,
+                    "yaw": -167.94,
                     "image": {
                      "levels": [
                       {
                        "height": 16,
-                       "width": 24,
+                       "width": 17,
                        "url": "media/panorama_0FD8B8AB_0673_265D_4181_2D7C532277BA_0_HS_3_0_map.gif",
                        "class": "ImageResourceLevel"
                       }
@@ -2346,7 +2346,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                      "class": "ImageResource"
                     },
                     "class": "HotspotPanoramaOverlayMap",
-                    "pitch": -15.51
+                    "pitch": -16.91
                    }
                   ],
                   "enabledInCardboard": true,
@@ -2360,21 +2360,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                   "class": "HotspotPanoramaOverlay",
                   "items": [
                    {
-                    "yaw": -179.37,
+                    "yaw": -167.94,
                     "class": "HotspotPanoramaOverlayImage",
-                    "hfov": 10.89,
+                    "hfov": 5.53,
                     "image": {
                      "levels": [
                       {
-                       "height": 104,
-                       "width": 157,
+                       "height": 72,
+                       "width": 80,
                        "url": "media/panorama_0FD8B8AB_0673_265D_4181_2D7C532277BA_0_HS_3_0.png",
                        "class": "ImageResourceLevel"
                       }
                      ],
                      "class": "ImageResource"
                     },
-                    "pitch": -15.51
+                    "pitch": -16.91
                    }
                   ]
                  },
@@ -2383,13 +2383,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                   "id": "overlay_31600C5C_3C36_D95D_41BC_E9F7D4587C95",
                   "maps": [
                    {
-                    "hfov": 11.73,
-                    "yaw": -179.87,
+                    "hfov": 7.48,
+                    "yaw": -171.64,
                     "image": {
                      "levels": [
                       {
-                       "height": 81,
-                       "width": 82,
+                       "height": 53,
+                       "width": 53,
                        "url": "media/panorama_0FD8B8AB_0673_265D_4181_2D7C532277BA_0_HS_4_0_0_map.gif",
                        "class": "ImageResourceLevel"
                       }
@@ -2397,7 +2397,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                      "class": "ImageResource"
                     },
                     "class": "HotspotPanoramaOverlayMap",
-                    "pitch": -7.29
+                    "pitch": -14.18
                    }
                   ],
                   "enabledInCardboard": true,
@@ -2405,28 +2405,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                   "areas": [
                    {
                     "mapColor": "#FF0000",
-                    "click": "this.startPanoramaWithCamera(this.panorama_0FDA2779_0673_2ABD_418B_39A919E068D4, this.camera_5CA9385E_4B73_C5F8_41C8_EA7BF86E8B21); this.mainPlayList.set('selectedIndex', 5)",
+                    "click": "this.startPanoramaWithCamera(this.panorama_0FDA2779_0673_2ABD_418B_39A919E068D4, this.camera_68D94BE1_4B91_DAC9_41C2_A9EFF7CCBBB1); this.mainPlayList.set('selectedIndex', 5)",
                     "class": "HotspotPanoramaOverlayArea"
                    }
                   ],
                   "class": "HotspotPanoramaOverlay",
                   "items": [
                    {
-                    "yaw": -179.87,
+                    "yaw": -171.64,
                     "class": "HotspotPanoramaOverlayImage",
-                    "hfov": 11.73,
+                    "hfov": 7.48,
                     "image": {
                      "levels": [
                       {
-                       "height": 162,
-                       "width": 164,
+                       "height": 106,
+                       "width": 107,
                        "url": "media/panorama_0FD8B8AB_0673_265D_4181_2D7C532277BA_0_HS_4_0.png",
                        "class": "ImageResourceLevel"
                       }
                      ],
                      "class": "ImageResource"
                     },
-                    "pitch": -7.29
+                    "pitch": -14.18
                    }
                   ]
                  },
@@ -2435,13 +2435,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                   "id": "overlay_3177AF77_3C36_D76A_41B0_BA478D445CA5",
                   "maps": [
                    {
-                    "hfov": 9.92,
-                    "yaw": -2.69,
+                    "hfov": 7.1,
+                    "yaw": -2.5,
                     "image": {
                      "levels": [
                       {
-                       "height": 84,
-                       "width": 69,
+                       "height": 64,
+                       "width": 50,
                        "url": "media/panorama_0FD8B8AB_0673_265D_4181_2D7C532277BA_0_HS_5_0_0_map.gif",
                        "class": "ImageResourceLevel"
                       }
@@ -2449,7 +2449,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                      "class": "ImageResource"
                     },
                     "class": "HotspotPanoramaOverlayMap",
-                    "pitch": -4.02
+                    "pitch": -9.99
                    }
                   ],
                   "enabledInCardboard": true,
@@ -2457,28 +2457,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                   "areas": [
                    {
                     "mapColor": "#FF0000",
-                    "click": "this.startPanoramaWithCamera(this.panorama_0FDA99B5_0673_D9B5_417F_B1B5EF3D6F24, this.camera_5C92783A_4B73_C5BB_419B_B93C26EC6446); this.mainPlayList.set('selectedIndex', 3)",
+                    "click": "this.startPanoramaWithCamera(this.panorama_0FDA99B5_0673_D9B5_417F_B1B5EF3D6F24, this.camera_68DC0BCB_4B91_DAD9_4187_38F176C09202); this.mainPlayList.set('selectedIndex', 3)",
                     "class": "HotspotPanoramaOverlayArea"
                    }
                   ],
                   "class": "HotspotPanoramaOverlay",
                   "items": [
                    {
-                    "yaw": -2.69,
+                    "yaw": -2.5,
                     "class": "HotspotPanoramaOverlayImage",
-                    "hfov": 9.92,
+                    "hfov": 7.1,
                     "image": {
                      "levels": [
                       {
-                       "height": 169,
-                       "width": 138,
+                       "height": 128,
+                       "width": 100,
                        "url": "media/panorama_0FD8B8AB_0673_265D_4181_2D7C532277BA_0_HS_5_0.png",
                        "class": "ImageResourceLevel"
                       }
                      ],
                      "class": "ImageResource"
                     },
-                    "pitch": -4.02
+                    "pitch": -9.99
                    }
                   ]
                  }
@@ -2508,8 +2508,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
               "adjacentPanoramas": [
                {
                 "panorama": "this.panorama_0FDA99B5_0673_D9B5_417F_B1B5EF3D6F24",
-                "yaw": -2.69,
-                "backwardYaw": -2.21,
+                "yaw": -2.5,
+                "backwardYaw": -1.53,
                 "class": "AdjacentPanorama",
                 "distance": 1
                },
@@ -2524,7 +2524,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                    "class": "PanoramaMapLocation"
                   }
                  ],
-                 "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                 "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                  "partial": false,
                  "pitch": 0,
                  "thumbnailUrl": "media/panorama_0FDA2779_0673_2ABD_418B_39A919E068D4_t.jpg",
@@ -2541,13 +2541,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                      "id": "overlay_15D28AE0_068F_2DD6_4190_19CBC3F443F6",
                      "maps": [
                       {
-                       "hfov": 10.12,
-                       "yaw": 7.54,
+                       "hfov": 5.53,
+                       "yaw": 5.52,
                        "image": {
                         "levels": [
                          {
                           "height": 16,
-                          "width": 22,
+                          "width": 17,
                           "url": "media/panorama_0FDA2779_0673_2ABD_418B_39A919E068D4_0_HS_1_0_map.gif",
                           "class": "ImageResourceLevel"
                          }
@@ -2555,7 +2555,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                         "class": "ImageResource"
                        },
                        "class": "HotspotPanoramaOverlayMap",
-                       "pitch": -10.87
+                       "pitch": -14.33
                       }
                      ],
                      "enabledInCardboard": true,
@@ -2569,21 +2569,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                      "class": "HotspotPanoramaOverlay",
                      "items": [
                       {
-                       "yaw": 7.54,
+                       "yaw": 5.52,
                        "class": "HotspotPanoramaOverlayImage",
-                       "hfov": 10.12,
+                       "hfov": 5.53,
                        "image": {
                         "levels": [
                          {
-                          "height": 101,
-                          "width": 143,
+                          "height": 73,
+                          "width": 79,
                           "url": "media/panorama_0FDA2779_0673_2ABD_418B_39A919E068D4_0_HS_1_0.png",
                           "class": "ImageResourceLevel"
                          }
                         ],
                         "class": "ImageResource"
                        },
-                       "pitch": -10.87
+                       "pitch": -14.33
                       }
                      ]
                     },
@@ -2592,13 +2592,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                      "id": "overlay_1302EAF9_0691_2DB6_4188_E41C59F609C1",
                      "maps": [
                       {
-                       "hfov": 10.54,
-                       "yaw": -178.74,
+                       "hfov": 5.32,
+                       "yaw": -179.23,
                        "image": {
                         "levels": [
                          {
                           "height": 16,
-                          "width": 19,
+                          "width": 16,
                           "url": "media/panorama_0FDA2779_0673_2ABD_418B_39A919E068D4_0_HS_3_0_map.gif",
                           "class": "ImageResourceLevel"
                          }
@@ -2606,7 +2606,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                         "class": "ImageResource"
                        },
                        "class": "HotspotPanoramaOverlayMap",
-                       "pitch": -17.52
+                       "pitch": -18.94
                       }
                      ],
                      "enabledInCardboard": true,
@@ -2620,21 +2620,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                      "class": "HotspotPanoramaOverlay",
                      "items": [
                       {
-                       "yaw": -178.74,
+                       "yaw": -179.23,
                        "class": "HotspotPanoramaOverlayImage",
-                       "hfov": 10.54,
+                       "hfov": 5.32,
                        "image": {
                         "levels": [
                          {
-                          "height": 125,
-                          "width": 153,
+                          "height": 77,
+                          "width": 78,
                           "url": "media/panorama_0FDA2779_0673_2ABD_418B_39A919E068D4_0_HS_3_0.png",
                           "class": "ImageResourceLevel"
                          }
                         ],
                         "class": "ImageResource"
                        },
-                       "pitch": -17.52
+                       "pitch": -18.94
                       }
                      ]
                     },
@@ -2643,13 +2643,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                      "id": "overlay_310FDBE1_3C36_5F66_41BB_BDA464171CC9",
                      "maps": [
                       {
-                       "hfov": 12.32,
-                       "yaw": -178.55,
+                       "hfov": 6.71,
+                       "yaw": -178.95,
                        "image": {
                         "levels": [
                          {
-                          "height": 98,
-                          "width": 86,
+                          "height": 52,
+                          "width": 47,
                           "url": "media/panorama_0FDA2779_0673_2ABD_418B_39A919E068D4_0_HS_4_0_0_map.gif",
                           "class": "ImageResourceLevel"
                          }
@@ -2657,7 +2657,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                         "class": "ImageResource"
                        },
                        "class": "HotspotPanoramaOverlayMap",
-                       "pitch": -8.04
+                       "pitch": -13.71
                       }
                      ],
                      "enabledInCardboard": true,
@@ -2665,28 +2665,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                      "areas": [
                       {
                        "mapColor": "#FF0000",
-                       "click": "this.startPanoramaWithCamera(this.panorama_0FD8B8AB_0673_265D_4181_2D7C532277BA, this.camera_5CC358E9_4B73_C6D9_416B_D4C5A5FFFA94); this.mainPlayList.set('selectedIndex', 4)",
+                       "click": "this.startPanoramaWithCamera(this.panorama_0FD8B8AB_0673_265D_4181_2D7C532277BA, this.camera_68E68C39_4B91_DDB9_41D1_3407FDB06DEA); this.mainPlayList.set('selectedIndex', 4)",
                        "class": "HotspotPanoramaOverlayArea"
                       }
                      ],
                      "class": "HotspotPanoramaOverlay",
                      "items": [
                       {
-                       "yaw": -178.55,
+                       "yaw": -178.95,
                        "class": "HotspotPanoramaOverlayImage",
-                       "hfov": 12.32,
+                       "hfov": 6.71,
                        "image": {
                         "levels": [
                          {
-                          "height": 197,
-                          "width": 172,
+                          "height": 105,
+                          "width": 95,
                           "url": "media/panorama_0FDA2779_0673_2ABD_418B_39A919E068D4_0_HS_4_0.png",
                           "class": "ImageResourceLevel"
                          }
                         ],
                         "class": "ImageResource"
                        },
-                       "pitch": -8.04
+                       "pitch": -13.71
                       }
                      ]
                     },
@@ -2695,13 +2695,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                      "id": "overlay_310CF005_3C36_48AF_41C4_A7D692E40CF8",
                      "maps": [
                       {
-                       "hfov": 10.58,
-                       "yaw": 7.93,
+                       "hfov": 6.54,
+                       "yaw": 5.81,
                        "image": {
                         "levels": [
                          {
-                          "height": 89,
-                          "width": 73,
+                          "height": 52,
+                          "width": 46,
                           "url": "media/panorama_0FDA2779_0673_2ABD_418B_39A919E068D4_0_HS_5_0_0_map.gif",
                           "class": "ImageResourceLevel"
                          }
@@ -2709,7 +2709,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                         "class": "ImageResource"
                        },
                        "class": "HotspotPanoramaOverlayMap",
-                       "pitch": -2.89
+                       "pitch": -9.79
                       }
                      ],
                      "enabledInCardboard": true,
@@ -2717,28 +2717,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                      "areas": [
                       {
                        "mapColor": "#FF0000",
-                       "click": "this.startPanoramaWithCamera(this.panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA, this.camera_5CCAC8D6_4B73_C6C8_41B5_275CA17BA3DB); this.mainPlayList.set('selectedIndex', 6)",
+                       "click": "this.startPanoramaWithCamera(this.panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA, this.camera_68F81C2A_4B91_DD5B_41CD_377EAAA30BD9); this.mainPlayList.set('selectedIndex', 6)",
                        "class": "HotspotPanoramaOverlayArea"
                       }
                      ],
                      "class": "HotspotPanoramaOverlay",
                      "items": [
                       {
-                       "yaw": 7.93,
+                       "yaw": 5.81,
                        "class": "HotspotPanoramaOverlayImage",
-                       "hfov": 10.58,
+                       "hfov": 6.54,
                        "image": {
                         "levels": [
                          {
-                          "height": 179,
-                          "width": 147,
+                          "height": 105,
+                          "width": 92,
                           "url": "media/panorama_0FDA2779_0673_2ABD_418B_39A919E068D4_0_HS_5_0.png",
                           "class": "ImageResourceLevel"
                          }
                         ],
                         "class": "ImageResource"
                        },
-                       "pitch": -2.89
+                       "pitch": -9.79
                       }
                      ]
                     }
@@ -2777,7 +2777,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                       "class": "PanoramaMapLocation"
                      }
                     ],
-                    "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                    "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                     "partial": false,
                     "pitch": 0,
                     "thumbnailUrl": "media/panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA_t.jpg",
@@ -2794,13 +2794,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                         "id": "overlay_1092C51A_0697_246A_4172_39E7152EFDF5",
                         "maps": [
                          {
-                          "hfov": 6.67,
-                          "yaw": 4.7,
+                          "hfov": 4.94,
+                          "yaw": 15.33,
                           "image": {
                            "levels": [
                             {
                              "height": 16,
-                             "width": 25,
+                             "width": 18,
                              "url": "media/panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA_0_HS_1_0_map.gif",
                              "class": "ImageResourceLevel"
                             }
@@ -2808,7 +2808,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "class": "ImageResource"
                           },
                           "class": "HotspotPanoramaOverlayMap",
-                          "pitch": -8.76
+                          "pitch": -13.19
                          }
                         ],
                         "enabledInCardboard": true,
@@ -2822,21 +2822,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                         "class": "HotspotPanoramaOverlay",
                         "items": [
                          {
-                          "yaw": 4.7,
+                          "yaw": 15.33,
                           "class": "HotspotPanoramaOverlayImage",
-                          "hfov": 6.67,
+                          "hfov": 4.94,
                           "image": {
                            "levels": [
                             {
                              "height": 59,
-                             "width": 93,
+                             "width": 70,
                              "url": "media/panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA_0_HS_1_0.png",
                              "class": "ImageResourceLevel"
                             }
                            ],
                            "class": "ImageResource"
                           },
-                          "pitch": -8.76
+                          "pitch": -13.19
                          }
                         ]
                        },
@@ -2845,13 +2845,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                         "id": "overlay_11D3D443_0693_24DA_4192_5962A59207B3",
                         "maps": [
                          {
-                          "hfov": 7,
-                          "yaw": 157.26,
+                          "hfov": 4.63,
+                          "yaw": 163.7,
                           "image": {
                            "levels": [
                             {
                              "height": 16,
-                             "width": 26,
+                             "width": 19,
                              "url": "media/panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA_0_HS_11_0_map.gif",
                              "class": "ImageResourceLevel"
                             }
@@ -2859,7 +2859,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "class": "ImageResource"
                           },
                           "class": "HotspotPanoramaOverlayMap",
-                          "pitch": -5.87
+                          "pitch": -10.13
                          }
                         ],
                         "enabledInCardboard": true,
@@ -2873,21 +2873,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                         "class": "HotspotPanoramaOverlay",
                         "items": [
                          {
-                          "yaw": 157.26,
+                          "yaw": 163.7,
                           "class": "HotspotPanoramaOverlayImage",
-                          "hfov": 7,
+                          "hfov": 4.63,
                           "image": {
                            "levels": [
                             {
-                             "height": 59,
-                             "width": 97,
+                             "height": 54,
+                             "width": 65,
                              "url": "media/panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA_0_HS_11_0.png",
                              "class": "ImageResourceLevel"
                             }
                            ],
                            "class": "ImageResource"
                           },
-                          "pitch": -5.87
+                          "pitch": -10.13
                          }
                         ]
                        },
@@ -2896,13 +2896,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                         "id": "overlay_1CA3866A_06B3_24AA_418F_9F19B27231FA",
                         "maps": [
                          {
-                          "hfov": 11.05,
-                          "yaw": -96.47,
+                          "hfov": 5.9,
+                          "yaw": -88.97,
                           "image": {
                            "levels": [
                             {
                              "height": 16,
-                             "width": 22,
+                             "width": 20,
                              "url": "media/panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA_0_HS_17_0_map.gif",
                              "class": "ImageResourceLevel"
                             }
@@ -2910,7 +2910,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "class": "ImageResource"
                           },
                           "class": "HotspotPanoramaOverlayMap",
-                          "pitch": -12.25
+                          "pitch": -12.41
                          }
                         ],
                         "enabledInCardboard": true,
@@ -2924,21 +2924,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                         "class": "HotspotPanoramaOverlay",
                         "items": [
                          {
-                          "yaw": -96.47,
+                          "yaw": -88.97,
                           "class": "HotspotPanoramaOverlayImage",
-                          "hfov": 11.05,
+                          "hfov": 5.9,
                           "image": {
                            "levels": [
                             {
-                             "height": 111,
-                             "width": 157,
+                             "height": 66,
+                             "width": 83,
                              "url": "media/panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA_0_HS_17_0.png",
                              "class": "ImageResourceLevel"
                             }
                            ],
                            "class": "ImageResource"
                           },
-                          "pitch": -12.25
+                          "pitch": -12.41
                          }
                         ]
                        },
@@ -2947,13 +2947,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                         "id": "overlay_31577B6A_3C37_DF7A_41CA_69C6508E3410",
                         "maps": [
                          {
-                          "hfov": 18.69,
-                          "yaw": -96.27,
+                          "hfov": 10.48,
+                          "yaw": -93.01,
                           "image": {
                            "levels": [
                             {
-                             "height": 98,
-                             "width": 130,
+                             "height": 57,
+                             "width": 73,
                              "url": "media/panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA_0_HS_18_0_0_map.gif",
                              "class": "ImageResourceLevel"
                             }
@@ -2961,7 +2961,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "class": "ImageResource"
                           },
                           "class": "HotspotPanoramaOverlayMap",
-                          "pitch": -4.02
+                          "pitch": -9.75
                          }
                         ],
                         "enabledInCardboard": true,
@@ -2969,28 +2969,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                         "areas": [
                          {
                           "mapColor": "#FF0000",
-                          "click": "this.startPanoramaWithCamera(this.panorama_0FDA2779_0673_2ABD_418B_39A919E068D4, this.camera_5D8219AE_4B73_C75B_4180_04A8F86DF9CD); this.mainPlayList.set('selectedIndex', 5)",
+                          "click": "this.startPanoramaWithCamera(this.panorama_0FDA2779_0673_2ABD_418B_39A919E068D4, this.camera_68B59C91_4B91_DD49_41B5_76EB5C999DBB); this.mainPlayList.set('selectedIndex', 5)",
                           "class": "HotspotPanoramaOverlayArea"
                          }
                         ],
                         "class": "HotspotPanoramaOverlay",
                         "items": [
                          {
-                          "yaw": -96.27,
+                          "yaw": -93.01,
                           "class": "HotspotPanoramaOverlayImage",
-                          "hfov": 18.69,
+                          "hfov": 10.48,
                           "image": {
                            "levels": [
                             {
-                             "height": 197,
-                             "width": 260,
+                             "height": 115,
+                             "width": 147,
                              "url": "media/panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA_0_HS_18_0.png",
                              "class": "ImageResourceLevel"
                             }
                            ],
                            "class": "ImageResource"
                           },
-                          "pitch": -4.02
+                          "pitch": -9.75
                          }
                         ]
                        },
@@ -2999,8 +2999,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                         "id": "overlay_31666916_3C37_D8AD_41BF_0E759A3A4B57",
                         "maps": [
                          {
-                          "hfov": 7.66,
-                          "yaw": 4.74,
+                          "hfov": 7.52,
+                          "yaw": 11.9,
                           "image": {
                            "levels": [
                             {
@@ -3013,7 +3013,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "class": "ImageResource"
                           },
                           "class": "HotspotPanoramaOverlayMap",
-                          "pitch": -2.68
+                          "pitch": -11.04
                          }
                         ],
                         "enabledInCardboard": true,
@@ -3021,16 +3021,16 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                         "areas": [
                          {
                           "mapColor": "#FF0000",
-                          "click": "this.startPanoramaWithCamera(this.panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F, this.camera_5D840990_4B73_C747_41D2_22E32EFCA581); this.mainPlayList.set('selectedIndex', 7)",
+                          "click": "this.startPanoramaWithCamera(this.panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F, this.camera_688C2C82_4B91_DD4B_41C0_DB7A34C554E1); this.mainPlayList.set('selectedIndex', 7)",
                           "class": "HotspotPanoramaOverlayArea"
                          }
                         ],
                         "class": "HotspotPanoramaOverlay",
                         "items": [
                          {
-                          "yaw": 4.74,
+                          "yaw": 11.9,
                           "class": "HotspotPanoramaOverlayImage",
-                          "hfov": 7.66,
+                          "hfov": 7.52,
                           "image": {
                            "levels": [
                             {
@@ -3042,7 +3042,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            ],
                            "class": "ImageResource"
                           },
-                          "pitch": -2.68
+                          "pitch": -11.04
                          }
                         ]
                        },
@@ -3051,8 +3051,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                         "id": "overlay_324F6236_3C36_48ED_419C_6AA2CE6648A0",
                         "maps": [
                          {
-                          "hfov": 6.56,
-                          "yaw": 156.92,
+                          "hfov": 6.5,
+                          "yaw": 161.1,
                           "image": {
                            "levels": [
                             {
@@ -3065,7 +3065,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "class": "ImageResource"
                           },
                           "class": "HotspotPanoramaOverlayMap",
-                          "pitch": -1.22
+                          "pitch": -7.81
                          }
                         ],
                         "enabledInCardboard": true,
@@ -3073,16 +3073,16 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                         "areas": [
                          {
                           "mapColor": "#FF0000",
-                          "click": "this.startPanoramaWithCamera(this.panorama_0FD82345_0671_EAD5_4173_8B63686C1397, this.camera_5D88397A_4B73_C7B8_41C6_9F3972A6884F); this.mainPlayList.set('selectedIndex', 15)",
+                          "click": "this.startPanoramaWithCamera(this.panorama_0FD82345_0671_EAD5_4173_8B63686C1397, this.camera_6885AC74_4B91_DDCF_41C7_1FBAEFDEC04C); this.mainPlayList.set('selectedIndex', 15)",
                           "class": "HotspotPanoramaOverlayArea"
                          }
                         ],
                         "class": "HotspotPanoramaOverlay",
                         "items": [
                          {
-                          "yaw": 156.92,
+                          "yaw": 161.1,
                           "class": "HotspotPanoramaOverlayImage",
-                          "hfov": 6.56,
+                          "hfov": 6.5,
                           "image": {
                            "levels": [
                             {
@@ -3094,7 +3094,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            ],
                            "class": "ImageResource"
                           },
-                          "pitch": -1.22
+                          "pitch": -7.81
                          }
                         ]
                        }
@@ -3133,7 +3133,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                          "class": "PanoramaMapLocation"
                         }
                        ],
-                       "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                       "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                        "partial": false,
                        "pitch": 0,
                        "thumbnailUrl": "media/panorama_0FD82345_0671_EAD5_4173_8B63686C1397_t.jpg",
@@ -3150,13 +3150,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "id": "overlay_3619F023_078F_1C5A_419A_DDBC83BEE9D1",
                            "maps": [
                             {
-                             "hfov": 8.18,
-                             "yaw": -174.7,
+                             "hfov": 4.64,
+                             "yaw": -172.02,
                              "image": {
                               "levels": [
                                {
                                 "height": 16,
-                                "width": 22,
+                                "width": 16,
                                 "url": "media/panorama_0FD82345_0671_EAD5_4173_8B63686C1397_0_HS_1_0_map.gif",
                                 "class": "ImageResourceLevel"
                                }
@@ -3164,7 +3164,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "class": "ImageResource"
                              },
                              "class": "HotspotPanoramaOverlayMap",
-                             "pitch": -8.9
+                             "pitch": -12.73
                             }
                            ],
                            "enabledInCardboard": true,
@@ -3178,21 +3178,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "class": "HotspotPanoramaOverlay",
                            "items": [
                             {
-                             "yaw": -174.7,
+                             "yaw": -172.02,
                              "class": "HotspotPanoramaOverlayImage",
-                             "hfov": 8.18,
+                             "hfov": 4.64,
                              "image": {
                               "levels": [
                                {
-                                "height": 80,
-                                "width": 114,
+                                "height": 68,
+                                "width": 66,
                                 "url": "media/panorama_0FD82345_0671_EAD5_4173_8B63686C1397_0_HS_1_0.png",
                                 "class": "ImageResourceLevel"
                                }
                               ],
                               "class": "ImageResource"
                              },
-                             "pitch": -8.9
+                             "pitch": -12.73
                             }
                            ]
                           },
@@ -3201,13 +3201,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "id": "overlay_33FE544D_0791_24EE_4186_5CC6F6EE735D",
                            "maps": [
                             {
-                             "hfov": 8.46,
-                             "yaw": -18.8,
+                             "hfov": 4.57,
+                             "yaw": -20.6,
                              "image": {
                               "levels": [
                                {
                                 "height": 16,
-                                "width": 26,
+                                "width": 17,
                                 "url": "media/panorama_0FD82345_0671_EAD5_4173_8B63686C1397_0_HS_3_0_map.gif",
                                 "class": "ImageResourceLevel"
                                }
@@ -3215,7 +3215,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "class": "ImageResource"
                              },
                              "class": "HotspotPanoramaOverlayMap",
-                             "pitch": -6.24
+                             "pitch": -11.37
                             }
                            ],
                            "enabledInCardboard": true,
@@ -3229,21 +3229,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "class": "HotspotPanoramaOverlay",
                            "items": [
                             {
-                             "yaw": -18.8,
+                             "yaw": -20.6,
                              "class": "HotspotPanoramaOverlayImage",
-                             "hfov": 8.46,
+                             "hfov": 4.57,
                              "image": {
                               "levels": [
                                {
-                                "height": 72,
-                                "width": 118,
+                                "height": 57,
+                                "width": 64,
                                 "url": "media/panorama_0FD82345_0671_EAD5_4173_8B63686C1397_0_HS_3_0.png",
                                 "class": "ImageResourceLevel"
                                }
                               ],
                               "class": "ImageResource"
                              },
-                             "pitch": -6.24
+                             "pitch": -11.37
                             }
                            ]
                           },
@@ -3252,13 +3252,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "id": "overlay_35DB4DB5_0791_27BE_4183_7C63065DE16E",
                            "maps": [
                             {
-                             "hfov": 6.94,
-                             "yaw": 114.19,
+                             "hfov": 4.2,
+                             "yaw": 102.12,
                              "image": {
                               "levels": [
                                {
                                 "height": 16,
-                                "width": 29,
+                                "width": 16,
                                 "url": "media/panorama_0FD82345_0671_EAD5_4173_8B63686C1397_0_HS_11_0_map.gif",
                                 "class": "ImageResourceLevel"
                                }
@@ -3266,7 +3266,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "class": "ImageResource"
                              },
                              "class": "HotspotPanoramaOverlayMap",
-                             "pitch": -6.29
+                             "pitch": -20.06
                             }
                            ],
                            "enabledInCardboard": true,
@@ -3280,21 +3280,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "class": "HotspotPanoramaOverlay",
                            "items": [
                             {
-                             "yaw": 114.19,
+                             "yaw": 102.12,
                              "class": "HotspotPanoramaOverlayImage",
-                             "hfov": 6.94,
+                             "hfov": 4.2,
                              "image": {
                               "levels": [
                                {
-                                "height": 52,
-                                "width": 97,
+                                "height": 60,
+                                "width": 62,
                                 "url": "media/panorama_0FD82345_0671_EAD5_4173_8B63686C1397_0_HS_11_0.png",
                                 "class": "ImageResourceLevel"
                                }
                               ],
                               "class": "ImageResource"
                              },
-                             "pitch": -6.29
+                             "pitch": -20.06
                             }
                            ]
                           },
@@ -3303,13 +3303,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "id": "overlay_3195499F_3C32_3BDA_41C9_4DAE277EAE88",
                            "maps": [
                             {
-                             "hfov": 11.08,
-                             "yaw": -174.64,
+                             "hfov": 5.05,
+                             "yaw": -171.89,
                              "image": {
                               "levels": [
                                {
-                                "height": 104,
-                                "width": 76,
+                                "height": 43,
+                                "width": 35,
                                 "url": "media/panorama_0FD82345_0671_EAD5_4173_8B63686C1397_0_HS_16_0_0_map.gif",
                                 "class": "ImageResourceLevel"
                                }
@@ -3317,7 +3317,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "class": "ImageResource"
                              },
                              "class": "HotspotPanoramaOverlayMap",
-                             "pitch": -1.2
+                             "pitch": -8.89
                             }
                            ],
                            "enabledInCardboard": true,
@@ -3325,28 +3325,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "areas": [
                             {
                              "mapColor": "#FF0000",
-                             "click": "this.startPanoramaWithCamera(this.panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894, this.camera_5C8327F5_4B73_CAC8_41CE_2BA7A582FAAC); this.mainPlayList.set('selectedIndex', 22)",
+                             "click": "this.startPanoramaWithCamera(this.panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894, this.camera_682C1B9D_4B91_DB79_41D2_56D549E177F6); this.mainPlayList.set('selectedIndex', 22)",
                              "class": "HotspotPanoramaOverlayArea"
                             }
                            ],
                            "class": "HotspotPanoramaOverlay",
                            "items": [
                             {
-                             "yaw": -174.64,
+                             "yaw": -171.89,
                              "class": "HotspotPanoramaOverlayImage",
-                             "hfov": 11.08,
+                             "hfov": 5.05,
                              "image": {
                               "levels": [
                                {
-                                "height": 208,
-                                "width": 153,
+                                "height": 87,
+                                "width": 71,
                                 "url": "media/panorama_0FD82345_0671_EAD5_4173_8B63686C1397_0_HS_16_0.png",
                                 "class": "ImageResourceLevel"
                                }
                               ],
                               "class": "ImageResource"
                              },
-                             "pitch": -1.2
+                             "pitch": -8.89
                             }
                            ]
                           },
@@ -3355,13 +3355,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "id": "overlay_31A28EB8_3C32_59E6_41CB_4E8D47D0B41B",
                            "maps": [
                             {
-                             "hfov": 6.46,
-                             "yaw": -18.92,
+                             "hfov": 5.12,
+                             "yaw": -20.3,
                              "image": {
                               "levels": [
                                {
-                                "height": 64,
-                                "width": 44,
+                                "height": 37,
+                                "width": 35,
                                 "url": "media/panorama_0FD82345_0671_EAD5_4173_8B63686C1397_0_HS_17_0_0_map.gif",
                                 "class": "ImageResourceLevel"
                                }
@@ -3369,7 +3369,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "class": "ImageResource"
                              },
                              "class": "HotspotPanoramaOverlayMap",
-                             "pitch": -1.79
+                             "pitch": -7.97
                             }
                            ],
                            "enabledInCardboard": true,
@@ -3377,28 +3377,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "areas": [
                             {
                              "mapColor": "#FF0000",
-                             "click": "this.startPanoramaWithCamera(this.panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA, this.camera_5C99C806_4B73_C548_41BB_30047BAD3DBE); this.mainPlayList.set('selectedIndex', 6)",
+                             "click": "this.startPanoramaWithCamera(this.panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA, this.camera_682ABBAC_4B91_DB5F_41BB_EDF83429BC55); this.mainPlayList.set('selectedIndex', 6)",
                              "class": "HotspotPanoramaOverlayArea"
                             }
                            ],
                            "class": "HotspotPanoramaOverlay",
                            "items": [
                             {
-                             "yaw": -18.92,
+                             "yaw": -20.3,
                              "class": "HotspotPanoramaOverlayImage",
-                             "hfov": 6.46,
+                             "hfov": 5.12,
                              "image": {
                               "levels": [
                                {
-                                "height": 129,
-                                "width": 89,
+                                "height": 75,
+                                "width": 71,
                                 "url": "media/panorama_0FD82345_0671_EAD5_4173_8B63686C1397_0_HS_17_0.png",
                                 "class": "ImageResourceLevel"
                                }
                               ],
                               "class": "ImageResource"
                              },
-                             "pitch": -1.79
+                             "pitch": -7.97
                             }
                            ]
                           },
@@ -3407,13 +3407,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "id": "overlay_326C1794_3C32_57AE_41C8_76690F8BD429",
                            "maps": [
                             {
-                             "hfov": 8.52,
-                             "yaw": 113.51,
+                             "hfov": 6.37,
+                             "yaw": 102.66,
                              "image": {
                               "levels": [
                                {
-                                "height": 67,
-                                "width": 59,
+                                "height": 49,
+                                "width": 45,
                                 "url": "media/panorama_0FD82345_0671_EAD5_4173_8B63686C1397_0_HS_18_0_0_map.gif",
                                 "class": "ImageResourceLevel"
                                }
@@ -3421,7 +3421,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "class": "ImageResource"
                              },
                              "class": "HotspotPanoramaOverlayMap",
-                             "pitch": -1.39
+                             "pitch": -15.81
                             }
                            ],
                            "enabledInCardboard": true,
@@ -3429,28 +3429,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                            "areas": [
                             {
                              "mapColor": "#FF0000",
-                             "click": "this.startPanoramaWithCamera(this.panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2, this.camera_5C94E824_4B73_C54F_41B2_FDCA9645AEB5); this.mainPlayList.set('selectedIndex', 16)",
+                             "click": "this.startPanoramaWithCamera(this.panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2, this.camera_68D65BBB_4B91_DAB9_41BD_BF35BB19C259); this.mainPlayList.set('selectedIndex', 16)",
                              "class": "HotspotPanoramaOverlayArea"
                             }
                            ],
                            "class": "HotspotPanoramaOverlay",
                            "items": [
                             {
-                             "yaw": 113.51,
+                             "yaw": 102.66,
                              "class": "HotspotPanoramaOverlayImage",
-                             "hfov": 8.52,
+                             "hfov": 6.37,
                              "image": {
                               "levels": [
                                {
-                                "height": 134,
-                                "width": 118,
+                                "height": 99,
+                                "width": 91,
                                 "url": "media/panorama_0FD82345_0671_EAD5_4173_8B63686C1397_0_HS_18_0.png",
                                 "class": "ImageResourceLevel"
                                }
                               ],
                               "class": "ImageResource"
                              },
-                             "pitch": -1.39
+                             "pitch": -15.81
                             }
                            ]
                           }
@@ -3489,7 +3489,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                             "class": "PanoramaMapLocation"
                            }
                           ],
-                          "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                          "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                           "partial": false,
                           "pitch": 0,
                           "thumbnailUrl": "media/panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894_t.jpg",
@@ -3506,13 +3506,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "id": "overlay_3348BEEF_07B7_25AA_4181_4163771F00E4",
                               "maps": [
                                {
-                                "hfov": 9.41,
-                                "yaw": 88.54,
+                                "hfov": 5.34,
+                                "yaw": 94.16,
                                 "image": {
                                  "levels": [
                                   {
                                    "height": 16,
-                                   "width": 30,
+                                   "width": 18,
                                    "url": "media/panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894_0_HS_1_0_map.gif",
                                    "class": "ImageResourceLevel"
                                   }
@@ -3520,7 +3520,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "class": "ImageResource"
                                 },
                                 "class": "HotspotPanoramaOverlayMap",
-                                "pitch": -11.24
+                                "pitch": -11.73
                                }
                               ],
                               "enabledInCardboard": true,
@@ -3534,21 +3534,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "class": "HotspotPanoramaOverlay",
                               "items": [
                                {
-                                "yaw": 88.54,
+                                "yaw": 94.16,
                                 "class": "HotspotPanoramaOverlayImage",
-                                "hfov": 9.41,
+                                "hfov": 5.34,
                                 "image": {
                                  "levels": [
                                   {
-                                   "height": 70,
-                                   "width": 133,
+                                   "height": 66,
+                                   "width": 75,
                                    "url": "media/panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894_0_HS_1_0.png",
                                    "class": "ImageResourceLevel"
                                   }
                                  ],
                                  "class": "ImageResource"
                                 },
-                                "pitch": -11.24
+                                "pitch": -11.73
                                }
                               ]
                              },
@@ -3557,13 +3557,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "id": "overlay_2AA8BEF2_07B1_25BA_417C_0F0A2C84C244",
                               "maps": [
                                {
-                                "hfov": 7.27,
-                                "yaw": -7.29,
+                                "hfov": 5.12,
+                                "yaw": -6.15,
                                 "image": {
                                  "levels": [
                                   {
                                    "height": 16,
-                                   "width": 21,
+                                   "width": 18,
                                    "url": "media/panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894_0_HS_3_0_map.gif",
                                    "class": "ImageResourceLevel"
                                   }
@@ -3571,7 +3571,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "class": "ImageResource"
                                 },
                                 "class": "HotspotPanoramaOverlayMap",
-                                "pitch": -4.21
+                                "pitch": -10.09
                                }
                               ],
                               "enabledInCardboard": true,
@@ -3585,21 +3585,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "class": "HotspotPanoramaOverlay",
                               "items": [
                                {
-                                "yaw": -7.29,
+                                "yaw": -6.15,
                                 "class": "HotspotPanoramaOverlayImage",
-                                "hfov": 7.27,
+                                "hfov": 5.12,
                                 "image": {
                                  "levels": [
                                   {
-                                   "height": 76,
-                                   "width": 101,
+                                   "height": 64,
+                                   "width": 72,
                                    "url": "media/panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894_0_HS_3_0.png",
                                    "class": "ImageResourceLevel"
                                   }
                                  ],
                                  "class": "ImageResource"
                                 },
-                                "pitch": -4.21
+                                "pitch": -10.09
                                }
                               ]
                              },
@@ -3608,13 +3608,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "id": "overlay_2C7EB04D_21FB_7ABB_4179_D08D1BA68999",
                               "maps": [
                                {
-                                "hfov": 11.22,
-                                "yaw": -168.6,
+                                "hfov": 6.69,
+                                "yaw": -163.1,
                                 "image": {
                                  "levels": [
                                   {
                                    "height": 16,
-                                   "width": 27,
+                                   "width": 17,
                                    "url": "media/panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894_0_HS_19_0_map.gif",
                                    "class": "ImageResourceLevel"
                                   }
@@ -3622,7 +3622,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "class": "ImageResource"
                                 },
                                 "class": "HotspotPanoramaOverlayMap",
-                                "pitch": -10.52
+                                "pitch": -10.49
                                }
                               ],
                               "enabledInCardboard": true,
@@ -3636,21 +3636,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "class": "HotspotPanoramaOverlay",
                               "items": [
                                {
-                                "yaw": -168.6,
+                                "yaw": -163.1,
                                 "class": "HotspotPanoramaOverlayImage",
-                                "hfov": 11.22,
+                                "hfov": 6.69,
                                 "image": {
                                  "levels": [
                                   {
-                                   "height": 93,
-                                   "width": 158,
+                                   "height": 86,
+                                   "width": 94,
                                    "url": "media/panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894_0_HS_19_0.png",
                                    "class": "ImageResourceLevel"
                                   }
                                  ],
                                  "class": "ImageResource"
                                 },
-                                "pitch": -10.52
+                                "pitch": -10.49
                                }
                               ]
                              },
@@ -3659,13 +3659,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "id": "overlay_3184A9AF_3C3E_5BFA_4193_1D078062DEF6",
                               "maps": [
                                {
-                                "hfov": 12.09,
-                                "yaw": -172.27,
+                                "hfov": 8.69,
+                                "yaw": -166.65,
                                 "image": {
                                  "levels": [
                                   {
-                                   "height": 79,
-                                   "width": 84,
+                                   "height": 61,
+                                   "width": 60,
                                    "url": "media/panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894_0_HS_20_0_0_map.gif",
                                    "class": "ImageResourceLevel"
                                   }
@@ -3673,7 +3673,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "class": "ImageResource"
                                 },
                                 "class": "HotspotPanoramaOverlayMap",
-                                "pitch": -4.19
+                                "pitch": -7.54
                                }
                               ],
                               "enabledInCardboard": true,
@@ -3681,28 +3681,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "areas": [
                                {
                                 "mapColor": "#FF0000",
-                                "click": "this.startPanoramaWithCamera(this.panorama_0FD82345_0671_EAD5_4173_8B63686C1397, this.camera_5DC73AA0_4B73_C547_41D2_74931861A78A); this.mainPlayList.set('selectedIndex', 15)",
+                                "click": "this.startPanoramaWithCamera(this.panorama_0FD82345_0671_EAD5_4173_8B63686C1397, this.camera_6F103D8F_4B91_DF59_41CA_E3657E4CD5C9); this.mainPlayList.set('selectedIndex', 15)",
                                 "class": "HotspotPanoramaOverlayArea"
                                }
                               ],
                               "class": "HotspotPanoramaOverlay",
                               "items": [
                                {
-                                "yaw": -172.27,
+                                "yaw": -166.65,
                                 "class": "HotspotPanoramaOverlayImage",
-                                "hfov": 12.09,
+                                "hfov": 8.69,
                                 "image": {
                                  "levels": [
                                   {
-                                   "height": 159,
-                                   "width": 168,
+                                   "height": 123,
+                                   "width": 121,
                                    "url": "media/panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894_0_HS_20_0.png",
                                    "class": "ImageResourceLevel"
                                   }
                                  ],
                                  "class": "ImageResource"
                                 },
-                                "pitch": -4.19
+                                "pitch": -7.54
                                }
                               ]
                              },
@@ -3711,13 +3711,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "id": "overlay_318F2744_3C3E_48AD_41CD_20BCB5DBAA95",
                               "maps": [
                                {
-                                "hfov": 12.01,
-                                "yaw": -6.68,
+                                "hfov": 6.54,
+                                "yaw": -6.24,
                                 "image": {
                                  "levels": [
                                   {
-                                   "height": 74,
-                                   "width": 83,
+                                   "height": 39,
+                                   "width": 45,
                                    "url": "media/panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894_0_HS_21_0_0_map.gif",
                                    "class": "ImageResourceLevel"
                                   }
@@ -3725,7 +3725,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "class": "ImageResource"
                                 },
                                 "class": "HotspotPanoramaOverlayMap",
-                                "pitch": 0.98
+                                "pitch": -6.57
                                }
                               ],
                               "enabledInCardboard": true,
@@ -3733,28 +3733,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "areas": [
                                {
                                 "mapColor": "#FF0000",
-                                "click": "this.startPanoramaWithCamera(this.panorama_0F84F19D_0671_6675_4191_5761B2287855, this.camera_5DDC7AB5_4B73_C548_41B6_36C46A009BD1); this.mainPlayList.set('selectedIndex', 18)",
+                                "click": "this.startPanoramaWithCamera(this.panorama_0F84F19D_0671_6675_4191_5761B2287855, this.camera_6F05CDA7_4B91_DF49_41B4_96E53A69F3D5); this.mainPlayList.set('selectedIndex', 18)",
                                 "class": "HotspotPanoramaOverlayArea"
                                }
                               ],
                               "class": "HotspotPanoramaOverlay",
                               "items": [
                                {
-                                "yaw": -6.68,
+                                "yaw": -6.24,
                                 "class": "HotspotPanoramaOverlayImage",
-                                "hfov": 12.01,
+                                "hfov": 6.54,
                                 "image": {
                                  "levels": [
                                   {
-                                   "height": 149,
-                                   "width": 166,
+                                   "height": 79,
+                                   "width": 91,
                                    "url": "media/panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894_0_HS_21_0.png",
                                    "class": "ImageResourceLevel"
                                   }
                                  ],
                                  "class": "ImageResource"
                                 },
-                                "pitch": 0.98
+                                "pitch": -6.57
                                }
                               ]
                              },
@@ -3763,13 +3763,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "id": "overlay_31A91C84_3C3D_D9AD_41C5_CD5CBB0A6D17",
                               "maps": [
                                {
-                                "hfov": 9.82,
-                                "yaw": 87.82,
+                                "hfov": 8.17,
+                                "yaw": 90.68,
                                 "image": {
                                  "levels": [
                                   {
-                                   "height": 96,
-                                   "width": 68,
+                                   "height": 62,
+                                   "width": 57,
                                    "url": "media/panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894_0_HS_22_0_0_map.gif",
                                    "class": "ImageResourceLevel"
                                   }
@@ -3777,7 +3777,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "class": "ImageResource"
                                 },
                                 "class": "HotspotPanoramaOverlayMap",
-                                "pitch": -4.77
+                                "pitch": -9.3
                                }
                               ],
                               "enabledInCardboard": true,
@@ -3785,28 +3785,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                               "areas": [
                                {
                                 "mapColor": "#FF0000",
-                                "click": "this.startPanoramaWithCamera(this.panorama_0FAACA9F_0671_3A75_4192_41B2767D1D67, this.camera_5DD4DAD0_4B73_DAC7_41C7_1CABFE890672); this.mainPlayList.set('selectedIndex', 21)",
+                                "click": "this.startPanoramaWithCamera(this.panorama_0FAACA9F_0671_3A75_4192_41B2767D1D67, this.camera_6F0A4DC7_4B91_DEC9_41C1_8C0D106A481C); this.mainPlayList.set('selectedIndex', 21)",
                                 "class": "HotspotPanoramaOverlayArea"
                                }
                               ],
                               "class": "HotspotPanoramaOverlay",
                               "items": [
                                {
-                                "yaw": 87.82,
+                                "yaw": 90.68,
                                 "class": "HotspotPanoramaOverlayImage",
-                                "hfov": 9.82,
+                                "hfov": 8.17,
                                 "image": {
                                  "levels": [
                                   {
-                                   "height": 192,
-                                   "width": 136,
+                                   "height": 124,
+                                   "width": 114,
                                    "url": "media/panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894_0_HS_22_0.png",
                                    "class": "ImageResourceLevel"
                                   }
                                  ],
                                  "class": "ImageResource"
                                 },
-                                "pitch": -4.77
+                                "pitch": -9.3
                                }
                               ]
                              }
@@ -3836,8 +3836,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                           "adjacentPanoramas": [
                            {
                             "panorama": "this.panorama_0FD82345_0671_EAD5_4173_8B63686C1397",
-                            "yaw": -172.27,
-                            "backwardYaw": -174.64,
+                            "yaw": -166.65,
+                            "backwardYaw": -171.89,
                             "class": "AdjacentPanorama",
                             "distance": 1
                            },
@@ -3852,7 +3852,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                "class": "PanoramaMapLocation"
                               }
                              ],
-                             "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                             "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                              "partial": false,
                              "pitch": 0,
                              "thumbnailUrl": "media/panorama_0F84F19D_0671_6675_4191_5761B2287855_t.jpg",
@@ -3869,13 +3869,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "id": "overlay_33D2C3E4_078F_23DE_417D_A6B689D41EEC",
                                  "maps": [
                                   {
-                                   "hfov": 8.31,
-                                   "yaw": 28.93,
+                                   "hfov": 5.09,
+                                   "yaw": 25.98,
                                    "image": {
                                     "levels": [
                                      {
                                       "height": 16,
-                                      "width": 25,
+                                      "width": 17,
                                       "url": "media/panorama_0F84F19D_0671_6675_4191_5761B2287855_0_HS_3_0_map.gif",
                                       "class": "ImageResourceLevel"
                                      }
@@ -3883,7 +3883,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "class": "ImageResource"
                                    },
                                    "class": "HotspotPanoramaOverlayMap",
-                                   "pitch": -13.39
+                                   "pitch": -12.36
                                   }
                                  ],
                                  "enabledInCardboard": true,
@@ -3897,21 +3897,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "class": "HotspotPanoramaOverlay",
                                  "items": [
                                   {
-                                   "yaw": 28.93,
+                                   "yaw": 25.98,
                                    "class": "HotspotPanoramaOverlayImage",
-                                   "hfov": 8.31,
+                                   "hfov": 5.09,
                                    "image": {
                                     "levels": [
                                      {
-                                      "height": 73,
-                                      "width": 118,
+                                      "height": 66,
+                                      "width": 72,
                                       "url": "media/panorama_0F84F19D_0671_6675_4191_5761B2287855_0_HS_3_0.png",
                                       "class": "ImageResourceLevel"
                                      }
                                     ],
                                     "class": "ImageResource"
                                    },
-                                   "pitch": -13.39
+                                   "pitch": -12.36
                                   }
                                  ]
                                 },
@@ -3920,13 +3920,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "id": "overlay_32A61C12_07F3_647A_4188_FF9DAE655EAC",
                                  "maps": [
                                   {
-                                   "hfov": 7.97,
-                                   "yaw": -54.01,
+                                   "hfov": 4.5,
+                                   "yaw": -35.88,
                                    "image": {
                                     "levels": [
                                      {
                                       "height": 16,
-                                      "width": 24,
+                                      "width": 17,
                                       "url": "media/panorama_0F84F19D_0671_6675_4191_5761B2287855_0_HS_7_0_map.gif",
                                       "class": "ImageResourceLevel"
                                      }
@@ -3934,7 +3934,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "class": "ImageResource"
                                    },
                                    "class": "HotspotPanoramaOverlayMap",
-                                   "pitch": -16.02
+                                   "pitch": -13.89
                                   }
                                  ],
                                  "enabledInCardboard": true,
@@ -3948,21 +3948,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "class": "HotspotPanoramaOverlay",
                                  "items": [
                                   {
-                                   "yaw": -54.01,
+                                   "yaw": -35.88,
                                    "class": "HotspotPanoramaOverlayImage",
-                                   "hfov": 7.97,
+                                   "hfov": 4.5,
                                    "image": {
                                     "levels": [
                                      {
-                                      "height": 76,
-                                      "width": 115,
+                                      "height": 57,
+                                      "width": 64,
                                       "url": "media/panorama_0F84F19D_0671_6675_4191_5761B2287855_0_HS_7_0.png",
                                       "class": "ImageResourceLevel"
                                      }
                                     ],
                                     "class": "ImageResource"
                                    },
-                                   "pitch": -16.02
+                                   "pitch": -13.89
                                   }
                                  ]
                                 },
@@ -3971,13 +3971,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "id": "overlay_0ADD07F7_12A8_C979_419E_40680DB583A7",
                                  "maps": [
                                   {
-                                   "hfov": 9.38,
-                                   "yaw": 168.89,
+                                   "hfov": 4.4,
+                                   "yaw": 177.68,
                                    "image": {
                                     "levels": [
                                      {
                                       "height": 16,
-                                      "width": 26,
+                                      "width": 17,
                                       "url": "media/panorama_0F84F19D_0671_6675_4191_5761B2287855_0_HS_15_0_map.gif",
                                       "class": "ImageResourceLevel"
                                      }
@@ -3985,7 +3985,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "class": "ImageResource"
                                    },
                                    "class": "HotspotPanoramaOverlayMap",
-                                   "pitch": -5.96
+                                   "pitch": -9.24
                                   }
                                  ],
                                  "enabledInCardboard": true,
@@ -3999,21 +3999,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "class": "HotspotPanoramaOverlay",
                                  "items": [
                                   {
-                                   "yaw": 168.89,
+                                   "yaw": 177.68,
                                    "class": "HotspotPanoramaOverlayImage",
-                                   "hfov": 9.38,
+                                   "hfov": 4.4,
                                    "image": {
                                     "levels": [
                                      {
-                                      "height": 80,
-                                      "width": 131,
+                                      "height": 56,
+                                      "width": 61,
                                       "url": "media/panorama_0F84F19D_0671_6675_4191_5761B2287855_0_HS_15_0.png",
                                       "class": "ImageResourceLevel"
                                      }
                                     ],
                                     "class": "ImageResource"
                                    },
-                                   "pitch": -5.96
+                                   "pitch": -9.24
                                   }
                                  ]
                                 },
@@ -4022,13 +4022,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "id": "overlay_318E48FC_3C3E_D95E_41C8_D67E6535535C",
                                  "maps": [
                                   {
-                                   "hfov": 16.61,
-                                   "yaw": -53.03,
+                                   "hfov": 10.88,
+                                   "yaw": -35.59,
                                    "image": {
                                     "levels": [
                                      {
-                                      "height": 111,
-                                      "width": 116,
+                                      "height": 53,
+                                      "width": 76,
                                       "url": "media/panorama_0F84F19D_0671_6675_4191_5761B2287855_0_HS_16_0_0_map.gif",
                                       "class": "ImageResourceLevel"
                                      }
@@ -4036,7 +4036,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "class": "ImageResource"
                                    },
                                    "class": "HotspotPanoramaOverlayMap",
-                                   "pitch": -8.19
+                                   "pitch": -9.84
                                   }
                                  ],
                                  "enabledInCardboard": true,
@@ -4044,28 +4044,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "areas": [
                                   {
                                    "mapColor": "#FF0000",
-                                   "click": "this.startPanoramaWithCamera(this.panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894, this.camera_5D97C9DD_4B73_C6F9_41B3_12CCA7212794); this.mainPlayList.set('selectedIndex', 22)",
+                                   "click": "this.startPanoramaWithCamera(this.panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894, this.camera_68A07CAF_4B91_DD59_41CA_43319CE3A0A0); this.mainPlayList.set('selectedIndex', 22)",
                                    "class": "HotspotPanoramaOverlayArea"
                                   }
                                  ],
                                  "class": "HotspotPanoramaOverlay",
                                  "items": [
                                   {
-                                   "yaw": -53.03,
+                                   "yaw": -35.59,
                                    "class": "HotspotPanoramaOverlayImage",
-                                   "hfov": 16.61,
+                                   "hfov": 10.88,
                                    "image": {
                                     "levels": [
                                      {
-                                      "height": 222,
-                                      "width": 233,
+                                      "height": 106,
+                                      "width": 153,
                                       "url": "media/panorama_0F84F19D_0671_6675_4191_5761B2287855_0_HS_16_0.png",
                                       "class": "ImageResourceLevel"
                                      }
                                     ],
                                     "class": "ImageResource"
                                    },
-                                   "pitch": -8.19
+                                   "pitch": -9.84
                                   }
                                  ]
                                 },
@@ -4074,13 +4074,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "id": "overlay_31EDADC4_3C3E_3BAD_41AB_C9F7B53B7D40",
                                  "maps": [
                                   {
-                                   "hfov": 13.33,
-                                   "yaw": 24.89,
+                                   "hfov": 9.26,
+                                   "yaw": 22.7,
                                    "image": {
                                     "levels": [
                                      {
-                                      "height": 115,
-                                      "width": 93,
+                                      "height": 56,
+                                      "width": 65,
                                       "url": "media/panorama_0F84F19D_0671_6675_4191_5761B2287855_0_HS_17_0_0_map.gif",
                                       "class": "ImageResourceLevel"
                                      }
@@ -4088,7 +4088,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "class": "ImageResource"
                                    },
                                    "class": "HotspotPanoramaOverlayMap",
-                                   "pitch": -8.66
+                                   "pitch": -9.63
                                   }
                                  ],
                                  "enabledInCardboard": true,
@@ -4096,28 +4096,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "areas": [
                                   {
                                    "mapColor": "#FF0000",
-                                   "click": "this.startPanoramaWithCamera(this.panorama_0FDFB3D8_0671_29FB_4184_5CA02F7358EC, this.camera_5D9829C1_4B73_C6C8_41D0_07C00E4448A9); this.mainPlayList.set('selectedIndex', 17)",
+                                   "click": "this.startPanoramaWithCamera(this.panorama_0FDFB3D8_0671_29FB_4184_5CA02F7358EC, this.camera_68BF8CA0_4B91_DD47_41D0_28ACA91FD48F); this.mainPlayList.set('selectedIndex', 17)",
                                    "class": "HotspotPanoramaOverlayArea"
                                   }
                                  ],
                                  "class": "HotspotPanoramaOverlay",
                                  "items": [
                                   {
-                                   "yaw": 24.89,
+                                   "yaw": 22.7,
                                    "class": "HotspotPanoramaOverlayImage",
-                                   "hfov": 13.33,
+                                   "hfov": 9.26,
                                    "image": {
                                     "levels": [
                                      {
-                                      "height": 230,
-                                      "width": 187,
+                                      "height": 113,
+                                      "width": 130,
                                       "url": "media/panorama_0F84F19D_0671_6675_4191_5761B2287855_0_HS_17_0.png",
                                       "class": "ImageResourceLevel"
                                      }
                                     ],
                                     "class": "ImageResource"
                                    },
-                                   "pitch": -8.66
+                                   "pitch": -9.63
                                   }
                                  ]
                                 },
@@ -4126,13 +4126,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "id": "overlay_297A31D6_3CE7_18C9_41C7_8645573E8D7F",
                                  "maps": [
                                   {
-                                   "hfov": 12.81,
-                                   "yaw": 165.15,
+                                   "hfov": 6.73,
+                                   "yaw": 174.91,
                                    "image": {
                                     "levels": [
                                      {
-                                      "height": 107,
-                                      "width": 88,
+                                      "height": 54,
+                                      "width": 47,
                                       "url": "media/panorama_0F84F19D_0671_6675_4191_5761B2287855_0_HS_18_0_0_map.gif",
                                       "class": "ImageResourceLevel"
                                      }
@@ -4140,7 +4140,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "class": "ImageResource"
                                    },
                                    "class": "HotspotPanoramaOverlayMap",
-                                   "pitch": 0.78
+                                   "pitch": -7.25
                                   }
                                  ],
                                  "enabledInCardboard": true,
@@ -4148,28 +4148,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "areas": [
                                   {
                                    "mapColor": "#FF0000",
-                                   "click": "this.startPanoramaWithCamera(this.panorama_0FDE1F49_0671_7ADD_4191_EF61FA36243D, this.camera_5D92B9F6_4B73_C6C8_41C5_A5B68668916A); this.mainPlayList.set('selectedIndex', 19)",
+                                   "click": "this.startPanoramaWithCamera(this.panorama_0FDE1F49_0671_7ADD_4191_EF61FA36243D, this.camera_68AAFCBD_4B91_DEB9_41A6_7DCAF8FF4A3B); this.mainPlayList.set('selectedIndex', 19)",
                                    "class": "HotspotPanoramaOverlayArea"
                                   }
                                  ],
                                  "class": "HotspotPanoramaOverlay",
                                  "items": [
                                   {
-                                   "yaw": 165.15,
+                                   "yaw": 174.91,
                                    "class": "HotspotPanoramaOverlayImage",
-                                   "hfov": 12.81,
+                                   "hfov": 6.73,
                                    "image": {
                                     "levels": [
                                      {
-                                      "height": 214,
-                                      "width": 177,
+                                      "height": 109,
+                                      "width": 94,
                                       "url": "media/panorama_0F84F19D_0671_6675_4191_5761B2287855_0_HS_18_0.png",
                                       "class": "ImageResourceLevel"
                                      }
                                     ],
                                     "class": "ImageResource"
                                    },
-                                   "pitch": 0.78
+                                   "pitch": -7.25
                                   }
                                  ]
                                 }
@@ -4208,7 +4208,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                   "class": "PanoramaMapLocation"
                                  }
                                 ],
-                                "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                                "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                                 "partial": false,
                                 "pitch": 0,
                                 "thumbnailUrl": "media/panorama_0FDFB3D8_0671_29FB_4184_5CA02F7358EC_t.jpg",
@@ -4225,13 +4225,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "id": "overlay_3F187E51_07F3_24F6_4184_039DFE14256A",
                                     "maps": [
                                      {
-                                      "hfov": 7.99,
-                                      "yaw": -143.5,
+                                      "hfov": 4.49,
+                                      "yaw": -164.14,
                                       "image": {
                                        "levels": [
                                         {
                                          "height": 16,
-                                         "width": 25,
+                                         "width": 17,
                                          "url": "media/panorama_0FDFB3D8_0671_29FB_4184_5CA02F7358EC_0_HS_5_0_map.gif",
                                          "class": "ImageResourceLevel"
                                         }
@@ -4239,7 +4239,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "class": "ImageResource"
                                       },
                                       "class": "HotspotPanoramaOverlayMap",
-                                      "pitch": -6.13
+                                      "pitch": -14.8
                                      }
                                     ],
                                     "enabledInCardboard": true,
@@ -4253,21 +4253,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "class": "HotspotPanoramaOverlay",
                                     "items": [
                                      {
-                                      "yaw": -143.5,
+                                      "yaw": -164.14,
                                       "class": "HotspotPanoramaOverlayImage",
-                                      "hfov": 7.99,
+                                      "hfov": 4.49,
                                       "image": {
                                        "levels": [
                                         {
-                                         "height": 69,
-                                         "width": 111,
+                                         "height": 57,
+                                         "width": 64,
                                          "url": "media/panorama_0FDFB3D8_0671_29FB_4184_5CA02F7358EC_0_HS_5_0.png",
                                          "class": "ImageResourceLevel"
                                         }
                                        ],
                                        "class": "ImageResource"
                                       },
-                                      "pitch": -6.13
+                                      "pitch": -14.8
                                      }
                                     ]
                                    },
@@ -4276,13 +4276,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "id": "overlay_3B75B8EC_07F7_6DAE_4194_C7A60FEE48CD",
                                     "maps": [
                                      {
-                                      "hfov": 7.72,
-                                      "yaw": 7.47,
+                                      "hfov": 4.89,
+                                      "yaw": 2.76,
                                       "image": {
                                        "levels": [
                                         {
                                          "height": 16,
-                                         "width": 26,
+                                         "width": 17,
                                          "url": "media/panorama_0FDFB3D8_0671_29FB_4184_5CA02F7358EC_0_HS_7_0_map.gif",
                                          "class": "ImageResourceLevel"
                                         }
@@ -4290,7 +4290,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "class": "ImageResource"
                                       },
                                       "class": "HotspotPanoramaOverlayMap",
-                                      "pitch": -4.9
+                                      "pitch": -12.9
                                      }
                                     ],
                                     "enabledInCardboard": true,
@@ -4304,21 +4304,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "class": "HotspotPanoramaOverlay",
                                     "items": [
                                      {
-                                      "yaw": 7.47,
+                                      "yaw": 2.76,
                                       "class": "HotspotPanoramaOverlayImage",
-                                      "hfov": 7.72,
+                                      "hfov": 4.89,
                                       "image": {
                                        "levels": [
                                         {
-                                         "height": 65,
-                                         "width": 107,
+                                         "height": 62,
+                                         "width": 69,
                                          "url": "media/panorama_0FDFB3D8_0671_29FB_4184_5CA02F7358EC_0_HS_7_0.png",
                                          "class": "ImageResourceLevel"
                                         }
                                        ],
                                        "class": "ImageResource"
                                       },
-                                      "pitch": -4.9
+                                      "pitch": -12.9
                                      }
                                     ]
                                    },
@@ -4327,13 +4327,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "id": "overlay_31FF256B_3C3E_4B7A_41C4_007A0322B0E3",
                                     "maps": [
                                      {
-                                      "hfov": 10.6,
-                                      "yaw": 7.69,
+                                      "hfov": 6.63,
+                                      "yaw": 3.13,
                                       "image": {
                                        "levels": [
                                         {
-                                         "height": 76,
-                                         "width": 73,
+                                         "height": 38,
+                                         "width": 46,
                                          "url": "media/panorama_0FDFB3D8_0671_29FB_4184_5CA02F7358EC_0_HS_16_0_0_map.gif",
                                          "class": "ImageResourceLevel"
                                         }
@@ -4341,7 +4341,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "class": "ImageResource"
                                       },
                                       "class": "HotspotPanoramaOverlayMap",
-                                      "pitch": 0.41
+                                      "pitch": -9.38
                                      }
                                     ],
                                     "enabledInCardboard": true,
@@ -4349,28 +4349,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "areas": [
                                      {
                                       "mapColor": "#FF0000",
-                                      "click": "this.startPanoramaWithCamera(this.panorama_0F84F19D_0671_6675_4191_5761B2287855, this.camera_5D70D946_4B73_C7C8_41B3_E570470F23B8); this.mainPlayList.set('selectedIndex', 18)",
+                                      "click": "this.startPanoramaWithCamera(this.panorama_0F84F19D_0671_6675_4191_5761B2287855, this.camera_6895FC56_4B91_DDCB_41B1_2230FDB102FC); this.mainPlayList.set('selectedIndex', 18)",
                                       "class": "HotspotPanoramaOverlayArea"
                                      }
                                     ],
                                     "class": "HotspotPanoramaOverlay",
                                     "items": [
                                      {
-                                      "yaw": 7.69,
+                                      "yaw": 3.13,
                                       "class": "HotspotPanoramaOverlayImage",
-                                      "hfov": 10.6,
+                                      "hfov": 6.63,
                                       "image": {
                                        "levels": [
                                         {
-                                         "height": 152,
-                                         "width": 147,
+                                         "height": 76,
+                                         "width": 93,
                                          "url": "media/panorama_0FDFB3D8_0671_29FB_4184_5CA02F7358EC_0_HS_16_0.png",
                                          "class": "ImageResourceLevel"
                                         }
                                        ],
                                        "class": "ImageResource"
                                       },
-                                      "pitch": 0.41
+                                      "pitch": -9.38
                                      }
                                     ]
                                    },
@@ -4379,13 +4379,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "id": "overlay_31FA7D5A_3C3E_5B5A_41CB_09D056C34B23",
                                     "maps": [
                                      {
-                                      "hfov": 11.58,
-                                      "yaw": -143.45,
+                                      "hfov": 3.89,
+                                      "yaw": -163.62,
                                       "image": {
                                        "levels": [
                                         {
-                                         "height": 97,
-                                         "width": 80,
+                                         "height": 41,
+                                         "width": 27,
                                          "url": "media/panorama_0FDFB3D8_0671_29FB_4184_5CA02F7358EC_0_HS_17_0_0_map.gif",
                                          "class": "ImageResourceLevel"
                                         }
@@ -4393,7 +4393,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "class": "ImageResource"
                                       },
                                       "class": "HotspotPanoramaOverlayMap",
-                                      "pitch": 0.45
+                                      "pitch": -11.22
                                      }
                                     ],
                                     "enabledInCardboard": true,
@@ -4401,28 +4401,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "areas": [
                                      {
                                       "mapColor": "#FF0000",
-                                      "click": "this.startPanoramaWithCamera(this.panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2, this.camera_5D74392F_4B73_C759_41CB_68CC5437DD01); this.mainPlayList.set('selectedIndex', 16)",
+                                      "click": "this.startPanoramaWithCamera(this.panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2, this.camera_68ED1C48_4B91_DDC7_41B2_1B77B39E8C5A); this.mainPlayList.set('selectedIndex', 16)",
                                       "class": "HotspotPanoramaOverlayArea"
                                      }
                                     ],
                                     "class": "HotspotPanoramaOverlay",
                                     "items": [
                                      {
-                                      "yaw": -143.45,
+                                      "yaw": -163.62,
                                       "class": "HotspotPanoramaOverlayImage",
-                                      "hfov": 11.58,
+                                      "hfov": 3.89,
                                       "image": {
                                        "levels": [
                                         {
-                                         "height": 195,
-                                         "width": 160,
+                                         "height": 82,
+                                         "width": 55,
                                          "url": "media/panorama_0FDFB3D8_0671_29FB_4184_5CA02F7358EC_0_HS_17_0.png",
                                          "class": "ImageResourceLevel"
                                         }
                                        ],
                                        "class": "ImageResource"
                                       },
-                                      "pitch": 0.45
+                                      "pitch": -11.22
                                      }
                                     ]
                                    }
@@ -4461,7 +4461,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                      "class": "PanoramaMapLocation"
                                     }
                                    ],
-                                   "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                                   "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                                    "partial": false,
                                    "pitch": 0,
                                    "thumbnailUrl": "media/panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2_t.jpg",
@@ -4478,13 +4478,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "id": "overlay_469A773A_0791_24AA_4191_D2BE6DDF9602",
                                        "maps": [
                                         {
-                                         "hfov": 6.78,
-                                         "yaw": 25.2,
+                                         "hfov": 5.02,
+                                         "yaw": 37.06,
                                          "image": {
                                           "levels": [
                                            {
                                             "height": 16,
-                                            "width": 24,
+                                            "width": 19,
                                             "url": "media/panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2_0_HS_3_0_map.gif",
                                             "class": "ImageResourceLevel"
                                            }
@@ -4492,7 +4492,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "class": "ImageResource"
                                          },
                                          "class": "HotspotPanoramaOverlayMap",
-                                         "pitch": -7.06
+                                         "pitch": -12.94
                                         }
                                        ],
                                        "enabledInCardboard": true,
@@ -4506,21 +4506,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "class": "HotspotPanoramaOverlay",
                                        "items": [
                                         {
-                                         "yaw": 25.2,
+                                         "yaw": 37.06,
                                          "class": "HotspotPanoramaOverlayImage",
-                                         "hfov": 6.78,
+                                         "hfov": 5.02,
                                          "image": {
                                           "levels": [
                                            {
-                                            "height": 62,
-                                            "width": 94,
+                                            "height": 59,
+                                            "width": 71,
                                             "url": "media/panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2_0_HS_3_0.png",
                                             "class": "ImageResourceLevel"
                                            }
                                           ],
                                           "class": "ImageResource"
                                          },
-                                         "pitch": -7.06
+                                         "pitch": -12.94
                                         }
                                        ]
                                       },
@@ -4529,13 +4529,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "id": "overlay_41D6FB68_0797_6CD6_417A_18E907D050C5",
                                        "maps": [
                                         {
-                                         "hfov": 7.37,
-                                         "yaw": 153.29,
+                                         "hfov": 4.37,
+                                         "yaw": 157.58,
                                          "image": {
                                           "levels": [
                                            {
                                             "height": 16,
-                                            "width": 28,
+                                            "width": 18,
                                             "url": "media/panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2_0_HS_5_0_map.gif",
                                             "class": "ImageResourceLevel"
                                            }
@@ -4543,7 +4543,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "class": "ImageResource"
                                          },
                                          "class": "HotspotPanoramaOverlayMap",
-                                         "pitch": -10.96
+                                         "pitch": -10.99
                                         }
                                        ],
                                        "enabledInCardboard": true,
@@ -4557,21 +4557,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "class": "HotspotPanoramaOverlay",
                                        "items": [
                                         {
-                                         "yaw": 153.29,
+                                         "yaw": 157.58,
                                          "class": "HotspotPanoramaOverlayImage",
-                                         "hfov": 7.37,
+                                         "hfov": 4.37,
                                          "image": {
                                           "levels": [
                                            {
-                                            "height": 58,
-                                            "width": 104,
+                                            "height": 54,
+                                            "width": 61,
                                             "url": "media/panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2_0_HS_5_0.png",
                                             "class": "ImageResourceLevel"
                                            }
                                           ],
                                           "class": "ImageResource"
                                          },
-                                         "pitch": -10.96
+                                         "pitch": -10.99
                                         }
                                        ]
                                       },
@@ -4580,13 +4580,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "id": "overlay_43AEE268_0791_1CD6_4190_956303B44CDE",
                                        "maps": [
                                         {
-                                         "hfov": 9.3,
-                                         "yaw": -107.29,
+                                         "hfov": 4.58,
+                                         "yaw": -89.67,
                                          "image": {
                                           "levels": [
                                            {
                                             "height": 16,
-                                            "width": 28,
+                                            "width": 17,
                                             "url": "media/panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2_0_HS_11_0_map.gif",
                                             "class": "ImageResourceLevel"
                                            }
@@ -4594,7 +4594,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "class": "ImageResource"
                                          },
                                          "class": "HotspotPanoramaOverlayMap",
-                                         "pitch": -8.27
+                                         "pitch": -12.4
                                         }
                                        ],
                                        "enabledInCardboard": true,
@@ -4608,21 +4608,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "class": "HotspotPanoramaOverlay",
                                        "items": [
                                         {
-                                         "yaw": -107.29,
+                                         "yaw": -89.67,
                                          "class": "HotspotPanoramaOverlayImage",
-                                         "hfov": 9.3,
+                                         "hfov": 4.58,
                                          "image": {
                                           "levels": [
                                            {
-                                            "height": 73,
-                                            "width": 130,
+                                            "height": 59,
+                                            "width": 65,
                                             "url": "media/panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2_0_HS_11_0.png",
                                             "class": "ImageResourceLevel"
                                            }
                                           ],
                                           "class": "ImageResource"
                                          },
-                                         "pitch": -8.27
+                                         "pitch": -12.4
                                         }
                                        ]
                                       },
@@ -4631,13 +4631,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "id": "overlay_31813653_3C3D_C8AA_4193_CAA24AD6D388",
                                        "maps": [
                                         {
-                                         "hfov": 8.92,
-                                         "yaw": -107.62,
+                                         "hfov": 6.98,
+                                         "yaw": -92.4,
                                          "image": {
                                           "levels": [
                                            {
-                                            "height": 80,
-                                            "width": 61,
+                                            "height": 63,
+                                            "width": 49,
                                             "url": "media/panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2_0_HS_16_0_0_map.gif",
                                             "class": "ImageResourceLevel"
                                            }
@@ -4645,7 +4645,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "class": "ImageResource"
                                          },
                                          "class": "HotspotPanoramaOverlayMap",
-                                         "pitch": -2.5
+                                         "pitch": -10.13
                                         }
                                        ],
                                        "enabledInCardboard": true,
@@ -4653,28 +4653,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "areas": [
                                         {
                                          "mapColor": "#FF0000",
-                                         "click": "this.startPanoramaWithCamera(this.panorama_0FD82345_0671_EAD5_4173_8B63686C1397, this.camera_5CBC6888_4B73_C558_41AF_9B0BC9A031A1); this.mainPlayList.set('selectedIndex', 15)",
+                                         "click": "this.startPanoramaWithCamera(this.panorama_0FD82345_0671_EAD5_4173_8B63686C1397, this.camera_68CEDBFD_4B91_DAB8_41D1_B9CBF1ED5E63); this.mainPlayList.set('selectedIndex', 15)",
                                          "class": "HotspotPanoramaOverlayArea"
                                         }
                                        ],
                                        "class": "HotspotPanoramaOverlay",
                                        "items": [
                                         {
-                                         "yaw": -107.62,
+                                         "yaw": -92.4,
                                          "class": "HotspotPanoramaOverlayImage",
-                                         "hfov": 8.92,
+                                         "hfov": 6.98,
                                          "image": {
                                           "levels": [
                                            {
-                                            "height": 161,
-                                            "width": 123,
+                                            "height": 126,
+                                            "width": 98,
                                             "url": "media/panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2_0_HS_16_0.png",
                                             "class": "ImageResourceLevel"
                                            }
                                           ],
                                           "class": "ImageResource"
                                          },
-                                         "pitch": -2.5
+                                         "pitch": -10.13
                                         }
                                        ]
                                       },
@@ -4683,13 +4683,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "id": "overlay_318BEE4E_3C3D_F8BA_41C0_DB0A84F563D6",
                                        "maps": [
                                         {
-                                         "hfov": 11.57,
-                                         "yaw": 152.96,
+                                         "hfov": 7.19,
+                                         "yaw": 154.95,
                                          "image": {
                                           "levels": [
                                            {
-                                            "height": 110,
-                                            "width": 80,
+                                            "height": 52,
+                                            "width": 50,
                                             "url": "media/panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2_0_HS_17_0_0_map.gif",
                                             "class": "ImageResourceLevel"
                                            }
@@ -4697,7 +4697,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "class": "ImageResource"
                                          },
                                          "class": "HotspotPanoramaOverlayMap",
-                                         "pitch": -3.67
+                                         "pitch": -8.9
                                         }
                                        ],
                                        "enabledInCardboard": true,
@@ -4705,28 +4705,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "areas": [
                                         {
                                          "mapColor": "#FF0000",
-                                         "click": "this.startPanoramaWithCamera(this.panorama_0FDFB3D8_0671_29FB_4184_5CA02F7358EC, this.camera_5CBB689F_4B73_C579_41AC_C2CB933D4AFE); this.mainPlayList.set('selectedIndex', 17)",
+                                         "click": "this.startPanoramaWithCamera(this.panorama_0FDFB3D8_0671_29FB_4184_5CA02F7358EC, this.camera_68CBBC0C_4B91_DD59_41C9_8303ED5475B5); this.mainPlayList.set('selectedIndex', 17)",
                                          "class": "HotspotPanoramaOverlayArea"
                                         }
                                        ],
                                        "class": "HotspotPanoramaOverlay",
                                        "items": [
                                         {
-                                         "yaw": 152.96,
+                                         "yaw": 154.95,
                                          "class": "HotspotPanoramaOverlayImage",
-                                         "hfov": 11.57,
+                                         "hfov": 7.19,
                                          "image": {
                                           "levels": [
                                            {
-                                            "height": 221,
-                                            "width": 160,
+                                            "height": 104,
+                                            "width": 101,
                                             "url": "media/panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2_0_HS_17_0.png",
                                             "class": "ImageResourceLevel"
                                            }
                                           ],
                                           "class": "ImageResource"
                                          },
-                                         "pitch": -3.67
+                                         "pitch": -8.9
                                         }
                                        ]
                                       },
@@ -4735,13 +4735,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "id": "overlay_326062D4_3C3D_C9AE_41C8_820B84085DB2",
                                        "maps": [
                                         {
-                                         "hfov": 11.11,
-                                         "yaw": 25.67,
+                                         "hfov": 8.42,
+                                         "yaw": 33.58,
                                          "image": {
                                           "levels": [
                                            {
-                                            "height": 85,
-                                            "width": 77,
+                                            "height": 65,
+                                            "width": 59,
                                             "url": "media/panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2_0_HS_18_0_0_map.gif",
                                             "class": "ImageResourceLevel"
                                            }
@@ -4749,7 +4749,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "class": "ImageResource"
                                          },
                                          "class": "HotspotPanoramaOverlayMap",
-                                         "pitch": -1.26
+                                         "pitch": -10.09
                                         }
                                        ],
                                        "enabledInCardboard": true,
@@ -4757,28 +4757,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "areas": [
                                         {
                                          "mapColor": "#FF0000",
-                                         "click": "this.startPanoramaWithCamera(this.panorama_0FD9C056_0671_26F6_418B_F405A95C2C53, this.camera_5CB378B3_4B73_C549_41D1_264960D8BE30); this.mainPlayList.set('selectedIndex', 9)",
+                                         "click": "this.startPanoramaWithCamera(this.panorama_0FD9C056_0671_26F6_418B_F405A95C2C53, this.camera_68F13C1C_4B91_DD7F_41B4_11E125F11DBD); this.mainPlayList.set('selectedIndex', 9)",
                                          "class": "HotspotPanoramaOverlayArea"
                                         }
                                        ],
                                        "class": "HotspotPanoramaOverlay",
                                        "items": [
                                         {
-                                         "yaw": 25.67,
+                                         "yaw": 33.58,
                                          "class": "HotspotPanoramaOverlayImage",
-                                         "hfov": 11.11,
+                                         "hfov": 8.42,
                                          "image": {
                                           "levels": [
                                            {
-                                            "height": 170,
-                                            "width": 154,
+                                            "height": 131,
+                                            "width": 118,
                                             "url": "media/panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2_0_HS_18_0.png",
                                             "class": "ImageResourceLevel"
                                            }
                                           ],
                                           "class": "ImageResource"
                                          },
-                                         "pitch": -1.26
+                                         "pitch": -10.09
                                         }
                                        ]
                                       }
@@ -4808,15 +4808,15 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                    "adjacentPanoramas": [
                                     {
                                      "panorama": "this.panorama_0FD82345_0671_EAD5_4173_8B63686C1397",
-                                     "yaw": -107.62,
-                                     "backwardYaw": 113.51,
+                                     "yaw": -92.4,
+                                     "backwardYaw": 102.66,
                                      "class": "AdjacentPanorama",
                                      "distance": 1
                                     },
                                     {
                                      "panorama": "this.panorama_0FDFB3D8_0671_29FB_4184_5CA02F7358EC",
-                                     "yaw": 152.96,
-                                     "backwardYaw": -143.45,
+                                     "yaw": 154.95,
+                                     "backwardYaw": -163.62,
                                      "class": "AdjacentPanorama",
                                      "distance": 1
                                     },
@@ -4831,7 +4831,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                         "class": "PanoramaMapLocation"
                                        }
                                       ],
-                                      "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                                      "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                                       "partial": false,
                                       "pitch": 0,
                                       "thumbnailUrl": "media/panorama_0FD9C056_0671_26F6_418B_F405A95C2C53_t.jpg",
@@ -4848,13 +4848,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "id": "overlay_1AA3E219_0690_FC76_4175_20A3657C4FB3",
                                           "maps": [
                                            {
-                                            "hfov": 11.22,
-                                            "yaw": -0.63,
+                                            "hfov": 5.22,
+                                            "yaw": -1.65,
                                             "image": {
                                              "levels": [
                                               {
                                                "height": 16,
-                                               "width": 23,
+                                               "width": 16,
                                                "url": "media/panorama_0FD9C056_0671_26F6_418B_F405A95C2C53_0_HS_1_0_map.gif",
                                                "class": "ImageResourceLevel"
                                               }
@@ -4862,7 +4862,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "class": "ImageResource"
                                             },
                                             "class": "HotspotPanoramaOverlayMap",
-                                            "pitch": -13.75
+                                            "pitch": -17.46
                                            }
                                           ],
                                           "enabledInCardboard": true,
@@ -4876,21 +4876,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "class": "HotspotPanoramaOverlay",
                                           "items": [
                                            {
-                                            "yaw": -0.63,
+                                            "yaw": -1.65,
                                             "class": "HotspotPanoramaOverlayImage",
-                                            "hfov": 11.22,
+                                            "hfov": 5.22,
                                             "image": {
                                              "levels": [
                                               {
-                                               "height": 111,
-                                               "width": 160,
+                                               "height": 75,
+                                               "width": 76,
                                                "url": "media/panorama_0FD9C056_0671_26F6_418B_F405A95C2C53_0_HS_1_0.png",
                                                "class": "ImageResourceLevel"
                                               }
                                              ],
                                              "class": "ImageResource"
                                             },
-                                            "pitch": -13.75
+                                            "pitch": -17.46
                                            }
                                           ]
                                          },
@@ -4899,13 +4899,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "id": "overlay_19A3F664_0691_64DE_4190_3B68066071FF",
                                           "maps": [
                                            {
-                                            "hfov": 8.33,
-                                            "yaw": -143.14,
+                                            "hfov": 4.69,
+                                            "yaw": -134.31,
                                             "image": {
                                              "levels": [
                                               {
                                                "height": 16,
-                                               "width": 25,
+                                               "width": 16,
                                                "url": "media/panorama_0FD9C056_0671_26F6_418B_F405A95C2C53_0_HS_5_0_map.gif",
                                                "class": "ImageResourceLevel"
                                               }
@@ -4913,7 +4913,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "class": "ImageResource"
                                             },
                                             "class": "HotspotPanoramaOverlayMap",
-                                            "pitch": -10.7
+                                            "pitch": -11.12
                                            }
                                           ],
                                           "enabledInCardboard": true,
@@ -4927,21 +4927,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "class": "HotspotPanoramaOverlay",
                                           "items": [
                                            {
-                                            "yaw": -143.14,
+                                            "yaw": -134.31,
                                             "class": "HotspotPanoramaOverlayImage",
-                                            "hfov": 8.33,
+                                            "hfov": 4.69,
                                             "image": {
                                              "levels": [
                                               {
-                                               "height": 73,
-                                               "width": 117,
+                                               "height": 66,
+                                               "width": 66,
                                                "url": "media/panorama_0FD9C056_0671_26F6_418B_F405A95C2C53_0_HS_5_0.png",
                                                "class": "ImageResourceLevel"
                                               }
                                              ],
                                              "class": "ImageResource"
                                             },
-                                            "pitch": -10.7
+                                            "pitch": -11.12
                                            }
                                           ]
                                          },
@@ -4950,13 +4950,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "id": "overlay_1B759D4A_0691_24EA_4156_A2B44DC73C69",
                                           "maps": [
                                            {
-                                            "hfov": 8.38,
-                                            "yaw": 81.59,
+                                            "hfov": 5.91,
+                                            "yaw": 77.32,
                                             "image": {
                                              "levels": [
                                               {
                                                "height": 16,
-                                               "width": 21,
+                                               "width": 17,
                                                "url": "media/panorama_0FD9C056_0671_26F6_418B_F405A95C2C53_0_HS_9_0_map.gif",
                                                "class": "ImageResourceLevel"
                                               }
@@ -4964,7 +4964,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "class": "ImageResource"
                                             },
                                             "class": "HotspotPanoramaOverlayMap",
-                                            "pitch": -7.4
+                                            "pitch": -15.98
                                            }
                                           ],
                                           "enabledInCardboard": true,
@@ -4978,21 +4978,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "class": "HotspotPanoramaOverlay",
                                           "items": [
                                            {
-                                            "yaw": 81.59,
+                                            "yaw": 77.32,
                                             "class": "HotspotPanoramaOverlayImage",
-                                            "hfov": 8.38,
+                                            "hfov": 5.91,
                                             "image": {
                                              "levels": [
                                               {
-                                               "height": 88,
-                                               "width": 117,
+                                               "height": 79,
+                                               "width": 85,
                                                "url": "media/panorama_0FD9C056_0671_26F6_418B_F405A95C2C53_0_HS_9_0.png",
                                                "class": "ImageResourceLevel"
                                               }
                                              ],
                                              "class": "ImageResource"
                                             },
-                                            "pitch": -7.4
+                                            "pitch": -15.98
                                            }
                                           ]
                                          },
@@ -5001,13 +5001,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "id": "overlay_31A7661B_3C32_48DA_41BD_C27EC3BCDDC9",
                                           "maps": [
                                            {
-                                            "hfov": 14.11,
-                                            "yaw": -143.14,
+                                            "hfov": 7.28,
+                                            "yaw": -137.41,
                                             "image": {
                                              "levels": [
                                               {
-                                               "height": 85,
-                                               "width": 98,
+                                               "height": 47,
+                                               "width": 51,
                                                "url": "media/panorama_0FD9C056_0671_26F6_418B_F405A95C2C53_0_HS_18_0_0_map.gif",
                                                "class": "ImageResourceLevel"
                                               }
@@ -5015,7 +5015,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "class": "ImageResource"
                                             },
                                             "class": "HotspotPanoramaOverlayMap",
-                                            "pitch": -4.05
+                                            "pitch": -8.39
                                            }
                                           ],
                                           "enabledInCardboard": true,
@@ -5023,28 +5023,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "areas": [
                                            {
                                             "mapColor": "#FF0000",
-                                            "click": "this.startPanoramaWithCamera(this.panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F, this.camera_5C5CFBF0_4B73_DAC7_41C1_C8D8F840A92F); this.mainPlayList.set('selectedIndex', 7)",
+                                            "click": "this.startPanoramaWithCamera(this.panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F, this.camera_6FA8AEC4_4B91_DACF_41AC_2B1863CF6E38); this.mainPlayList.set('selectedIndex', 7)",
                                             "class": "HotspotPanoramaOverlayArea"
                                            }
                                           ],
                                           "class": "HotspotPanoramaOverlay",
                                           "items": [
                                            {
-                                            "yaw": -143.14,
+                                            "yaw": -137.41,
                                             "class": "HotspotPanoramaOverlayImage",
-                                            "hfov": 14.11,
+                                            "hfov": 7.28,
                                             "image": {
                                              "levels": [
                                               {
-                                               "height": 170,
-                                               "width": 196,
+                                               "height": 95,
+                                               "width": 102,
                                                "url": "media/panorama_0FD9C056_0671_26F6_418B_F405A95C2C53_0_HS_18_0.png",
                                                "class": "ImageResourceLevel"
                                               }
                                              ],
                                              "class": "ImageResource"
                                             },
-                                            "pitch": -4.05
+                                            "pitch": -8.39
                                            }
                                           ]
                                          },
@@ -5053,13 +5053,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "id": "overlay_31B78775_3C32_776F_41C6_8E114C1EBBB9",
                                           "maps": [
                                            {
-                                            "hfov": 11.51,
-                                            "yaw": -0.88,
+                                            "hfov": 8.34,
+                                            "yaw": -1.61,
                                             "image": {
                                              "levels": [
                                               {
-                                               "height": 88,
-                                               "width": 80,
+                                               "height": 61,
+                                               "width": 59,
                                                "url": "media/panorama_0FD9C056_0671_26F6_418B_F405A95C2C53_0_HS_19_0_0_map.gif",
                                                "class": "ImageResourceLevel"
                                               }
@@ -5067,7 +5067,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "class": "ImageResource"
                                             },
                                             "class": "HotspotPanoramaOverlayMap",
-                                            "pitch": -5.02
+                                            "pitch": -12.43
                                            }
                                           ],
                                           "enabledInCardboard": true,
@@ -5075,28 +5075,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "areas": [
                                            {
                                             "mapColor": "#FF0000",
-                                            "click": "this.startPanoramaWithCamera(this.panorama_0FD93B7C_0671_5ABA_4189_CFFD7DFC2BA2, this.camera_5C607C21_4B73_DD49_41B8_99461FC258BD); this.mainPlayList.set('selectedIndex', 10)",
+                                            "click": "this.startPanoramaWithCamera(this.panorama_0FD93B7C_0671_5ABA_4189_CFFD7DFC2BA2, this.camera_6E428EE8_4B91_DAC7_41CE_9A44A10C2929); this.mainPlayList.set('selectedIndex', 10)",
                                             "class": "HotspotPanoramaOverlayArea"
                                            }
                                           ],
                                           "class": "HotspotPanoramaOverlay",
                                           "items": [
                                            {
-                                            "yaw": -0.88,
+                                            "yaw": -1.61,
                                             "class": "HotspotPanoramaOverlayImage",
-                                            "hfov": 11.51,
+                                            "hfov": 8.34,
                                             "image": {
                                              "levels": [
                                               {
-                                               "height": 176,
-                                               "width": 160,
+                                               "height": 122,
+                                               "width": 118,
                                                "url": "media/panorama_0FD9C056_0671_26F6_418B_F405A95C2C53_0_HS_19_0.png",
                                                "class": "ImageResourceLevel"
                                               }
                                              ],
                                              "class": "ImageResource"
                                             },
-                                            "pitch": -5.02
+                                            "pitch": -12.43
                                            }
                                           ]
                                          },
@@ -5105,13 +5105,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "id": "overlay_31BE2ED2_3C32_59A5_41C5_8CE1DF322D9B",
                                           "maps": [
                                            {
-                                            "hfov": 9.34,
-                                            "yaw": 81.58,
+                                            "hfov": 7.09,
+                                            "yaw": 77.51,
                                             "image": {
                                              "levels": [
                                               {
-                                               "height": 78,
-                                               "width": 64,
+                                               "height": 48,
+                                               "width": 50,
                                                "url": "media/panorama_0FD9C056_0671_26F6_418B_F405A95C2C53_0_HS_20_0_0_map.gif",
                                                "class": "ImageResourceLevel"
                                               }
@@ -5119,7 +5119,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "class": "ImageResource"
                                             },
                                             "class": "HotspotPanoramaOverlayMap",
-                                            "pitch": -0.33
+                                            "pitch": -11.18
                                            }
                                           ],
                                           "enabledInCardboard": true,
@@ -5127,28 +5127,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                           "areas": [
                                            {
                                             "mapColor": "#FF0000",
-                                            "click": "this.startPanoramaWithCamera(this.panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2, this.camera_5C528C0C_4B73_DD5F_41B1_0D759CD9D660); this.mainPlayList.set('selectedIndex', 16)",
+                                            "click": "this.startPanoramaWithCamera(this.panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2, this.camera_6E5C2ED8_4B91_DAC7_41C6_9206B6E581E2); this.mainPlayList.set('selectedIndex', 16)",
                                             "class": "HotspotPanoramaOverlayArea"
                                            }
                                           ],
                                           "class": "HotspotPanoramaOverlay",
                                           "items": [
                                            {
-                                            "yaw": 81.58,
+                                            "yaw": 77.51,
                                             "class": "HotspotPanoramaOverlayImage",
-                                            "hfov": 9.34,
+                                            "hfov": 7.09,
                                             "image": {
                                              "levels": [
                                               {
-                                               "height": 156,
-                                               "width": 129,
+                                               "height": 96,
+                                               "width": 100,
                                                "url": "media/panorama_0FD9C056_0671_26F6_418B_F405A95C2C53_0_HS_20_0.png",
                                                "class": "ImageResourceLevel"
                                               }
                                              ],
                                              "class": "ImageResource"
                                             },
-                                            "pitch": -0.33
+                                            "pitch": -11.18
                                            }
                                           ]
                                          }
@@ -5187,7 +5187,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                            "class": "PanoramaMapLocation"
                                           }
                                          ],
-                                         "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                                         "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                                          "partial": false,
                                          "pitch": 0,
                                          "thumbnailUrl": "media/panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F_t.jpg",
@@ -5204,13 +5204,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "id": "overlay_1C9800E4_06BF_3DDE_4173_59F64E3E5D64",
                                              "maps": [
                                               {
-                                               "hfov": 7.28,
-                                               "yaw": -153.92,
+                                               "hfov": 4.32,
+                                               "yaw": -168.99,
                                                "image": {
                                                 "levels": [
                                                  {
                                                   "height": 16,
-                                                  "width": 25,
+                                                  "width": 17,
                                                   "url": "media/panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F_0_HS_1_0_map.gif",
                                                   "class": "ImageResourceLevel"
                                                  }
@@ -5218,7 +5218,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "class": "ImageResource"
                                                },
                                                "class": "HotspotPanoramaOverlayMap",
-                                               "pitch": -8.41
+                                               "pitch": -14.77
                                               }
                                              ],
                                              "enabledInCardboard": true,
@@ -5232,21 +5232,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "class": "HotspotPanoramaOverlay",
                                              "items": [
                                               {
-                                               "yaw": -153.92,
+                                               "yaw": -168.99,
                                                "class": "HotspotPanoramaOverlayImage",
-                                               "hfov": 7.28,
+                                               "hfov": 4.32,
                                                "image": {
                                                 "levels": [
                                                  {
-                                                  "height": 64,
-                                                  "width": 100,
+                                                  "height": 55,
+                                                  "width": 60,
                                                   "url": "media/panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F_0_HS_1_0.png",
                                                   "class": "ImageResourceLevel"
                                                  }
                                                 ],
                                                 "class": "ImageResource"
                                                },
-                                               "pitch": -8.41
+                                               "pitch": -14.77
                                               }
                                              ]
                                             },
@@ -5255,13 +5255,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "id": "overlay_112FAD06_06B0_E45A_4192_19B5F480919F",
                                              "maps": [
                                               {
-                                               "hfov": 8.76,
-                                               "yaw": -41.81,
+                                               "hfov": 4.98,
+                                               "yaw": -33.26,
                                                "image": {
                                                 "levels": [
                                                  {
                                                   "height": 16,
-                                                  "width": 27,
+                                                  "width": 16,
                                                   "url": "media/panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F_0_HS_3_0_map.gif",
                                                   "class": "ImageResourceLevel"
                                                  }
@@ -5269,7 +5269,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "class": "ImageResource"
                                                },
                                                "class": "HotspotPanoramaOverlayMap",
-                                               "pitch": -7.26
+                                               "pitch": -16.73
                                               }
                                              ],
                                              "enabledInCardboard": true,
@@ -5283,21 +5283,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "class": "HotspotPanoramaOverlay",
                                              "items": [
                                               {
-                                               "yaw": -41.81,
+                                               "yaw": -33.26,
                                                "class": "HotspotPanoramaOverlayImage",
-                                               "hfov": 8.76,
+                                               "hfov": 4.98,
                                                "image": {
                                                 "levels": [
                                                  {
                                                   "height": 71,
-                                                  "width": 120,
+                                                  "width": 70,
                                                   "url": "media/panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F_0_HS_3_0.png",
                                                   "class": "ImageResourceLevel"
                                                  }
                                                 ],
                                                 "class": "ImageResource"
                                                },
-                                               "pitch": -7.26
+                                               "pitch": -16.73
                                               }
                                              ]
                                             },
@@ -5306,13 +5306,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "id": "overlay_1FA8ED9A_06B1_646A_4196_2926CB7FBF93",
                                              "maps": [
                                               {
-                                               "hfov": 6.76,
-                                               "yaw": 36.94,
+                                               "hfov": 4.44,
+                                               "yaw": 30.18,
                                                "image": {
                                                 "levels": [
                                                  {
                                                   "height": 16,
-                                                  "width": 26,
+                                                  "width": 18,
                                                   "url": "media/panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F_0_HS_5_0_map.gif",
                                                   "class": "ImageResourceLevel"
                                                  }
@@ -5320,7 +5320,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "class": "ImageResource"
                                                },
                                                "class": "HotspotPanoramaOverlayMap",
-                                               "pitch": -6.88
+                                               "pitch": -10.85
                                               }
                                              ],
                                              "enabledInCardboard": true,
@@ -5334,21 +5334,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "class": "HotspotPanoramaOverlay",
                                              "items": [
                                               {
-                                               "yaw": 36.94,
+                                               "yaw": 30.18,
                                                "class": "HotspotPanoramaOverlayImage",
-                                               "hfov": 6.76,
+                                               "hfov": 4.44,
                                                "image": {
                                                 "levels": [
                                                  {
-                                                  "height": 55,
-                                                  "width": 92,
+                                                  "height": 54,
+                                                  "width": 61,
                                                   "url": "media/panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F_0_HS_5_0.png",
                                                   "class": "ImageResourceLevel"
                                                  }
                                                 ],
                                                 "class": "ImageResource"
                                                },
-                                               "pitch": -6.88
+                                               "pitch": -10.85
                                               }
                                              ]
                                             },
@@ -5357,13 +5357,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "id": "overlay_31B3B513_3C36_48AA_41C2_639E02762ACD",
                                              "maps": [
                                               {
-                                               "hfov": 7.67,
-                                               "yaw": -154.28,
+                                               "hfov": 5.87,
+                                               "yaw": -168.68,
                                                "image": {
                                                 "levels": [
                                                  {
-                                                  "height": 62,
-                                                  "width": 52,
+                                                  "height": 37,
+                                                  "width": 40,
                                                   "url": "media/panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F_0_HS_12_0_0_map.gif",
                                                   "class": "ImageResourceLevel"
                                                  }
@@ -5371,7 +5371,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "class": "ImageResource"
                                                },
                                                "class": "HotspotPanoramaOverlayMap",
-                                               "pitch": -3.38
+                                               "pitch": -11.74
                                               }
                                              ],
                                              "enabledInCardboard": true,
@@ -5379,28 +5379,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "areas": [
                                               {
                                                "mapColor": "#FF0000",
-                                               "click": "this.startPanoramaWithCamera(this.panorama_0FD8BF35_0670_DA4A_4198_9ED2057DCD82, this.camera_5DCEFA87_4B73_C549_41B3_F743E6803D65); this.mainPlayList.set('selectedIndex', 8)",
+                                               "click": "this.startPanoramaWithCamera(this.panorama_0FD8BF35_0670_DA4A_4198_9ED2057DCD82, this.camera_6F6F3D71_4B91_DFC8_41C1_B3250CEA5EFF); this.mainPlayList.set('selectedIndex', 8)",
                                                "class": "HotspotPanoramaOverlayArea"
                                               }
                                              ],
                                              "class": "HotspotPanoramaOverlay",
                                              "items": [
                                               {
-                                               "yaw": -154.28,
+                                               "yaw": -168.68,
                                                "class": "HotspotPanoramaOverlayImage",
-                                               "hfov": 7.67,
+                                               "hfov": 5.87,
                                                "image": {
                                                 "levels": [
                                                  {
-                                                  "height": 124,
-                                                  "width": 104,
+                                                  "height": 75,
+                                                  "width": 81,
                                                   "url": "media/panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F_0_HS_12_0.png",
                                                   "class": "ImageResourceLevel"
                                                  }
                                                 ],
                                                 "class": "ImageResource"
                                                },
-                                               "pitch": -3.38
+                                               "pitch": -11.74
                                               }
                                              ]
                                             },
@@ -5409,13 +5409,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "id": "overlay_314A48B2_3C36_D9E5_41C2_F12297588075",
                                              "maps": [
                                               {
-                                               "hfov": 11.33,
-                                               "yaw": -42.13,
+                                               "hfov": 7.56,
+                                               "yaw": -36.17,
                                                "image": {
                                                 "levels": [
                                                  {
-                                                  "height": 75,
-                                                  "width": 77,
+                                                  "height": 48,
+                                                  "width": 52,
                                                   "url": "media/panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F_0_HS_13_0_0_map.gif",
                                                   "class": "ImageResourceLevel"
                                                  }
@@ -5423,7 +5423,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "class": "ImageResource"
                                                },
                                                "class": "HotspotPanoramaOverlayMap",
-                                               "pitch": -1.48
+                                               "pitch": -13.63
                                               }
                                              ],
                                              "enabledInCardboard": true,
@@ -5431,28 +5431,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "areas": [
                                               {
                                                "mapColor": "#FF0000",
-                                               "click": "this.startPanoramaWithCamera(this.panorama_0FD9C056_0671_26F6_418B_F405A95C2C53, this.camera_5DB89A55_4B73_C5C9_41D2_4E29DEB980C5); this.mainPlayList.set('selectedIndex', 9)",
+                                               "click": "this.startPanoramaWithCamera(this.panorama_0FD9C056_0671_26F6_418B_F405A95C2C53, this.camera_6F72ED34_4B91_DF48_41CA_34DF141C0C17); this.mainPlayList.set('selectedIndex', 9)",
                                                "class": "HotspotPanoramaOverlayArea"
                                               }
                                              ],
                                              "class": "HotspotPanoramaOverlay",
                                              "items": [
                                               {
-                                               "yaw": -42.13,
+                                               "yaw": -36.17,
                                                "class": "HotspotPanoramaOverlayImage",
-                                               "hfov": 11.33,
+                                               "hfov": 7.56,
                                                "image": {
                                                 "levels": [
                                                  {
-                                                  "height": 150,
-                                                  "width": 154,
+                                                  "height": 97,
+                                                  "width": 105,
                                                   "url": "media/panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F_0_HS_13_0.png",
                                                   "class": "ImageResourceLevel"
                                                  }
                                                 ],
                                                 "class": "ImageResource"
                                                },
-                                               "pitch": -1.48
+                                               "pitch": -13.63
                                               }
                                              ]
                                             },
@@ -5461,13 +5461,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "id": "overlay_314A418A_3C36_CBA5_41C7_919875A1128F",
                                              "maps": [
                                               {
-                                               "hfov": 6.29,
-                                               "yaw": 36.85,
+                                               "hfov": 3.51,
+                                               "yaw": 30.58,
                                                "image": {
                                                 "levels": [
                                                  {
-                                                  "height": 71,
-                                                  "width": 42,
+                                                  "height": 42,
+                                                  "width": 24,
                                                   "url": "media/panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F_0_HS_14_0_0_map.gif",
                                                   "class": "ImageResourceLevel"
                                                  }
@@ -5475,7 +5475,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "class": "ImageResource"
                                                },
                                                "class": "HotspotPanoramaOverlayMap",
-                                               "pitch": -2.58
+                                               "pitch": -7.6
                                               }
                                              ],
                                              "enabledInCardboard": true,
@@ -5483,28 +5483,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "areas": [
                                               {
                                                "mapColor": "#FF0000",
-                                               "click": "this.startPanoramaWithCamera(this.panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA, this.camera_5DB10A6F_4B73_C5D8_41C7_75CFB8B1AEA5); this.mainPlayList.set('selectedIndex', 6)",
+                                               "click": "this.startPanoramaWithCamera(this.panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA, this.camera_6F640D52_4B91_DFC8_419A_F76C4177854A); this.mainPlayList.set('selectedIndex', 6)",
                                                "class": "HotspotPanoramaOverlayArea"
                                               }
                                              ],
                                              "class": "HotspotPanoramaOverlay",
                                              "items": [
                                               {
-                                               "yaw": 36.85,
+                                               "yaw": 30.58,
                                                "class": "HotspotPanoramaOverlayImage",
-                                               "hfov": 6.29,
+                                               "hfov": 3.51,
                                                "image": {
                                                 "levels": [
                                                  {
-                                                  "height": 142,
-                                                  "width": 85,
+                                                  "height": 85,
+                                                  "width": 48,
                                                   "url": "media/panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F_0_HS_14_0.png",
                                                   "class": "ImageResourceLevel"
                                                  }
                                                 ],
                                                 "class": "ImageResource"
                                                },
-                                               "pitch": -2.58
+                                               "pitch": -7.6
                                               }
                                              ]
                                             }
@@ -5534,15 +5534,15 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                          "adjacentPanoramas": [
                                           {
                                            "panorama": "this.panorama_0FD9C056_0671_26F6_418B_F405A95C2C53",
-                                           "yaw": -42.13,
-                                           "backwardYaw": -143.14,
+                                           "yaw": -36.17,
+                                           "backwardYaw": -137.41,
                                            "class": "AdjacentPanorama",
                                            "distance": 1
                                           },
                                           {
                                            "panorama": "this.panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA",
-                                           "yaw": 36.85,
-                                           "backwardYaw": 4.74,
+                                           "yaw": 30.58,
+                                           "backwardYaw": 11.9,
                                            "class": "AdjacentPanorama",
                                            "distance": 1
                                           },
@@ -5557,7 +5557,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                               "class": "PanoramaMapLocation"
                                              }
                                             ],
-                                            "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                                            "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                                             "partial": false,
                                             "pitch": 0,
                                             "thumbnailUrl": "media/panorama_0FD8BF35_0670_DA4A_4198_9ED2057DCD82_t.jpg",
@@ -5574,13 +5574,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "id": "overlay_1A54EB2C_0691_2CAE_414E_FD4A85E449B8",
                                                 "maps": [
                                                  {
-                                                  "hfov": 4.75,
-                                                  "yaw": 130.1,
+                                                  "hfov": 3.82,
+                                                  "yaw": 133.21,
                                                   "image": {
                                                    "levels": [
                                                     {
                                                      "height": 16,
-                                                     "width": 23,
+                                                     "width": 16,
                                                      "url": "media/panorama_0FD8BF35_0670_DA4A_4198_9ED2057DCD82_0_HS_7_0_map.gif",
                                                      "class": "ImageResourceLevel"
                                                     }
@@ -5588,7 +5588,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                    "class": "ImageResource"
                                                   },
                                                   "class": "HotspotPanoramaOverlayMap",
-                                                  "pitch": -2.92
+                                                  "pitch": -6.23
                                                  }
                                                 ],
                                                 "enabledInCardboard": true,
@@ -5602,21 +5602,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "class": "HotspotPanoramaOverlay",
                                                 "items": [
                                                  {
-                                                  "yaw": 130.1,
+                                                  "yaw": 133.21,
                                                   "class": "HotspotPanoramaOverlayImage",
-                                                  "hfov": 4.75,
+                                                  "hfov": 3.82,
                                                   "image": {
                                                    "levels": [
                                                     {
-                                                     "height": 43,
-                                                     "width": 64,
+                                                     "height": 50,
+                                                     "width": 52,
                                                      "url": "media/panorama_0FD8BF35_0670_DA4A_4198_9ED2057DCD82_0_HS_7_0.png",
                                                      "class": "ImageResourceLevel"
                                                     }
                                                    ],
                                                    "class": "ImageResource"
                                                   },
-                                                  "pitch": -2.92
+                                                  "pitch": -6.23
                                                  }
                                                 ]
                                                },
@@ -5625,8 +5625,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "id": "overlay_31A6E59F_3C36_4BDA_41B0_1CFF384201CA",
                                                 "maps": [
                                                  {
-                                                  "hfov": 5.41,
-                                                  "yaw": 129.09,
+                                                  "hfov": 5.39,
+                                                  "yaw": 130.87,
                                                   "image": {
                                                    "levels": [
                                                     {
@@ -5639,7 +5639,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                    "class": "ImageResource"
                                                   },
                                                   "class": "HotspotPanoramaOverlayMap",
-                                                  "pitch": 0.09
+                                                  "pitch": -4.35
                                                  }
                                                 ],
                                                 "enabledInCardboard": true,
@@ -5647,16 +5647,16 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "areas": [
                                                  {
                                                   "mapColor": "#FF0000",
-                                                  "click": "this.startPanoramaWithCamera(this.panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F, this.camera_5CBCCC88_4B73_DD47_41BC_9A3FFE7A0BC2); this.mainPlayList.set('selectedIndex', 7)",
+                                                  "click": "this.startPanoramaWithCamera(this.panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F, this.camera_6E0C7F37_4B91_DB49_41A6_3A8D662B980F); this.mainPlayList.set('selectedIndex', 7)",
                                                   "class": "HotspotPanoramaOverlayArea"
                                                  }
                                                 ],
                                                 "class": "HotspotPanoramaOverlay",
                                                 "items": [
                                                  {
-                                                  "yaw": 129.09,
+                                                  "yaw": 130.87,
                                                   "class": "HotspotPanoramaOverlayImage",
-                                                  "hfov": 5.41,
+                                                  "hfov": 5.39,
                                                   "image": {
                                                    "levels": [
                                                     {
@@ -5668,7 +5668,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                    ],
                                                    "class": "ImageResource"
                                                   },
-                                                  "pitch": 0.09
+                                                  "pitch": -4.35
                                                  }
                                                 ]
                                                }
@@ -5698,31 +5698,31 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                             "adjacentPanoramas": [
                                              {
                                               "panorama": "this.panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F",
-                                              "yaw": 129.09,
-                                              "backwardYaw": -154.28,
+                                              "yaw": 130.87,
+                                              "backwardYaw": -168.68,
                                               "class": "AdjacentPanorama",
                                               "distance": 1
                                              }
                                             ],
                                             "vfov": 180
                                            },
-                                           "yaw": -154.28,
-                                           "backwardYaw": 129.09,
+                                           "yaw": -168.68,
+                                           "backwardYaw": 130.87,
                                            "class": "AdjacentPanorama",
                                            "distance": 1
                                           }
                                          ],
                                          "vfov": 180
                                         },
-                                        "yaw": -143.14,
-                                        "backwardYaw": -42.13,
+                                        "yaw": -137.41,
+                                        "backwardYaw": -36.17,
                                         "class": "AdjacentPanorama",
                                         "distance": 1
                                        },
                                        {
                                         "panorama": "this.panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2",
-                                        "yaw": 81.58,
-                                        "backwardYaw": 25.67,
+                                        "yaw": 77.51,
+                                        "backwardYaw": 33.58,
                                         "class": "AdjacentPanorama",
                                         "distance": 1
                                        },
@@ -5737,7 +5737,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                            "class": "PanoramaMapLocation"
                                           }
                                          ],
-                                         "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                                         "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                                          "partial": false,
                                          "pitch": 0,
                                          "thumbnailUrl": "media/panorama_0FD93B7C_0671_5ABA_4189_CFFD7DFC2BA2_t.jpg",
@@ -5754,13 +5754,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "id": "overlay_1B81FB3A_0691_6CAA_4185_C2AB290A08A0",
                                              "maps": [
                                               {
-                                               "hfov": 11.36,
-                                               "yaw": -1.13,
+                                               "hfov": 5.46,
+                                               "yaw": 5.35,
                                                "image": {
                                                 "levels": [
                                                  {
                                                   "height": 16,
-                                                  "width": 22,
+                                                  "width": 17,
                                                   "url": "media/panorama_0FD93B7C_0671_5ABA_4189_CFFD7DFC2BA2_0_HS_1_0_map.gif",
                                                   "class": "ImageResourceLevel"
                                                  }
@@ -5768,7 +5768,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "class": "ImageResource"
                                                },
                                                "class": "HotspotPanoramaOverlayMap",
-                                               "pitch": -10.61
+                                               "pitch": -14.01
                                               }
                                              ],
                                              "enabledInCardboard": true,
@@ -5782,21 +5782,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "class": "HotspotPanoramaOverlay",
                                              "items": [
                                               {
-                                               "yaw": -1.13,
+                                               "yaw": 5.35,
                                                "class": "HotspotPanoramaOverlayImage",
-                                               "hfov": 11.36,
+                                               "hfov": 5.46,
                                                "image": {
                                                 "levels": [
                                                  {
-                                                  "height": 115,
-                                                  "width": 160,
+                                                  "height": 72,
+                                                  "width": 78,
                                                   "url": "media/panorama_0FD93B7C_0671_5ABA_4189_CFFD7DFC2BA2_0_HS_1_0.png",
                                                   "class": "ImageResourceLevel"
                                                  }
                                                 ],
                                                 "class": "ImageResource"
                                                },
-                                               "pitch": -10.61
+                                               "pitch": -14.01
                                               }
                                              ]
                                             },
@@ -5805,13 +5805,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "id": "overlay_19EDC174_0671_3CBE_4196_DE5883AFB8CF",
                                              "maps": [
                                               {
-                                               "hfov": 10.52,
-                                               "yaw": 177.74,
+                                               "hfov": 4.87,
+                                               "yaw": -174.51,
                                                "image": {
                                                 "levels": [
                                                  {
                                                   "height": 16,
-                                                  "width": 21,
+                                                  "width": 17,
                                                   "url": "media/panorama_0FD93B7C_0671_5ABA_4189_CFFD7DFC2BA2_0_HS_3_0_map.gif",
                                                   "class": "ImageResourceLevel"
                                                  }
@@ -5819,7 +5819,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "class": "ImageResource"
                                                },
                                                "class": "HotspotPanoramaOverlayMap",
-                                               "pitch": -17.9
+                                               "pitch": -22.75
                                               }
                                              ],
                                              "enabledInCardboard": true,
@@ -5833,21 +5833,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "class": "HotspotPanoramaOverlay",
                                              "items": [
                                               {
-                                               "yaw": 177.74,
+                                               "yaw": -174.51,
                                                "class": "HotspotPanoramaOverlayImage",
-                                               "hfov": 10.52,
+                                               "hfov": 4.87,
                                                "image": {
                                                 "levels": [
                                                  {
-                                                  "height": 115,
-                                                  "width": 153,
+                                                  "height": 68,
+                                                  "width": 73,
                                                   "url": "media/panorama_0FD93B7C_0671_5ABA_4189_CFFD7DFC2BA2_0_HS_3_0.png",
                                                   "class": "ImageResourceLevel"
                                                  }
                                                 ],
                                                 "class": "ImageResource"
                                                },
-                                               "pitch": -17.9
+                                               "pitch": -22.75
                                               }
                                              ]
                                             },
@@ -5856,13 +5856,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "id": "overlay_31B10D7A_3C32_DB5A_41A1_B6DFD3B7AB9B",
                                              "maps": [
                                               {
-                                               "hfov": 11.41,
-                                               "yaw": -0.95,
+                                               "hfov": 8.41,
+                                               "yaw": 1.72,
                                                "image": {
                                                 "levels": [
                                                  {
-                                                  "height": 112,
-                                                  "width": 79,
+                                                  "height": 65,
+                                                  "width": 59,
                                                   "url": "media/panorama_0FD93B7C_0671_5ABA_4189_CFFD7DFC2BA2_0_HS_4_0_0_map.gif",
                                                   "class": "ImageResourceLevel"
                                                  }
@@ -5870,7 +5870,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "class": "ImageResource"
                                                },
                                                "class": "HotspotPanoramaOverlayMap",
-                                               "pitch": -0.25
+                                               "pitch": -11.32
                                               }
                                              ],
                                              "enabledInCardboard": true,
@@ -5878,28 +5878,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "areas": [
                                               {
                                                "mapColor": "#FF0000",
-                                               "click": "this.startPanoramaWithCamera(this.panorama_0FD9C056_0671_26F6_418B_F405A95C2C53, this.camera_5C197B6C_4B73_DBDF_4186_68AB4BA66677); this.mainPlayList.set('selectedIndex', 9)",
+                                               "click": "this.startPanoramaWithCamera(this.panorama_0FD9C056_0671_26F6_418B_F405A95C2C53, this.camera_6FEEAE6F_4B91_DDD8_41CC_CD6611F1B7DE); this.mainPlayList.set('selectedIndex', 9)",
                                                "class": "HotspotPanoramaOverlayArea"
                                               }
                                              ],
                                              "class": "HotspotPanoramaOverlay",
                                              "items": [
                                               {
-                                               "yaw": -0.95,
+                                               "yaw": 1.72,
                                                "class": "HotspotPanoramaOverlayImage",
-                                               "hfov": 11.41,
+                                               "hfov": 8.41,
                                                "image": {
                                                 "levels": [
                                                  {
-                                                  "height": 225,
-                                                  "width": 158,
+                                                  "height": 130,
+                                                  "width": 119,
                                                   "url": "media/panorama_0FD93B7C_0671_5ABA_4189_CFFD7DFC2BA2_0_HS_4_0.png",
                                                   "class": "ImageResourceLevel"
                                                  }
                                                 ],
                                                 "class": "ImageResource"
                                                },
-                                               "pitch": -0.25
+                                               "pitch": -11.32
                                               }
                                              ]
                                             },
@@ -5908,13 +5908,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "id": "overlay_31A10589_3C32_CBA6_41B4_4595385EB844",
                                              "maps": [
                                               {
-                                               "hfov": 17.82,
-                                               "yaw": 177.7,
+                                               "hfov": 11.06,
+                                               "yaw": -177.86,
                                                "image": {
                                                 "levels": [
                                                  {
-                                                  "height": 98,
-                                                  "width": 125,
+                                                  "height": 61,
+                                                  "width": 81,
                                                   "url": "media/panorama_0FD93B7C_0671_5ABA_4189_CFFD7DFC2BA2_0_HS_5_0_0_map.gif",
                                                   "class": "ImageResourceLevel"
                                                  }
@@ -5922,7 +5922,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "class": "ImageResource"
                                                },
                                                "class": "HotspotPanoramaOverlayMap",
-                                               "pitch": -8.29
+                                               "pitch": -20.19
                                               }
                                              ],
                                              "enabledInCardboard": true,
@@ -5930,28 +5930,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                              "areas": [
                                               {
                                                "mapColor": "#FF0000",
-                                               "click": "this.startPanoramaWithCamera(this.panorama_0FD8B41B_0671_6E7D_4192_F88E02AED08E, this.camera_5C05DB57_4B73_DBC8_41CE_126F7CE4B918); this.mainPlayList.set('selectedIndex', 11)",
+                                               "click": "this.startPanoramaWithCamera(this.panorama_0FD8B41B_0671_6E7D_4192_F88E02AED08E, this.camera_6FF8BE61_4B91_DDC8_41C8_4156D42C6027); this.mainPlayList.set('selectedIndex', 11)",
                                                "class": "HotspotPanoramaOverlayArea"
                                               }
                                              ],
                                              "class": "HotspotPanoramaOverlay",
                                              "items": [
                                               {
-                                               "yaw": 177.7,
+                                               "yaw": -177.86,
                                                "class": "HotspotPanoramaOverlayImage",
-                                               "hfov": 17.82,
+                                               "hfov": 11.06,
                                                "image": {
                                                 "levels": [
                                                  {
-                                                  "height": 197,
-                                                  "width": 250,
+                                                  "height": 122,
+                                                  "width": 163,
                                                   "url": "media/panorama_0FD93B7C_0671_5ABA_4189_CFFD7DFC2BA2_0_HS_5_0.png",
                                                   "class": "ImageResourceLevel"
                                                  }
                                                 ],
                                                 "class": "ImageResource"
                                                },
-                                               "pitch": -8.29
+                                               "pitch": -20.19
                                               }
                                              ]
                                             }
@@ -5990,7 +5990,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                               "class": "PanoramaMapLocation"
                                              }
                                             ],
-                                            "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                                            "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                                             "partial": false,
                                             "pitch": 0,
                                             "thumbnailUrl": "media/panorama_0FD8B41B_0671_6E7D_4192_F88E02AED08E_t.jpg",
@@ -6007,13 +6007,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "id": "overlay_1B0FFE2E_0673_24AA_4193_33375BC7C00A",
                                                 "maps": [
                                                  {
-                                                  "hfov": 10.83,
-                                                  "yaw": -0.12,
+                                                  "hfov": 5.22,
+                                                  "yaw": -1.53,
                                                   "image": {
                                                    "levels": [
                                                     {
                                                      "height": 16,
-                                                     "width": 23,
+                                                     "width": 16,
                                                      "url": "media/panorama_0FD8B41B_0671_6E7D_4192_F88E02AED08E_0_HS_1_0_map.gif",
                                                      "class": "ImageResourceLevel"
                                                     }
@@ -6021,7 +6021,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                    "class": "ImageResource"
                                                   },
                                                   "class": "HotspotPanoramaOverlayMap",
-                                                  "pitch": -13.62
+                                                  "pitch": -15.81
                                                  }
                                                 ],
                                                 "enabledInCardboard": true,
@@ -6035,21 +6035,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "class": "HotspotPanoramaOverlay",
                                                 "items": [
                                                  {
-                                                  "yaw": -0.12,
+                                                  "yaw": -1.53,
                                                   "class": "HotspotPanoramaOverlayImage",
-                                                  "hfov": 10.83,
+                                                  "hfov": 5.22,
                                                   "image": {
                                                    "levels": [
                                                     {
-                                                     "height": 104,
-                                                     "width": 154,
+                                                     "height": 75,
+                                                     "width": 75,
                                                      "url": "media/panorama_0FD8B41B_0671_6E7D_4192_F88E02AED08E_0_HS_1_0.png",
                                                      "class": "ImageResourceLevel"
                                                     }
                                                    ],
                                                    "class": "ImageResource"
                                                   },
-                                                  "pitch": -13.62
+                                                  "pitch": -15.81
                                                  }
                                                 ]
                                                },
@@ -6058,13 +6058,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "id": "overlay_27CC6293_0671_3C7B_419A_6F5AB828C77E",
                                                 "maps": [
                                                  {
-                                                  "hfov": 10.33,
-                                                  "yaw": -177.02,
+                                                  "hfov": 5.32,
+                                                  "yaw": -168.13,
                                                   "image": {
                                                    "levels": [
                                                     {
                                                      "height": 16,
-                                                     "width": 21,
+                                                     "width": 17,
                                                      "url": "media/panorama_0FD8B41B_0671_6E7D_4192_F88E02AED08E_0_HS_3_0_map.gif",
                                                      "class": "ImageResourceLevel"
                                                     }
@@ -6072,7 +6072,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                    "class": "ImageResource"
                                                   },
                                                   "class": "HotspotPanoramaOverlayMap",
-                                                  "pitch": -21.2
+                                                  "pitch": -28.09
                                                  }
                                                 ],
                                                 "enabledInCardboard": true,
@@ -6086,21 +6086,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "class": "HotspotPanoramaOverlay",
                                                 "items": [
                                                  {
-                                                  "yaw": -177.02,
+                                                  "yaw": -168.13,
                                                   "class": "HotspotPanoramaOverlayImage",
-                                                  "hfov": 10.33,
+                                                  "hfov": 5.32,
                                                   "image": {
                                                    "levels": [
                                                     {
-                                                     "height": 113,
-                                                     "width": 153,
+                                                     "height": 74,
+                                                     "width": 83,
                                                      "url": "media/panorama_0FD8B41B_0671_6E7D_4192_F88E02AED08E_0_HS_3_0.png",
                                                      "class": "ImageResourceLevel"
                                                     }
                                                    ],
                                                    "class": "ImageResource"
                                                   },
-                                                  "pitch": -21.2
+                                                  "pitch": -28.09
                                                  }
                                                 ]
                                                },
@@ -6109,13 +6109,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "id": "overlay_31BBE3A6_3C33_CFED_41C6_0527EAB56766",
                                                 "maps": [
                                                  {
-                                                  "hfov": 10.93,
-                                                  "yaw": 0.03,
+                                                  "hfov": 6.95,
+                                                  "yaw": -1.24,
                                                   "image": {
                                                    "levels": [
                                                     {
-                                                     "height": 94,
-                                                     "width": 76,
+                                                     "height": 47,
+                                                     "width": 49,
                                                      "url": "media/panorama_0FD8B41B_0671_6E7D_4192_F88E02AED08E_0_HS_4_0_0_map.gif",
                                                      "class": "ImageResourceLevel"
                                                     }
@@ -6123,7 +6123,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                    "class": "ImageResource"
                                                   },
                                                   "class": "HotspotPanoramaOverlayMap",
-                                                  "pitch": -5.02
+                                                  "pitch": -11.27
                                                  }
                                                 ],
                                                 "enabledInCardboard": true,
@@ -6131,28 +6131,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "areas": [
                                                  {
                                                   "mapColor": "#FF0000",
-                                                  "click": "this.startPanoramaWithCamera(this.panorama_0FD93B7C_0671_5ABA_4189_CFFD7DFC2BA2, this.camera_5C497BDE_4B73_DAF8_41B9_9295B5EB5AC5); this.mainPlayList.set('selectedIndex', 10)",
+                                                  "click": "this.startPanoramaWithCamera(this.panorama_0FD93B7C_0671_5ABA_4189_CFFD7DFC2BA2, this.camera_6FBAAEB1_4B91_DD49_41A0_D18D95540F43); this.mainPlayList.set('selectedIndex', 10)",
                                                   "class": "HotspotPanoramaOverlayArea"
                                                  }
                                                 ],
                                                 "class": "HotspotPanoramaOverlay",
                                                 "items": [
                                                  {
-                                                  "yaw": 0.03,
+                                                  "yaw": -1.24,
                                                   "class": "HotspotPanoramaOverlayImage",
-                                                  "hfov": 10.93,
+                                                  "hfov": 6.95,
                                                   "image": {
                                                    "levels": [
                                                     {
-                                                     "height": 189,
-                                                     "width": 152,
+                                                     "height": 95,
+                                                     "width": 98,
                                                      "url": "media/panorama_0FD8B41B_0671_6E7D_4192_F88E02AED08E_0_HS_4_0.png",
                                                      "class": "ImageResourceLevel"
                                                     }
                                                    ],
                                                    "class": "ImageResource"
                                                   },
-                                                  "pitch": -5.02
+                                                  "pitch": -11.27
                                                  }
                                                 ]
                                                },
@@ -6161,13 +6161,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "id": "overlay_31BBF526_3C33_C8ED_41CC_EDB14C8AC409",
                                                 "maps": [
                                                  {
-                                                  "hfov": 12.62,
-                                                  "yaw": -178.02,
+                                                  "hfov": 5.57,
+                                                  "yaw": -168.13,
                                                   "image": {
                                                    "levels": [
                                                     {
-                                                     "height": 112,
-                                                     "width": 89,
+                                                     "height": 56,
+                                                     "width": 42,
                                                      "url": "media/panorama_0FD8B41B_0671_6E7D_4192_F88E02AED08E_0_HS_5_0_0_map.gif",
                                                      "class": "ImageResourceLevel"
                                                     }
@@ -6175,7 +6175,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                    "class": "ImageResource"
                                                   },
                                                   "class": "HotspotPanoramaOverlayMap",
-                                                  "pitch": -10.03
+                                                  "pitch": -23.18
                                                  }
                                                 ],
                                                 "enabledInCardboard": true,
@@ -6183,28 +6183,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                 "areas": [
                                                  {
                                                   "mapColor": "#FF0000",
-                                                  "click": "this.startPanoramaWithCamera(this.panorama_0FA644EC_0671_2FDA_4139_EE20ADB4A778, this.camera_5C3ABBBE_4B73_DABB_41B9_945D7341AE3E); this.mainPlayList.set('selectedIndex', 12)",
+                                                  "click": "this.startPanoramaWithCamera(this.panorama_0FA644EC_0671_2FDA_4139_EE20ADB4A778, this.camera_6FB46EA1_4B91_DD49_41CC_B23C8A2C9CDD); this.mainPlayList.set('selectedIndex', 12)",
                                                   "class": "HotspotPanoramaOverlayArea"
                                                  }
                                                 ],
                                                 "class": "HotspotPanoramaOverlay",
                                                 "items": [
                                                  {
-                                                  "yaw": -178.02,
+                                                  "yaw": -168.13,
                                                   "class": "HotspotPanoramaOverlayImage",
-                                                  "hfov": 12.62,
+                                                  "hfov": 5.57,
                                                   "image": {
                                                    "levels": [
                                                     {
-                                                     "height": 224,
-                                                     "width": 178,
+                                                     "height": 113,
+                                                     "width": 84,
                                                      "url": "media/panorama_0FD8B41B_0671_6E7D_4192_F88E02AED08E_0_HS_5_0.png",
                                                      "class": "ImageResourceLevel"
                                                     }
                                                    ],
                                                    "class": "ImageResource"
                                                   },
-                                                  "pitch": -10.03
+                                                  "pitch": -23.18
                                                  }
                                                 ]
                                                }
@@ -6243,7 +6243,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                  "class": "PanoramaMapLocation"
                                                 }
                                                ],
-                                               "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                                               "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                                                "partial": false,
                                                "pitch": 0,
                                                "thumbnailUrl": "media/panorama_0FA644EC_0671_2FDA_4139_EE20ADB4A778_t.jpg",
@@ -6260,13 +6260,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                    "id": "overlay_197E9710_0677_6476_4185_152F2BE62FC4",
                                                    "maps": [
                                                     {
-                                                     "hfov": 11.09,
-                                                     "yaw": -0.63,
+                                                     "hfov": 4.97,
+                                                     "yaw": 3.02,
                                                      "image": {
                                                       "levels": [
                                                        {
                                                         "height": 16,
-                                                        "width": 22,
+                                                        "width": 17,
                                                         "url": "media/panorama_0FA644EC_0671_2FDA_4139_EE20ADB4A778_0_HS_1_0_map.gif",
                                                         "class": "ImageResourceLevel"
                                                        }
@@ -6274,7 +6274,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                       "class": "ImageResource"
                                                      },
                                                      "class": "HotspotPanoramaOverlayMap",
-                                                     "pitch": -16.39
+                                                     "pitch": -18.2
                                                     }
                                                    ],
                                                    "enabledInCardboard": true,
@@ -6288,21 +6288,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                    "class": "HotspotPanoramaOverlay",
                                                    "items": [
                                                     {
-                                                     "yaw": -0.63,
+                                                     "yaw": 3.02,
                                                      "class": "HotspotPanoramaOverlayImage",
-                                                     "hfov": 11.09,
+                                                     "hfov": 4.97,
                                                      "image": {
                                                       "levels": [
                                                        {
-                                                        "height": 115,
-                                                        "width": 160,
+                                                        "height": 66,
+                                                        "width": 72,
                                                         "url": "media/panorama_0FA644EC_0671_2FDA_4139_EE20ADB4A778_0_HS_1_0.png",
                                                         "class": "ImageResourceLevel"
                                                        }
                                                       ],
                                                       "class": "ImageResource"
                                                      },
-                                                     "pitch": -16.39
+                                                     "pitch": -18.2
                                                     }
                                                    ]
                                                   },
@@ -6311,13 +6311,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                    "id": "overlay_27F0BA0A_0670_EC6A_4198_E6CE799B31CB",
                                                    "maps": [
                                                     {
-                                                     "hfov": 10.5,
-                                                     "yaw": -179.25,
+                                                     "hfov": 4.98,
+                                                     "yaw": 179.39,
                                                      "image": {
                                                       "levels": [
                                                        {
                                                         "height": 16,
-                                                        "width": 20,
+                                                        "width": 18,
                                                         "url": "media/panorama_0FA644EC_0671_2FDA_4139_EE20ADB4A778_0_HS_3_0_map.gif",
                                                         "class": "ImageResourceLevel"
                                                        }
@@ -6325,7 +6325,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                       "class": "ImageResource"
                                                      },
                                                      "class": "HotspotPanoramaOverlayMap",
-                                                     "pitch": -18.28
+                                                     "pitch": -18.59
                                                     }
                                                    ],
                                                    "enabledInCardboard": true,
@@ -6339,21 +6339,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                    "class": "HotspotPanoramaOverlay",
                                                    "items": [
                                                     {
-                                                     "yaw": -179.25,
+                                                     "yaw": 179.39,
                                                      "class": "HotspotPanoramaOverlayImage",
-                                                     "hfov": 10.5,
+                                                     "hfov": 4.98,
                                                      "image": {
                                                       "levels": [
                                                        {
-                                                        "height": 118,
-                                                        "width": 153,
+                                                        "height": 63,
+                                                        "width": 72,
                                                         "url": "media/panorama_0FA644EC_0671_2FDA_4139_EE20ADB4A778_0_HS_3_0.png",
                                                         "class": "ImageResourceLevel"
                                                        }
                                                       ],
                                                       "class": "ImageResource"
                                                      },
-                                                     "pitch": -18.28
+                                                     "pitch": -18.59
                                                     }
                                                    ]
                                                   },
@@ -6362,13 +6362,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                    "id": "overlay_31BB30F3_3C33_C96A_4188_186FB6E0302F",
                                                    "maps": [
                                                     {
-                                                     "hfov": 14.38,
-                                                     "yaw": -0.18,
+                                                     "hfov": 7.83,
+                                                     "yaw": -0.27,
                                                      "image": {
                                                       "levels": [
                                                        {
-                                                        "height": 121,
-                                                        "width": 100,
+                                                        "height": 70,
+                                                        "width": 56,
                                                         "url": "media/panorama_0FA644EC_0671_2FDA_4139_EE20ADB4A778_0_HS_4_0_0_map.gif",
                                                         "class": "ImageResourceLevel"
                                                        }
@@ -6376,7 +6376,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                       "class": "ImageResource"
                                                      },
                                                      "class": "HotspotPanoramaOverlayMap",
-                                                     "pitch": -5.9
+                                                     "pitch": -15.23
                                                     }
                                                    ],
                                                    "enabledInCardboard": true,
@@ -6384,28 +6384,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                    "areas": [
                                                     {
                                                      "mapColor": "#FF0000",
-                                                     "click": "this.startPanoramaWithCamera(this.panorama_0F98F446_0671_2ED7_4191_DEC01556F741, this.camera_5DF84B27_4B73_DB49_41CB_2CEB95624830); this.mainPlayList.set('selectedIndex', 13)",
+                                                     "click": "this.startPanoramaWithCamera(this.panorama_0F98F446_0671_2ED7_4191_DEC01556F741, this.camera_6FC6DE42_4B91_DDCB_41B0_6BA83D340723); this.mainPlayList.set('selectedIndex', 13)",
                                                      "class": "HotspotPanoramaOverlayArea"
                                                     }
                                                    ],
                                                    "class": "HotspotPanoramaOverlay",
                                                    "items": [
                                                     {
-                                                     "yaw": -0.18,
+                                                     "yaw": -0.27,
                                                      "class": "HotspotPanoramaOverlayImage",
-                                                     "hfov": 14.38,
+                                                     "hfov": 7.83,
                                                      "image": {
                                                       "levels": [
                                                        {
-                                                        "height": 242,
-                                                        "width": 200,
+                                                        "height": 141,
+                                                        "width": 112,
                                                         "url": "media/panorama_0FA644EC_0671_2FDA_4139_EE20ADB4A778_0_HS_4_0.png",
                                                         "class": "ImageResourceLevel"
                                                        }
                                                       ],
                                                       "class": "ImageResource"
                                                      },
-                                                     "pitch": -5.9
+                                                     "pitch": -15.23
                                                     }
                                                    ]
                                                   },
@@ -6414,13 +6414,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                    "id": "overlay_31BE4255_3C32_48AF_41BF_D5F61B49D926",
                                                    "maps": [
                                                     {
-                                                     "hfov": 18.94,
-                                                     "yaw": -178.74,
+                                                     "hfov": 10.32,
+                                                     "yaw": 176.03,
                                                      "image": {
                                                       "levels": [
                                                        {
-                                                        "height": 114,
-                                                        "width": 132,
+                                                        "height": 80,
+                                                        "width": 74,
                                                         "url": "media/panorama_0FA644EC_0671_2FDA_4139_EE20ADB4A778_0_HS_5_0_0_map.gif",
                                                         "class": "ImageResourceLevel"
                                                        }
@@ -6428,7 +6428,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                       "class": "ImageResource"
                                                      },
                                                      "class": "HotspotPanoramaOverlayMap",
-                                                     "pitch": -7.41
+                                                     "pitch": -15.27
                                                     }
                                                    ],
                                                    "enabledInCardboard": true,
@@ -6436,28 +6436,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                    "areas": [
                                                     {
                                                      "mapColor": "#FF0000",
-                                                     "click": "this.startPanoramaWithCamera(this.panorama_0FD8B41B_0671_6E7D_4192_F88E02AED08E, this.camera_5DE0DB11_4B73_DB48_41B2_6510702EA77C); this.mainPlayList.set('selectedIndex', 11)",
+                                                     "click": "this.startPanoramaWithCamera(this.panorama_0FD8B41B_0671_6E7D_4192_F88E02AED08E, this.camera_6FD06E29_4B91_DD59_41C6_39C95375467C); this.mainPlayList.set('selectedIndex', 11)",
                                                      "class": "HotspotPanoramaOverlayArea"
                                                     }
                                                    ],
                                                    "class": "HotspotPanoramaOverlay",
                                                    "items": [
                                                     {
-                                                     "yaw": -178.74,
+                                                     "yaw": 176.03,
                                                      "class": "HotspotPanoramaOverlayImage",
-                                                     "hfov": 18.94,
+                                                     "hfov": 10.32,
                                                      "image": {
                                                       "levels": [
                                                        {
-                                                        "height": 228,
-                                                        "width": 265,
+                                                        "height": 160,
+                                                        "width": 148,
                                                         "url": "media/panorama_0FA644EC_0671_2FDA_4139_EE20ADB4A778_0_HS_5_0.png",
                                                         "class": "ImageResourceLevel"
                                                        }
                                                       ],
                                                       "class": "ImageResource"
                                                      },
-                                                     "pitch": -7.41
+                                                     "pitch": -15.27
                                                     }
                                                    ]
                                                   }
@@ -6487,8 +6487,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                "adjacentPanoramas": [
                                                 {
                                                  "panorama": "this.panorama_0FD8B41B_0671_6E7D_4192_F88E02AED08E",
-                                                 "yaw": -178.74,
-                                                 "backwardYaw": -178.02,
+                                                 "yaw": 176.03,
+                                                 "backwardYaw": -168.13,
                                                  "class": "AdjacentPanorama",
                                                  "distance": 1
                                                 },
@@ -6503,7 +6503,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                     "class": "PanoramaMapLocation"
                                                    }
                                                   ],
-                                                  "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                                                  "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                                                   "partial": false,
                                                   "pitch": 0,
                                                   "thumbnailUrl": "media/panorama_0F98F446_0671_2ED7_4191_DEC01556F741_t.jpg",
@@ -6520,13 +6520,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                       "id": "overlay_257E93A3_067F_3C5A_4187_58F778D35045",
                                                       "maps": [
                                                        {
-                                                        "hfov": 10.69,
-                                                        "yaw": 0.63,
+                                                        "hfov": 5.15,
+                                                        "yaw": -3.71,
                                                         "image": {
                                                          "levels": [
                                                           {
                                                            "height": 16,
-                                                           "width": 25,
+                                                           "width": 17,
                                                            "url": "media/panorama_0F98F446_0671_2ED7_4191_DEC01556F741_0_HS_1_0_map.gif",
                                                            "class": "ImageResourceLevel"
                                                           }
@@ -6534,7 +6534,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                          "class": "ImageResource"
                                                         },
                                                         "class": "HotspotPanoramaOverlayMap",
-                                                        "pitch": -14.76
+                                                        "pitch": -14.79
                                                        }
                                                       ],
                                                       "enabledInCardboard": true,
@@ -6548,21 +6548,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                       "class": "HotspotPanoramaOverlay",
                                                       "items": [
                                                        {
-                                                        "yaw": 0.63,
+                                                        "yaw": -3.71,
                                                         "class": "HotspotPanoramaOverlayImage",
-                                                        "hfov": 10.69,
+                                                        "hfov": 5.15,
                                                         "image": {
                                                          "levels": [
                                                           {
-                                                           "height": 97,
-                                                           "width": 153,
+                                                           "height": 67,
+                                                           "width": 74,
                                                            "url": "media/panorama_0F98F446_0671_2ED7_4191_DEC01556F741_0_HS_1_0.png",
                                                            "class": "ImageResourceLevel"
                                                           }
                                                          ],
                                                          "class": "ImageResource"
                                                         },
-                                                        "pitch": -14.76
+                                                        "pitch": -14.79
                                                        }
                                                       ]
                                                      },
@@ -6571,13 +6571,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                       "id": "overlay_26FD3107_0671_7C5A_4196_ED67E7BBC774",
                                                       "maps": [
                                                        {
-                                                        "hfov": 10.61,
-                                                        "yaw": -177.99,
+                                                        "hfov": 5.3,
+                                                        "yaw": 175.14,
                                                         "image": {
                                                          "levels": [
                                                           {
                                                            "height": 16,
-                                                           "width": 25,
+                                                           "width": 18,
                                                            "url": "media/panorama_0F98F446_0671_2ED7_4191_DEC01556F741_0_HS_3_0_map.gif",
                                                            "class": "ImageResourceLevel"
                                                           }
@@ -6585,7 +6585,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                          "class": "ImageResource"
                                                         },
                                                         "class": "HotspotPanoramaOverlayMap",
-                                                        "pitch": -16.27
+                                                        "pitch": -16.89
                                                        }
                                                       ],
                                                       "enabledInCardboard": true,
@@ -6599,21 +6599,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                       "class": "HotspotPanoramaOverlay",
                                                       "items": [
                                                        {
-                                                        "yaw": -177.99,
+                                                        "yaw": 175.14,
                                                         "class": "HotspotPanoramaOverlayImage",
-                                                        "hfov": 10.61,
+                                                        "hfov": 5.3,
                                                         "image": {
                                                          "levels": [
                                                           {
-                                                           "height": 97,
-                                                           "width": 153,
+                                                           "height": 66,
+                                                           "width": 76,
                                                            "url": "media/panorama_0F98F446_0671_2ED7_4191_DEC01556F741_0_HS_3_0.png",
                                                            "class": "ImageResourceLevel"
                                                           }
                                                          ],
                                                          "class": "ImageResource"
                                                         },
-                                                        "pitch": -16.27
+                                                        "pitch": -16.89
                                                        }
                                                       ]
                                                      },
@@ -6622,13 +6622,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                       "id": "overlay_31B80EA2_3C32_79EA_41CD_2CA7EF8ADC1D",
                                                       "maps": [
                                                        {
-                                                        "hfov": 21.2,
-                                                        "yaw": -178.42,
+                                                        "hfov": 8.45,
+                                                        "yaw": 175.4,
                                                         "image": {
                                                          "levels": [
                                                           {
-                                                           "height": 166,
-                                                           "width": 147,
+                                                           "height": 62,
+                                                           "width": 59,
                                                            "url": "media/panorama_0F98F446_0671_2ED7_4191_DEC01556F741_0_HS_4_0_0_map.gif",
                                                            "class": "ImageResourceLevel"
                                                           }
@@ -6636,7 +6636,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                          "class": "ImageResource"
                                                         },
                                                         "class": "HotspotPanoramaOverlayMap",
-                                                        "pitch": -3.64
+                                                        "pitch": -11.76
                                                        }
                                                       ],
                                                       "enabledInCardboard": true,
@@ -6644,28 +6644,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                       "areas": [
                                                        {
                                                         "mapColor": "#FF0000",
-                                                        "click": "this.startPanoramaWithCamera(this.panorama_0FA644EC_0671_2FDA_4139_EE20ADB4A778, this.camera_5DA47A22_4B73_C54B_41D2_74183093AE37); this.mainPlayList.set('selectedIndex', 12)",
+                                                        "click": "this.startPanoramaWithCamera(this.panorama_0FA644EC_0671_2FDA_4139_EE20ADB4A778, this.camera_6F455CF3_4B91_DEC8_41CF_C510BB35FB65); this.mainPlayList.set('selectedIndex', 12)",
                                                         "class": "HotspotPanoramaOverlayArea"
                                                        }
                                                       ],
                                                       "class": "HotspotPanoramaOverlay",
                                                       "items": [
                                                        {
-                                                        "yaw": -178.42,
+                                                        "yaw": 175.4,
                                                         "class": "HotspotPanoramaOverlayImage",
-                                                        "hfov": 21.2,
+                                                        "hfov": 8.45,
                                                         "image": {
                                                          "levels": [
                                                           {
-                                                           "height": 333,
-                                                           "width": 295,
+                                                           "height": 125,
+                                                           "width": 119,
                                                            "url": "media/panorama_0F98F446_0671_2ED7_4191_DEC01556F741_0_HS_4_0.png",
                                                            "class": "ImageResourceLevel"
                                                           }
                                                          ],
                                                          "class": "ImageResource"
                                                         },
-                                                        "pitch": -3.64
+                                                        "pitch": -11.76
                                                        }
                                                       ]
                                                      },
@@ -6674,13 +6674,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                       "id": "overlay_31BE0D81_3C32_5BA6_41B7_6DFB73181369",
                                                       "maps": [
                                                        {
-                                                        "hfov": 16.77,
-                                                        "yaw": -0.27,
+                                                        "hfov": 6.56,
+                                                        "yaw": -3.29,
                                                         "image": {
                                                          "levels": [
                                                           {
-                                                           "height": 171,
-                                                           "width": 116,
+                                                           "height": 50,
+                                                           "width": 46,
                                                            "url": "media/panorama_0F98F446_0671_2ED7_4191_DEC01556F741_0_HS_5_0_0_map.gif",
                                                            "class": "ImageResourceLevel"
                                                           }
@@ -6688,7 +6688,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                          "class": "ImageResource"
                                                         },
                                                         "class": "HotspotPanoramaOverlayMap",
-                                                        "pitch": -3.52
+                                                        "pitch": -10.65
                                                        }
                                                       ],
                                                       "enabledInCardboard": true,
@@ -6696,28 +6696,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                       "areas": [
                                                        {
                                                         "mapColor": "#FF0000",
-                                                        "click": "this.startPanoramaWithCamera(this.panorama_0FC77285_0671_EA55_418C_E84406FDB1AC, this.camera_5DA21A3A_4B73_C5B8_4155_384DD5C78C7C); this.mainPlayList.set('selectedIndex', 14)",
+                                                        "click": "this.startPanoramaWithCamera(this.panorama_0FC77285_0671_EA55_418C_E84406FDB1AC, this.camera_6F482D14_4B91_DF48_41BE_FCE82567D0A1); this.mainPlayList.set('selectedIndex', 14)",
                                                         "class": "HotspotPanoramaOverlayArea"
                                                        }
                                                       ],
                                                       "class": "HotspotPanoramaOverlay",
                                                       "items": [
                                                        {
-                                                        "yaw": -0.27,
+                                                        "yaw": -3.29,
                                                         "class": "HotspotPanoramaOverlayImage",
-                                                        "hfov": 16.77,
+                                                        "hfov": 6.56,
                                                         "image": {
                                                          "levels": [
                                                           {
-                                                           "height": 343,
-                                                           "width": 233,
+                                                           "height": 100,
+                                                           "width": 92,
                                                            "url": "media/panorama_0F98F446_0671_2ED7_4191_DEC01556F741_0_HS_5_0.png",
                                                            "class": "ImageResourceLevel"
                                                           }
                                                          ],
                                                          "class": "ImageResource"
                                                         },
-                                                        "pitch": -3.52
+                                                        "pitch": -10.65
                                                        }
                                                       ]
                                                      }
@@ -6747,8 +6747,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                   "adjacentPanoramas": [
                                                    {
                                                     "panorama": "this.panorama_0FA644EC_0671_2FDA_4139_EE20ADB4A778",
-                                                    "yaw": -178.42,
-                                                    "backwardYaw": -0.18,
+                                                    "yaw": 175.4,
+                                                    "backwardYaw": -0.27,
                                                     "class": "AdjacentPanorama",
                                                     "distance": 1
                                                    },
@@ -6763,7 +6763,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                        "class": "PanoramaMapLocation"
                                                       }
                                                      ],
-                                                     "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                                                     "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                                                      "partial": false,
                                                      "pitch": 0,
                                                      "thumbnailUrl": "media/panorama_0FC77285_0671_EA55_418C_E84406FDB1AC_t.jpg",
@@ -6780,13 +6780,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                          "id": "overlay_26A0F6B7_0673_E5BA_4197_F90E8A3A011E",
                                                          "maps": [
                                                           {
-                                                           "hfov": 10.93,
-                                                           "yaw": 0.25,
+                                                           "hfov": 5.58,
+                                                           "yaw": 5.98,
                                                            "image": {
                                                             "levels": [
                                                              {
                                                               "height": 16,
-                                                              "width": 20,
+                                                              "width": 18,
                                                               "url": "media/panorama_0FC77285_0671_EA55_418C_E84406FDB1AC_0_HS_1_0_map.gif",
                                                               "class": "ImageResourceLevel"
                                                              }
@@ -6794,7 +6794,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                             "class": "ImageResource"
                                                            },
                                                            "class": "HotspotPanoramaOverlayMap",
-                                                           "pitch": -14.76
+                                                           "pitch": -10.5
                                                           }
                                                          ],
                                                          "enabledInCardboard": true,
@@ -6808,21 +6808,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                          "class": "HotspotPanoramaOverlay",
                                                          "items": [
                                                           {
-                                                           "yaw": 0.25,
+                                                           "yaw": 5.98,
                                                            "class": "HotspotPanoramaOverlayImage",
-                                                           "hfov": 10.93,
+                                                           "hfov": 5.58,
                                                            "image": {
                                                             "levels": [
                                                              {
-                                                              "height": 125,
-                                                              "width": 157,
+                                                              "height": 66,
+                                                              "width": 78,
                                                               "url": "media/panorama_0FC77285_0671_EA55_418C_E84406FDB1AC_0_HS_1_0.png",
                                                               "class": "ImageResourceLevel"
                                                              }
                                                             ],
                                                             "class": "ImageResource"
                                                            },
-                                                           "pitch": -14.76
+                                                           "pitch": -10.5
                                                           }
                                                          ]
                                                         },
@@ -6831,13 +6831,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                          "id": "overlay_31A78791_3C32_D7A7_419E_CA932C83A3E7",
                                                          "maps": [
                                                           {
-                                                           "hfov": 17.81,
-                                                           "yaw": 0.25,
+                                                           "hfov": 8.99,
+                                                           "yaw": 2.93,
                                                            "image": {
                                                             "levels": [
                                                              {
-                                                              "height": 122,
-                                                              "width": 123,
+                                                              "height": 44,
+                                                              "width": 63,
                                                               "url": "media/panorama_0FC77285_0671_EA55_418C_E84406FDB1AC_0_HS_2_0_0_map.gif",
                                                               "class": "ImageResourceLevel"
                                                              }
@@ -6845,7 +6845,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                             "class": "ImageResource"
                                                            },
                                                            "class": "HotspotPanoramaOverlayMap",
-                                                           "pitch": -3.27
+                                                           "pitch": -7.95
                                                           }
                                                          ],
                                                          "enabledInCardboard": true,
@@ -6853,28 +6853,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                          "areas": [
                                                           {
                                                            "mapColor": "#FF0000",
-                                                           "click": "this.startPanoramaWithCamera(this.panorama_0F98F446_0671_2ED7_4191_DEC01556F741, this.camera_5D8DC962_4B73_C7CB_41A6_FFDDE82DB1FB); this.mainPlayList.set('selectedIndex', 13)",
+                                                           "click": "this.startPanoramaWithCamera(this.panorama_0F98F446_0671_2ED7_4191_DEC01556F741, this.camera_689C6C65_4B91_DDC9_41CF_10001641CF3C); this.mainPlayList.set('selectedIndex', 13)",
                                                            "class": "HotspotPanoramaOverlayArea"
                                                           }
                                                          ],
                                                          "class": "HotspotPanoramaOverlay",
                                                          "items": [
                                                           {
-                                                           "yaw": 0.25,
+                                                           "yaw": 2.93,
                                                            "class": "HotspotPanoramaOverlayImage",
-                                                           "hfov": 17.81,
+                                                           "hfov": 8.99,
                                                            "image": {
                                                             "levels": [
                                                              {
-                                                              "height": 245,
-                                                              "width": 247,
+                                                              "height": 89,
+                                                              "width": 126,
                                                               "url": "media/panorama_0FC77285_0671_EA55_418C_E84406FDB1AC_0_HS_2_0.png",
                                                               "class": "ImageResourceLevel"
                                                              }
                                                             ],
                                                             "class": "ImageResource"
                                                            },
-                                                           "pitch": -3.27
+                                                           "pitch": -7.95
                                                           }
                                                          ]
                                                         }
@@ -6904,100 +6904,100 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                                      "adjacentPanoramas": [
                                                       {
                                                        "panorama": "this.panorama_0F98F446_0671_2ED7_4191_DEC01556F741",
-                                                       "yaw": 0.25,
-                                                       "backwardYaw": -0.27,
+                                                       "yaw": 2.93,
+                                                       "backwardYaw": -3.29,
                                                        "class": "AdjacentPanorama",
                                                        "distance": 1
                                                       }
                                                      ],
                                                      "vfov": 180
                                                     },
-                                                    "yaw": -0.27,
-                                                    "backwardYaw": 0.25,
+                                                    "yaw": -3.29,
+                                                    "backwardYaw": 2.93,
                                                     "class": "AdjacentPanorama",
                                                     "distance": 1
                                                    }
                                                   ],
                                                   "vfov": 180
                                                  },
-                                                 "yaw": -0.18,
-                                                 "backwardYaw": -178.42,
+                                                 "yaw": -0.27,
+                                                 "backwardYaw": 175.4,
                                                  "class": "AdjacentPanorama",
                                                  "distance": 1
                                                 }
                                                ],
                                                "vfov": 180
                                               },
-                                              "yaw": -178.02,
-                                              "backwardYaw": -178.74,
+                                              "yaw": -168.13,
+                                              "backwardYaw": 176.03,
                                               "class": "AdjacentPanorama",
                                               "distance": 1
                                              },
                                              {
                                               "panorama": "this.panorama_0FD93B7C_0671_5ABA_4189_CFFD7DFC2BA2",
-                                              "yaw": 0.03,
-                                              "backwardYaw": 177.7,
+                                              "yaw": -1.24,
+                                              "backwardYaw": -177.86,
                                               "class": "AdjacentPanorama",
                                               "distance": 1
                                              }
                                             ],
                                             "vfov": 180
                                            },
-                                           "yaw": 177.7,
-                                           "backwardYaw": 0.03,
+                                           "yaw": -177.86,
+                                           "backwardYaw": -1.24,
                                            "class": "AdjacentPanorama",
                                            "distance": 1
                                           },
                                           {
                                            "panorama": "this.panorama_0FD9C056_0671_26F6_418B_F405A95C2C53",
-                                           "yaw": -0.95,
-                                           "backwardYaw": -0.88,
+                                           "yaw": 1.72,
+                                           "backwardYaw": -1.61,
                                            "class": "AdjacentPanorama",
                                            "distance": 1
                                           }
                                          ],
                                          "vfov": 180
                                         },
-                                        "yaw": -0.88,
-                                        "backwardYaw": -0.95,
+                                        "yaw": -1.61,
+                                        "backwardYaw": 1.72,
                                         "class": "AdjacentPanorama",
                                         "distance": 1
                                        }
                                       ],
                                       "vfov": 180
                                      },
-                                     "yaw": 25.67,
-                                     "backwardYaw": 81.58,
+                                     "yaw": 33.58,
+                                     "backwardYaw": 77.51,
                                      "class": "AdjacentPanorama",
                                      "distance": 1
                                     }
                                    ],
                                    "vfov": 180
                                   },
-                                  "yaw": -143.45,
-                                  "backwardYaw": 152.96,
+                                  "yaw": -163.62,
+                                  "backwardYaw": 154.95,
                                   "class": "AdjacentPanorama",
                                   "distance": 1
                                  },
                                  {
                                   "panorama": "this.panorama_0F84F19D_0671_6675_4191_5761B2287855",
-                                  "yaw": 7.69,
-                                  "backwardYaw": 24.89,
+                                  "yaw": 3.13,
+                                  "backwardYaw": 22.7,
                                   "class": "AdjacentPanorama",
                                   "distance": 1
                                  }
                                 ],
                                 "vfov": 180
                                },
-                               "yaw": 24.89,
-                               "backwardYaw": 7.69,
+                               "yaw": 22.7,
+                               "backwardYaw": 3.13,
                                "class": "AdjacentPanorama",
                                "distance": 1
                               },
                               {
                                "panorama": "this.panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894",
-                               "yaw": -53.03,
-                               "backwardYaw": -6.68,
+                               "yaw": -35.59,
+                               "backwardYaw": -6.24,
                                "class": "AdjacentPanorama",
                                "distance": 1
                               },
@@ -7012,7 +7012,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                   "class": "PanoramaMapLocation"
                                  }
                                 ],
-                                "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                                "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                                 "partial": false,
                                 "pitch": 0,
                                 "thumbnailUrl": "media/panorama_0FDE1F49_0671_7ADD_4191_EF61FA36243D_t.jpg",
@@ -7029,13 +7029,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "id": "overlay_305C5588_0793_2456_418A_8A6507C5DC0F",
                                     "maps": [
                                      {
-                                      "hfov": 8.44,
-                                      "yaw": -174.68,
+                                      "hfov": 4.77,
+                                      "yaw": -179.62,
                                       "image": {
                                        "levels": [
                                         {
                                          "height": 16,
-                                         "width": 29,
+                                         "width": 18,
                                          "url": "media/panorama_0FDE1F49_0671_7ADD_4191_EF61FA36243D_0_HS_1_0_map.gif",
                                          "class": "ImageResourceLevel"
                                         }
@@ -7043,7 +7043,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "class": "ImageResource"
                                       },
                                       "class": "HotspotPanoramaOverlayMap",
-                                      "pitch": -6.59
+                                      "pitch": -10.98
                                      }
                                     ],
                                     "enabledInCardboard": true,
@@ -7057,21 +7057,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "class": "HotspotPanoramaOverlay",
                                     "items": [
                                      {
-                                      "yaw": -174.68,
+                                      "yaw": -179.62,
                                       "class": "HotspotPanoramaOverlayImage",
-                                      "hfov": 8.44,
+                                      "hfov": 4.77,
                                       "image": {
                                        "levels": [
                                         {
-                                         "height": 64,
-                                         "width": 117,
+                                         "height": 57,
+                                         "width": 67,
                                          "url": "media/panorama_0FDE1F49_0671_7ADD_4191_EF61FA36243D_0_HS_1_0.png",
                                          "class": "ImageResourceLevel"
                                         }
                                        ],
                                        "class": "ImageResource"
                                       },
-                                      "pitch": -6.59
+                                      "pitch": -10.98
                                      }
                                     ]
                                    },
@@ -7080,13 +7080,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "id": "overlay_31FEF583_3C3F_CBAA_41CA_B71528649943",
                                     "maps": [
                                      {
-                                      "hfov": 11.3,
-                                      "yaw": -174.74,
+                                      "hfov": 6.11,
+                                      "yaw": -179.59,
                                       "image": {
                                        "levels": [
                                         {
-                                         "height": 88,
-                                         "width": 78,
+                                         "height": 46,
+                                         "width": 42,
                                          "url": "media/panorama_0FDE1F49_0671_7ADD_4191_EF61FA36243D_0_HS_2_0_0_map.gif",
                                          "class": "ImageResourceLevel"
                                         }
@@ -7094,7 +7094,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "class": "ImageResource"
                                       },
                                       "class": "HotspotPanoramaOverlayMap",
-                                      "pitch": -0.44
+                                      "pitch": -7.06
                                      }
                                     ],
                                     "enabledInCardboard": true,
@@ -7102,28 +7102,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "areas": [
                                      {
                                       "mapColor": "#FF0000",
-                                      "click": "this.startPanoramaWithCamera(this.panorama_0F84F19D_0671_6675_4191_5761B2287855, this.camera_5CA73871_4B73_C5C9_41BF_92465BF37905); this.mainPlayList.set('selectedIndex', 18)",
+                                      "click": "this.startPanoramaWithCamera(this.panorama_0F84F19D_0671_6675_4191_5761B2287855, this.camera_68C77BEF_4B91_DAD9_41B4_B04CF3C0975F); this.mainPlayList.set('selectedIndex', 18)",
                                       "class": "HotspotPanoramaOverlayArea"
                                      }
                                     ],
                                     "class": "HotspotPanoramaOverlay",
                                     "items": [
                                      {
-                                      "yaw": -174.74,
+                                      "yaw": -179.59,
                                       "class": "HotspotPanoramaOverlayImage",
-                                      "hfov": 11.3,
+                                      "hfov": 6.11,
                                       "image": {
                                        "levels": [
                                         {
-                                         "height": 177,
-                                         "width": 156,
+                                         "height": 92,
+                                         "width": 85,
                                          "url": "media/panorama_0FDE1F49_0671_7ADD_4191_EF61FA36243D_0_HS_2_0.png",
                                          "class": "ImageResourceLevel"
                                         }
                                        ],
                                        "class": "ImageResource"
                                       },
-                                      "pitch": -0.44
+                                      "pitch": -7.06
                                      }
                                     ]
                                    }
@@ -7153,24 +7153,24 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                 "adjacentPanoramas": [
                                  {
                                   "panorama": "this.panorama_0F84F19D_0671_6675_4191_5761B2287855",
-                                  "yaw": -174.74,
-                                  "backwardYaw": 165.15,
+                                  "yaw": -179.59,
+                                  "backwardYaw": 174.91,
                                   "class": "AdjacentPanorama",
                                   "distance": 1
                                  }
                                 ],
                                 "vfov": 180
                                },
-                               "yaw": 165.15,
-                               "backwardYaw": -174.74,
+                               "yaw": 174.91,
+                               "backwardYaw": -179.59,
                                "class": "AdjacentPanorama",
                                "distance": 1
                               }
                              ],
                              "vfov": 180
                             },
-                            "yaw": -6.68,
-                            "backwardYaw": -53.03,
+                            "yaw": -6.24,
+                            "backwardYaw": -35.59,
                             "class": "AdjacentPanorama",
                             "distance": 1
                            },
@@ -7185,7 +7185,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                "class": "PanoramaMapLocation"
                               }
                              ],
-                             "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                             "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                              "partial": false,
                              "pitch": 0,
                              "thumbnailUrl": "media/panorama_0FAACA9F_0671_3A75_4192_41B2767D1D67_t.jpg",
@@ -7202,13 +7202,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "id": "overlay_282E1707_07B3_E45A_4184_0F5F576BAFA8",
                                  "maps": [
                                   {
-                                   "hfov": 8.33,
-                                   "yaw": 4.65,
+                                   "hfov": 5.62,
+                                   "yaw": 23.68,
                                    "image": {
                                     "levels": [
                                      {
                                       "height": 16,
-                                      "width": 24,
+                                      "width": 18,
                                       "url": "media/panorama_0FAACA9F_0671_3A75_4192_41B2767D1D67_0_HS_1_0_map.gif",
                                       "class": "ImageResourceLevel"
                                      }
@@ -7216,7 +7216,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "class": "ImageResource"
                                    },
                                    "class": "HotspotPanoramaOverlayMap",
-                                   "pitch": -12.75
+                                   "pitch": -14.06
                                   }
                                  ],
                                  "enabledInCardboard": true,
@@ -7230,21 +7230,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "class": "HotspotPanoramaOverlay",
                                  "items": [
                                   {
-                                   "yaw": 4.65,
+                                   "yaw": 23.68,
                                    "class": "HotspotPanoramaOverlayImage",
-                                   "hfov": 8.33,
+                                   "hfov": 5.62,
                                    "image": {
                                     "levels": [
                                      {
-                                      "height": 76,
-                                      "width": 118,
+                                      "height": 71,
+                                      "width": 80,
                                       "url": "media/panorama_0FAACA9F_0671_3A75_4192_41B2767D1D67_0_HS_1_0.png",
                                       "class": "ImageResourceLevel"
                                      }
                                     ],
                                     "class": "ImageResource"
                                    },
-                                   "pitch": -12.75
+                                   "pitch": -14.06
                                   }
                                  ]
                                 },
@@ -7253,13 +7253,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "id": "overlay_36A27374_07B1_1CBE_4183_F00116B379C1",
                                  "maps": [
                                   {
-                                   "hfov": 8.48,
-                                   "yaw": -179.12,
+                                   "hfov": 5.67,
+                                   "yaw": -178.21,
                                    "image": {
                                     "levels": [
                                      {
                                       "height": 16,
-                                      "width": 18,
+                                      "width": 16,
                                       "url": "media/panorama_0FAACA9F_0671_3A75_4192_41B2767D1D67_0_HS_3_0_map.gif",
                                       "class": "ImageResourceLevel"
                                      }
@@ -7267,7 +7267,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "class": "ImageResource"
                                    },
                                    "class": "HotspotPanoramaOverlayMap",
-                                   "pitch": -15.39
+                                   "pitch": -18.8
                                   }
                                  ],
                                  "enabledInCardboard": true,
@@ -7281,21 +7281,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "class": "HotspotPanoramaOverlay",
                                  "items": [
                                   {
-                                   "yaw": -179.12,
+                                   "yaw": -178.21,
                                    "class": "HotspotPanoramaOverlayImage",
-                                   "hfov": 8.48,
+                                   "hfov": 5.67,
                                    "image": {
                                     "levels": [
                                      {
-                                      "height": 108,
-                                      "width": 122,
+                                      "height": 81,
+                                      "width": 83,
                                       "url": "media/panorama_0FAACA9F_0671_3A75_4192_41B2767D1D67_0_HS_3_0.png",
                                       "class": "ImageResourceLevel"
                                      }
                                     ],
                                     "class": "ImageResource"
                                    },
-                                   "pitch": -15.39
+                                   "pitch": -18.8
                                   }
                                  ]
                                 },
@@ -7304,13 +7304,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "id": "overlay_319C20C7_3C3E_C9AA_41CD_3CE2491B7454",
                                  "maps": [
                                   {
-                                   "hfov": 20.49,
-                                   "yaw": -179.27,
+                                   "hfov": 11.01,
+                                   "yaw": -178.18,
                                    "image": {
                                     "levels": [
                                      {
-                                      "height": 128,
-                                      "width": 142,
+                                      "height": 64,
+                                      "width": 78,
                                       "url": "media/panorama_0FAACA9F_0671_3A75_4192_41B2767D1D67_0_HS_4_0_0_map.gif",
                                       "class": "ImageResourceLevel"
                                      }
@@ -7318,7 +7318,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "class": "ImageResource"
                                    },
                                    "class": "HotspotPanoramaOverlayMap",
-                                   "pitch": -4.42
+                                   "pitch": -13.96
                                   }
                                  ],
                                  "enabledInCardboard": true,
@@ -7326,28 +7326,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "areas": [
                                   {
                                    "mapColor": "#FF0000",
-                                   "click": "this.startPanoramaWithCamera(this.panorama_0FDE5C8B_0671_5E5E_4133_C1F37F047754, this.camera_5C985C5C_4B73_DDFF_41C3_49A2259CE7D9); this.mainPlayList.set('selectedIndex', 20)",
+                                   "click": "this.startPanoramaWithCamera(this.panorama_0FDE5C8B_0671_5E5E_4133_C1F37F047754, this.camera_6E687F19_4B91_DB79_41C5_B1F40AFC4A38); this.mainPlayList.set('selectedIndex', 20)",
                                    "class": "HotspotPanoramaOverlayArea"
                                   }
                                  ],
                                  "class": "HotspotPanoramaOverlay",
                                  "items": [
                                   {
-                                   "yaw": -179.27,
+                                   "yaw": -178.18,
                                    "class": "HotspotPanoramaOverlayImage",
-                                   "hfov": 20.49,
+                                   "hfov": 11.01,
                                    "image": {
                                     "levels": [
                                      {
-                                      "height": 257,
-                                      "width": 285,
+                                      "height": 128,
+                                      "width": 157,
                                       "url": "media/panorama_0FAACA9F_0671_3A75_4192_41B2767D1D67_0_HS_4_0.png",
                                       "class": "ImageResourceLevel"
                                      }
                                     ],
                                     "class": "ImageResource"
                                    },
-                                   "pitch": -4.42
+                                   "pitch": -13.96
                                   }
                                  ]
                                 },
@@ -7356,13 +7356,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "id": "overlay_3194C5EC_3C3E_CB7D_41C9_0F6F04D6B4CA",
                                  "maps": [
                                   {
-                                   "hfov": 11.26,
-                                   "yaw": 4.77,
+                                   "hfov": 5.19,
+                                   "yaw": 23.81,
                                    "image": {
                                     "levels": [
                                      {
-                                      "height": 129,
-                                      "width": 78,
+                                      "height": 55,
+                                      "width": 36,
                                       "url": "media/panorama_0FAACA9F_0671_3A75_4192_41B2767D1D67_0_HS_5_0_0_map.gif",
                                       "class": "ImageResourceLevel"
                                      }
@@ -7370,7 +7370,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "class": "ImageResource"
                                    },
                                    "class": "HotspotPanoramaOverlayMap",
-                                   "pitch": -4.76
+                                   "pitch": -9.41
                                   }
                                  ],
                                  "enabledInCardboard": true,
@@ -7378,28 +7378,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                  "areas": [
                                   {
                                    "mapColor": "#FF0000",
-                                   "click": "this.startPanoramaWithCamera(this.panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894, this.camera_5CAE1C74_4B73_DDC8_41CC_FB99C39F0ADF); this.mainPlayList.set('selectedIndex', 22)",
+                                   "click": "this.startPanoramaWithCamera(this.panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894, this.camera_6E1E4F28_4B91_DB47_41B4_37EC8B280FAC); this.mainPlayList.set('selectedIndex', 22)",
                                    "class": "HotspotPanoramaOverlayArea"
                                   }
                                  ],
                                  "class": "HotspotPanoramaOverlay",
                                  "items": [
                                   {
-                                   "yaw": 4.77,
+                                   "yaw": 23.81,
                                    "class": "HotspotPanoramaOverlayImage",
-                                   "hfov": 11.26,
+                                   "hfov": 5.19,
                                    "image": {
                                     "levels": [
                                      {
-                                      "height": 259,
-                                      "width": 156,
+                                      "height": 111,
+                                      "width": 73,
                                       "url": "media/panorama_0FAACA9F_0671_3A75_4192_41B2767D1D67_0_HS_5_0.png",
                                       "class": "ImageResourceLevel"
                                      }
                                     ],
                                     "class": "ImageResource"
                                    },
-                                   "pitch": -4.76
+                                   "pitch": -9.41
                                   }
                                  ]
                                 }
@@ -7438,7 +7438,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                   "class": "PanoramaMapLocation"
                                  }
                                 ],
-                                "cardboardMenu": "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+                                "cardboardMenu": "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
                                 "partial": false,
                                 "pitch": 0,
                                 "thumbnailUrl": "media/panorama_0FDE5C8B_0671_5E5E_4133_C1F37F047754_t.jpg",
@@ -7455,13 +7455,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "id": "overlay_36D89562_07B1_24DA_4181_B5F7392CD10A",
                                     "maps": [
                                      {
-                                      "hfov": 9.76,
-                                      "yaw": -178.49,
+                                      "hfov": 5.15,
+                                      "yaw": -174.4,
                                       "image": {
                                        "levels": [
                                         {
                                          "height": 16,
-                                         "width": 22,
+                                         "width": 18,
                                          "url": "media/panorama_0FDE5C8B_0671_5E5E_4133_C1F37F047754_0_HS_1_0_map.gif",
                                          "class": "ImageResourceLevel"
                                         }
@@ -7469,7 +7469,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "class": "ImageResource"
                                       },
                                       "class": "HotspotPanoramaOverlayMap",
-                                      "pitch": -22.3
+                                      "pitch": -19.85
                                      }
                                     ],
                                     "enabledInCardboard": true,
@@ -7483,21 +7483,21 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "class": "HotspotPanoramaOverlay",
                                     "items": [
                                      {
-                                      "yaw": -178.49,
+                                      "yaw": -174.4,
                                       "class": "HotspotPanoramaOverlayImage",
-                                      "hfov": 9.76,
+                                      "hfov": 5.15,
                                       "image": {
                                        "levels": [
                                         {
-                                         "height": 104,
-                                         "width": 146,
+                                         "height": 67,
+                                         "width": 76,
                                          "url": "media/panorama_0FDE5C8B_0671_5E5E_4133_C1F37F047754_0_HS_1_0.png",
                                          "class": "ImageResourceLevel"
                                         }
                                        ],
                                        "class": "ImageResource"
                                       },
-                                      "pitch": -22.3
+                                      "pitch": -19.85
                                      }
                                     ]
                                    },
@@ -7506,13 +7506,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "id": "overlay_3189D767_3C3E_576B_41B9_B7E24D9E032C",
                                     "maps": [
                                      {
-                                      "hfov": 21.31,
-                                      "yaw": -179.93,
+                                      "hfov": 10.65,
+                                      "yaw": -178.38,
                                       "image": {
                                        "levels": [
                                         {
-                                         "height": 187,
-                                         "width": 151,
+                                         "height": 82,
+                                         "width": 77,
                                          "url": "media/panorama_0FDE5C8B_0671_5E5E_4133_C1F37F047754_0_HS_2_0_0_map.gif",
                                          "class": "ImageResourceLevel"
                                         }
@@ -7520,7 +7520,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                        "class": "ImageResource"
                                       },
                                       "class": "HotspotPanoramaOverlayMap",
-                                      "pitch": -11.43
+                                      "pitch": -16.67
                                      }
                                     ],
                                     "enabledInCardboard": true,
@@ -7528,28 +7528,28 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                     "areas": [
                                      {
                                       "mapColor": "#FF0000",
-                                      "click": "this.startPanoramaWithCamera(this.panorama_0FAACA9F_0671_3A75_4192_41B2767D1D67, this.camera_5DF05B40_4B73_DBC7_41BE_28A37319AF72); this.mainPlayList.set('selectedIndex', 21)",
+                                      "click": "this.startPanoramaWithCamera(this.panorama_0FAACA9F_0671_3A75_4192_41B2767D1D67, this.camera_6FCA4E52_4B91_DDCB_41D0_704D05DA43F0); this.mainPlayList.set('selectedIndex', 21)",
                                       "class": "HotspotPanoramaOverlayArea"
                                      }
                                     ],
                                     "class": "HotspotPanoramaOverlay",
                                     "items": [
                                      {
-                                      "yaw": -179.93,
+                                      "yaw": -178.38,
                                       "class": "HotspotPanoramaOverlayImage",
-                                      "hfov": 21.31,
+                                      "hfov": 10.65,
                                       "image": {
                                        "levels": [
                                         {
-                                         "height": 375,
-                                         "width": 302,
+                                         "height": 165,
+                                         "width": 154,
                                          "url": "media/panorama_0FDE5C8B_0671_5E5E_4133_C1F37F047754_0_HS_2_0.png",
                                          "class": "ImageResourceLevel"
                                         }
                                        ],
                                        "class": "ImageResource"
                                       },
-                                      "pitch": -11.43
+                                      "pitch": -16.67
                                      }
                                     ]
                                    }
@@ -7579,144 +7579,144 @@ TDV.PlayerAPI.defineScript({ "definitions": [
                                 "adjacentPanoramas": [
                                  {
                                   "panorama": "this.panorama_0FAACA9F_0671_3A75_4192_41B2767D1D67",
-                                  "yaw": -179.93,
-                                  "backwardYaw": -179.27,
+                                  "yaw": -178.38,
+                                  "backwardYaw": -178.18,
                                   "class": "AdjacentPanorama",
                                   "distance": 1
                                  }
                                 ],
                                 "vfov": 180
                                },
-                               "yaw": -179.27,
-                               "backwardYaw": -179.93,
+                               "yaw": -178.18,
+                               "backwardYaw": -178.38,
                                "class": "AdjacentPanorama",
                                "distance": 1
                               },
                               {
                                "panorama": "this.panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894",
-                               "yaw": 4.77,
-                               "backwardYaw": 87.82,
+                               "yaw": 23.81,
+                               "backwardYaw": 90.68,
                                "class": "AdjacentPanorama",
                                "distance": 1
                               }
                              ],
                              "vfov": 180
                             },
-                            "yaw": 87.82,
-                            "backwardYaw": 4.77,
+                            "yaw": 90.68,
+                            "backwardYaw": 23.81,
                             "class": "AdjacentPanorama",
                             "distance": 1
                            }
                           ],
                           "vfov": 180
                          },
-                         "yaw": -174.64,
-                         "backwardYaw": -172.27,
+                         "yaw": -171.89,
+                         "backwardYaw": -166.65,
                          "class": "AdjacentPanorama",
                          "distance": 1
                         },
                         {
                          "panorama": "this.panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA",
-                         "yaw": -18.92,
-                         "backwardYaw": 156.92,
+                         "yaw": -20.3,
+                         "backwardYaw": 161.1,
                          "class": "AdjacentPanorama",
                          "distance": 1
                         },
                         {
                          "panorama": "this.panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2",
-                         "yaw": 113.51,
-                         "backwardYaw": -107.62,
+                         "yaw": 102.66,
+                         "backwardYaw": -92.4,
                          "class": "AdjacentPanorama",
                          "distance": 1
                         }
                        ],
                        "vfov": 180
                       },
-                      "yaw": 156.92,
-                      "backwardYaw": -18.92,
+                      "yaw": 161.1,
+                      "backwardYaw": -20.3,
                       "class": "AdjacentPanorama",
                       "distance": 1
                      },
                      {
                       "panorama": "this.panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F",
-                      "yaw": 4.74,
-                      "backwardYaw": 36.85,
+                      "yaw": 11.9,
+                      "backwardYaw": 30.58,
                       "class": "AdjacentPanorama",
                       "distance": 1
                      },
                      {
                       "panorama": "this.panorama_0FDA2779_0673_2ABD_418B_39A919E068D4",
-                      "yaw": -96.27,
-                      "backwardYaw": 7.93,
+                      "yaw": -93.01,
+                      "backwardYaw": 5.81,
                       "class": "AdjacentPanorama",
                       "distance": 1
                      }
                     ],
                     "vfov": 180
                    },
-                   "yaw": 7.93,
-                   "backwardYaw": -96.27,
+                   "yaw": 5.81,
+                   "backwardYaw": -93.01,
                    "class": "AdjacentPanorama",
                    "distance": 1
                   },
                   {
                    "panorama": "this.panorama_0FD8B8AB_0673_265D_4181_2D7C532277BA",
-                   "yaw": -178.55,
-                   "backwardYaw": -179.87,
+                   "yaw": -178.95,
+                   "backwardYaw": -171.64,
                    "class": "AdjacentPanorama",
                    "distance": 1
                   }
                  ],
                  "vfov": 180
                 },
-                "yaw": -179.87,
-                "backwardYaw": -178.55,
+                "yaw": -171.64,
+                "backwardYaw": -178.95,
                 "class": "AdjacentPanorama",
                 "distance": 1
                }
               ],
               "vfov": 180
              },
-             "yaw": -2.21,
-             "backwardYaw": -2.69,
+             "yaw": -1.53,
+             "backwardYaw": -2.5,
              "class": "AdjacentPanorama",
              "distance": 1
             }
            ],
            "vfov": 180
           },
-          "yaw": -177.99,
-          "backwardYaw": -179.28,
+          "yaw": -178.95,
+          "backwardYaw": -179.43,
           "class": "AdjacentPanorama",
           "distance": 1
          },
          {
           "panorama": "this.panorama_0FD85D6E_0673_DED7_40FD_D23817113C40",
-          "yaw": 0.35,
-          "backwardYaw": 0.64,
+          "yaw": -0.32,
+          "backwardYaw": 1.7,
           "class": "AdjacentPanorama",
           "distance": 1
          }
         ],
         "vfov": 180
        },
-       "yaw": 0.64,
-       "backwardYaw": 0.35,
+       "yaw": 1.7,
+       "backwardYaw": -0.32,
        "class": "AdjacentPanorama",
        "distance": 1
       },
       {
        "panorama": "this.panorama_0C5F0BFE_0673_59B7_4157_C15F289CED2D",
-       "yaw": -179.67,
-       "backwardYaw": 1.46,
+       "yaw": 174.46,
+       "backwardYaw": 2.57,
        "class": "AdjacentPanorama",
        "distance": 1
       }
      ],
      "vfov": 180
     },
-    "yaw": 1.46,
-    "backwardYaw": -179.67,
+    "yaw": 2.57,
+    "backwardYaw": 174.46,
     "class": "AdjacentPanorama",
     "distance": 1
    }
@@ -8613,207 +8613,207 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PlayList",
   "items": [
    {
-    "id": "PanoramaPlayListItem_5C79D72A_4B73_CB58_41C7_8E1437EAC91E",
+    "id": "PanoramaPlayListItem_6837FB6A_4B91_DBDB_41B4_D38D907A06D1",
     "media": "this.panorama_0C5F0BFE_0673_59B7_4157_C15F289CED2D",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C79D72A_4B73_CB58_41C7_8E1437EAC91E, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_6837FB6A_4B91_DBDB_41B4_D38D907A06D1, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 0, 1)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0C5F0BFE_0673_59B7_4157_C15F289CED2D_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C794731_4B73_CB49_41D2_B4960BE9DB8A",
+    "id": "PanoramaPlayListItem_68376B6B_4B91_DBD9_41B8_EA29AE27E8FF",
     "media": "this.panorama_0FD85D6E_0673_DED7_40FD_D23817113C40",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C794731_4B73_CB49_41D2_B4960BE9DB8A, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_68376B6B_4B91_DBD9_41B8_EA29AE27E8FF, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 1, 2)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FD85D6E_0673_DED7_40FD_D23817113C40_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C78F731_4B73_CB49_41CB_34806FA7192F",
+    "id": "PanoramaPlayListItem_68370B6C_4B91_DBDF_41CB_FC484BDC5B89",
     "media": "this.panorama_0FDDECDB_0673_FFFD_4192_A5DD1F1D9544",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C78F731_4B73_CB49_41CB_34806FA7192F, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_68370B6C_4B91_DBDF_41CB_FC484BDC5B89, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 2, 3)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FDDECDB_0673_FFFD_4192_A5DD1F1D9544_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C78B733_4B73_CB49_41B8_25E4B87B3105",
+    "id": "PanoramaPlayListItem_6830AB6C_4B91_DBDF_41A8_9680301AD654",
     "media": "this.panorama_0FDA99B5_0673_D9B5_417F_B1B5EF3D6F24",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C78B733_4B73_CB49_41B8_25E4B87B3105, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_6830AB6C_4B91_DBDF_41A8_9680301AD654, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 3, 4)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FDA99B5_0673_D9B5_417F_B1B5EF3D6F24_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C75F738_4B73_CBB8_41C5_E8F688A23A7E",
+    "id": "PanoramaPlayListItem_68307B6D_4B91_DBD9_41CE_62149367EC09",
     "media": "this.panorama_0FD8B8AB_0673_265D_4181_2D7C532277BA",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C75F738_4B73_CBB8_41C5_E8F688A23A7E, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_68307B6D_4B91_DBD9_41CE_62149367EC09, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 4, 5)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FD8B8AB_0673_265D_4181_2D7C532277BA_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C75973E_4B73_CBB8_4157_41D909B23E3A",
+    "id": "PanoramaPlayListItem_68301B6E_4B91_DBDB_41C3_1DC9ED0D438A",
     "media": "this.panorama_0FDA2779_0673_2ABD_418B_39A919E068D4",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C75973E_4B73_CBB8_4157_41D909B23E3A, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_68301B6E_4B91_DBDB_41C3_1DC9ED0D438A, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 5, 6)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FDA2779_0673_2ABD_418B_39A919E068D4_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C75073F_4B73_CBB8_41BA_62012C2AA439",
+    "id": "PanoramaPlayListItem_6831AB6F_4B91_DBD9_41D0_BB5D809FBFC7",
     "media": "this.panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C75073F_4B73_CBB8_41BA_62012C2AA439, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_6831AB6F_4B91_DBD9_41D0_BB5D809FBFC7, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 6, 7)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FD89647_0673_6AD6_4154_A2A4B7E324CA_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C74D740_4B73_CBCC_41C4_0B1E21EE3FDF",
+    "id": "PanoramaPlayListItem_68314B6F_4B91_DBD9_41AB_67F627BBF69C",
     "media": "this.panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C74D740_4B73_CBCC_41C4_0B1E21EE3FDF, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_68314B6F_4B91_DBD9_41AB_67F627BBF69C, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 7, 8)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FC59EC7_0673_5BD5_418C_9E501F68352F_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C744746_4B73_CBCB_41CD_1AFB43D138BD",
+    "id": "PanoramaPlayListItem_6832EB70_4B91_DBC7_41D0_12A935DFE4EB",
     "media": "this.panorama_0FD8BF35_0670_DA4A_4198_9ED2057DCD82",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C744746_4B73_CBCB_41CD_1AFB43D138BD, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_6832EB70_4B91_DBC7_41D0_12A935DFE4EB, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 8, 9)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FD8BF35_0670_DA4A_4198_9ED2057DCD82_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C741747_4B73_CBC9_41B2_494788BFDD92",
+    "id": "PanoramaPlayListItem_68328B70_4B91_DBC7_41D2_AEB08C9EAC1E",
     "media": "this.panorama_0FD9C056_0671_26F6_418B_F405A95C2C53",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C741747_4B73_CBC9_41B2_494788BFDD92, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_68328B70_4B91_DBC7_41D2_AEB08C9EAC1E, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 9, 10)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FD9C056_0671_26F6_418B_F405A95C2C53_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C77D74D_4B73_CBD9_41D1_94F2995679C2",
+    "id": "PanoramaPlayListItem_68325B71_4B91_DBC9_41CD_DE9F4D87D6F3",
     "media": "this.panorama_0FD93B7C_0671_5ABA_4189_CFFD7DFC2BA2",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C77D74D_4B73_CBD9_41D1_94F2995679C2, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_68325B71_4B91_DBC9_41CD_DE9F4D87D6F3, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 10, 11)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FD93B7C_0671_5ABA_4189_CFFD7DFC2BA2_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C77774E_4B73_CBDB_41C9_1E8E173265E1",
+    "id": "PanoramaPlayListItem_6833FB72_4B91_DBCB_41C6_239CDB03F9C5",
     "media": "this.panorama_0FD8B41B_0671_6E7D_4192_F88E02AED08E",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C77774E_4B73_CBDB_41C9_1E8E173265E1, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_6833FB72_4B91_DBCB_41C6_239CDB03F9C5, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 11, 12)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FD8B41B_0671_6E7D_4192_F88E02AED08E_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C77074F_4B73_CBD9_41C2_D8B1E53E8E90",
+    "id": "PanoramaPlayListItem_68338B72_4B91_DBCB_419E_6864E39842C5",
     "media": "this.panorama_0FA644EC_0671_2FDA_4139_EE20ADB4A778",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C77074F_4B73_CBD9_41C2_D8B1E53E8E90, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_68338B72_4B91_DBCB_419E_6864E39842C5, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 12, 13)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FA644EC_0671_2FDA_4139_EE20ADB4A778_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C76A750_4B73_CBC7_41BC_97F46A525D99",
+    "id": "PanoramaPlayListItem_68334B73_4B91_DBC9_41C2_6C826F35D41E",
     "media": "this.panorama_0F98F446_0671_2ED7_4191_DEC01556F741",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C76A750_4B73_CBC7_41BC_97F46A525D99, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_68334B73_4B91_DBC9_41C2_6C826F35D41E, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 13, 14)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0F98F446_0671_2ED7_4191_DEC01556F741_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C764756_4B73_CBCB_41D1_B9C23A918A9C",
+    "id": "PanoramaPlayListItem_68331B73_4B91_DBC9_41C4_DF766A5BA197",
     "media": "this.panorama_0FC77285_0671_EA55_418C_E84406FDB1AC",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C764756_4B73_CBCB_41D1_B9C23A918A9C, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_68331B73_4B91_DBC9_41C4_DF766A5BA197, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 14, 15)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FC77285_0671_EA55_418C_E84406FDB1AC_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C71E757_4B73_CBC9_41D0_15A6C0BB4630",
+    "id": "PanoramaPlayListItem_683C8B74_4B91_DBCF_4184_44944E3992B8",
     "media": "this.panorama_0FD82345_0671_EAD5_4173_8B63686C1397",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C71E757_4B73_CBC9_41D0_15A6C0BB4630, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_683C8B74_4B91_DBCF_4184_44944E3992B8, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 15, 16)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FD82345_0671_EAD5_4173_8B63686C1397_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C71B758_4B73_CBC7_41D1_ED1D61A2D96B",
+    "id": "PanoramaPlayListItem_683C5B75_4B91_DBC9_41B9_F86CDCACEAD3",
     "media": "this.panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C71B758_4B73_CBC7_41D1_ED1D61A2D96B, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_683C5B75_4B91_DBC9_41B9_F86CDCACEAD3, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 16, 17)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FD8A2CE_0671_2BD7_4160_F4B5F5CFE5F2_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C71475E_4B73_CBF8_41B7_DBC972C4E06E",
+    "id": "PanoramaPlayListItem_683DEB75_4B91_DBC9_41CF_72CEE89BDD4D",
     "media": "this.panorama_0FDFB3D8_0671_29FB_4184_5CA02F7358EC",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C71475E_4B73_CBF8_41B7_DBC972C4E06E, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_683DEB75_4B91_DBC9_41CF_72CEE89BDD4D, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 17, 18)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FDFB3D8_0671_29FB_4184_5CA02F7358EC_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C70E760_4B73_CBC8_41C1_FB9FF59D430F",
+    "id": "PanoramaPlayListItem_683D8B76_4B91_DBCB_41C0_79D2B9D39ABC",
     "media": "this.panorama_0F84F19D_0671_6675_4191_5761B2287855",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C70E760_4B73_CBC8_41C1_FB9FF59D430F, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_683D8B76_4B91_DBCB_41C0_79D2B9D39ABC, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 18, 19)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0F84F19D_0671_6675_4191_5761B2287855_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C70B763_4B73_CBC8_41B7_35A115CEBCBD",
+    "id": "PanoramaPlayListItem_683D4B77_4B91_DBC9_41BF_82A5B7E87617",
     "media": "this.panorama_0FDE1F49_0671_7ADD_4191_EF61FA36243D",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C70B763_4B73_CBC8_41B7_35A115CEBCBD, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_683D4B77_4B91_DBC9_41BF_82A5B7E87617, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 19, 20)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FDE1F49_0671_7ADD_4191_EF61FA36243D_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C70776A_4B73_CBD9_41B6_B523A2F2C4B5",
+    "id": "PanoramaPlayListItem_683EEB77_4B91_DBC9_41A2_A5EDB14C76D6",
     "media": "this.panorama_0FDE5C8B_0671_5E5E_4133_C1F37F047754",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C70776A_4B73_CBD9_41B6_B523A2F2C4B5, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_683EEB77_4B91_DBC9_41A2_A5EDB14C76D6, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 20, 21)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FDE5C8B_0671_5E5E_4133_C1F37F047754_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C73C76C_4B73_CBD8_41A5_022B3CBAE470",
+    "id": "PanoramaPlayListItem_683E9B78_4B91_DBC7_41A2_E2A844840BBB",
     "media": "this.panorama_0FAACA9F_0671_3A75_4192_41B2767D1D67",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C73C76C_4B73_CBD8_41A5_022B3CBAE470, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_683E9B78_4B91_DBC7_41A2_E2A844840BBB, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 21, 22)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
     "camera": "this.panorama_0FAACA9F_0671_3A75_4192_41B2767D1D67_camera"
    },
    {
-    "id": "PanoramaPlayListItem_5C73676D_4B73_CBD8_41CB_A5DC75598831",
+    "id": "PanoramaPlayListItem_683E3B78_4B91_DBC7_41CB_583EE6DE1DD2",
     "media": "this.panorama_0C7DC9D9_0670_D9FD_413A_2F4D6689A894",
-    "start": "this.setMapLocation(this.PanoramaPlayListItem_5C73676D_4B73_CBD8_41CB_A5DC75598831, this.MapViewerMapPlayer)",
+    "start": "this.setMapLocation(this.PanoramaPlayListItem_683E3B78_4B91_DBC7_41CB_583EE6DE1DD2, this.MapViewerMapPlayer)",
     "begin": "this.setEndToItemIndex(this.mainPlayList, 22, 0)",
     "player": "this.MainViewerPanoramaPlayer",
     "class": "PanoramaPlayListItem",
@@ -8823,7 +8823,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  "this.map_2F1D2B3B_3FEA_3F13_41C5_B87C855D8799",
  {
-  "id": "playList_5C7E6729_4B73_CB59_419F_B3B59CAD9477",
+  "id": "playList_68369B6A_4B91_DBDB_41CF_C392FA5CE917",
   "class": "PlayList",
   "items": [
    {
@@ -8834,11 +8834,11 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    }
   ]
  },
- "this.Menu_5C730774_4B73_CBCF_41CD_A7813E1E8EF4",
+ "this.Menu_683FDB79_4B91_DBB9_41D0_13FA5C2B0A4C",
  {
-  "id": "camera_5C8327F5_4B73_CAC8_41CE_2BA7A582FAAC",
+  "id": "camera_682C1B9D_4B91_DB79_41D2_56D549E177F6",
   "initialPosition": {
-   "yaw": 7.73,
+   "yaw": 13.35,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -8870,9 +8870,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5C99C806_4B73_C548_41BB_30047BAD3DBE",
+  "id": "camera_682ABBAC_4B91_DB5F_41BB_EDF83429BC55",
   "initialPosition": {
-   "yaw": -23.08,
+   "yaw": -18.9,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -8904,9 +8904,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5C94E824_4B73_C54F_41B2_FDCA9645AEB5",
+  "id": "camera_68D65BBB_4B91_DAB9_41BD_BF35BB19C259",
   "initialPosition": {
-   "yaw": 72.38,
+   "yaw": 87.6,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -8938,9 +8938,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5C92783A_4B73_C5BB_419B_B93C26EC6446",
+  "id": "camera_68DC0BCB_4B91_DAD9_4187_38F176C09202",
   "initialPosition": {
-   "yaw": 177.79,
+   "yaw": 178.47,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -8972,9 +8972,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5CA9385E_4B73_C5F8_41C8_EA7BF86E8B21",
+  "id": "camera_68D94BE1_4B91_DAC9_41C2_A9EFF7CCBBB1",
   "initialPosition": {
-   "yaw": 1.45,
+   "yaw": 1.05,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9006,9 +9006,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5CA73871_4B73_C5C9_41BF_92465BF37905",
+  "id": "camera_68C77BEF_4B91_DAD9_41B4_B04CF3C0975F",
   "initialPosition": {
-   "yaw": -14.85,
+   "yaw": -5.09,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9016,43 +9016,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5CBC6888_4B73_C558_41AF_9B0BC9A031A1",
+  "id": "camera_68CEDBFD_4B91_DAB8_41D1_B9CBF1ED5E63",
   "initialPosition": {
-   "yaw": -66.49,
-   "class": "PanoramaCameraPosition",
-   "pitch": 0
-  },
-  "initialSequence": {
-   "restartMovementOnUserInteraction": false,
-   "class": "PanoramaCameraSequence",
-   "movements": [
-    {
-     "easing": "cubic_in",
-     "yawSpeed": 7.96,
-     "yawDelta": 18.5,
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "easing": "linear",
-     "yawSpeed": 7.96,
-     "yawDelta": 323,
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "easing": "cubic_out",
-     "yawSpeed": 7.96,
-     "yawDelta": 18.5,
-     "class": "DistancePanoramaCameraMovement"
-    }
-   ]
-  },
-  "automaticZoomSpeed": 10,
-  "class": "PanoramaCamera"
- },
- {
-  "id": "camera_5CBB689F_4B73_C579_41AC_C2CB933D4AFE",
-  "initialPosition": {
-   "yaw": 36.55,
+   "yaw": -77.34,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9084,9 +9050,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5CB378B3_4B73_C549_41D1_264960D8BE30",
+  "id": "camera_68CBBC0C_4B91_DD59_41C9_8303ED5475B5",
   "initialPosition": {
-   "yaw": -98.42,
+   "yaw": 16.38,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9118,9 +9084,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5CCAC8D6_4B73_C6C8_41B5_275CA17BA3DB",
+  "id": "camera_68F13C1C_4B91_DD7F_41B4_11E125F11DBD",
   "initialPosition": {
-   "yaw": 83.73,
+   "yaw": -102.49,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9152,9 +9118,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5CC358E9_4B73_C6D9_416B_D4C5A5FFFA94",
+  "id": "camera_68F81C2A_4B91_DD5B_41CD_377EAAA30BD9",
   "initialPosition": {
-   "yaw": 0.13,
+   "yaw": 86.99,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9186,9 +9152,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5D74392F_4B73_C759_41CB_68CC5437DD01",
+  "id": "camera_68E68C39_4B91_DDB9_41D1_3407FDB06DEA",
   "initialPosition": {
-   "yaw": -27.04,
+   "yaw": 8.36,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9220,9 +9186,43 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5D70D946_4B73_C7C8_41B3_E570470F23B8",
+  "id": "camera_68ED1C48_4B91_DDC7_41B2_1B77B39E8C5A",
   "initialPosition": {
-   "yaw": -155.11,
+   "yaw": -25.05,
+   "class": "PanoramaCameraPosition",
+   "pitch": 0
+  },
+  "initialSequence": {
+   "restartMovementOnUserInteraction": false,
+   "class": "PanoramaCameraSequence",
+   "movements": [
+    {
+     "easing": "cubic_in",
+     "yawSpeed": 7.96,
+     "yawDelta": 18.5,
+     "class": "DistancePanoramaCameraMovement"
+    },
+    {
+     "easing": "linear",
+     "yawSpeed": 7.96,
+     "yawDelta": 323,
+     "class": "DistancePanoramaCameraMovement"
+    },
+    {
+     "easing": "cubic_out",
+     "yawSpeed": 7.96,
+     "yawDelta": 18.5,
+     "class": "DistancePanoramaCameraMovement"
+    }
+   ]
+  },
+  "automaticZoomSpeed": 10,
+  "class": "PanoramaCamera"
+ },
+ {
+  "id": "camera_6895FC56_4B91_DDCB_41B1_2230FDB102FC",
+  "initialPosition": {
+   "yaw": -157.3,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9230,7 +9230,255 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5D8DC962_4B73_C7CB_41A6_FFDDE82DB1FB",
+  "id": "camera_689C6C65_4B91_DDC9_41CF_10001641CF3C",
+  "initialPosition": {
+   "yaw": 176.71,
+   "class": "PanoramaCameraPosition",
+   "pitch": 0
+  },
+  "initialSequence": {
+   "restartMovementOnUserInteraction": false,
+   "class": "PanoramaCameraSequence",
+   "movements": [
+    {
+     "easing": "cubic_in",
+     "yawSpeed": 7.96,
+     "yawDelta": 18.5,
+     "class": "DistancePanoramaCameraMovement"
+    },
+    {
+     "easing": "linear",
+     "yawSpeed": 7.96,
+     "yawDelta": 323,
+     "class": "DistancePanoramaCameraMovement"
+    },
+    {
+     "easing": "cubic_out",
+     "yawSpeed": 7.96,
+     "yawDelta": 18.5,
+     "class": "DistancePanoramaCameraMovement"
+    }
+   ]
+  },
+  "automaticZoomSpeed": 10,
+  "class": "PanoramaCamera"
+ },
+ {
+  "id": "camera_6885AC74_4B91_DDCF_41C7_1FBAEFDEC04C",
+  "initialPosition": {
+   "yaw": 159.7,
+   "class": "PanoramaCameraPosition",
+   "pitch": 0
+  },
+  "initialSequence": {
+   "restartMovementOnUserInteraction": false,
+   "class": "PanoramaCameraSequence",
+   "movements": [
+    {
+     "easing": "cubic_in",
+     "yawSpeed": 7.96,
+     "yawDelta": 18.5,
+     "class": "DistancePanoramaCameraMovement"
+    },
+    {
+     "easing": "linear",
+     "yawSpeed": 7.96,
+     "yawDelta": 323,
+     "class": "DistancePanoramaCameraMovement"
+    },
+    {
+     "easing": "cubic_out",
+     "yawSpeed": 7.96,
+     "yawDelta": 18.5,
+     "class": "DistancePanoramaCameraMovement"
+    }
+   ]
+  },
+  "automaticZoomSpeed": 10,
+  "class": "PanoramaCamera"
+ },
+ {
+  "id": "camera_688C2C82_4B91_DD4B_41C0_DB7A34C554E1",
+  "initialPosition": {
+   "yaw": -149.42,
+   "class": "PanoramaCameraPosition",
+   "pitch": 0
+  },
+  "initialSequence": {
+   "restartMovementOnUserInteraction": false,
+   "class": "PanoramaCameraSequence",
+   "movements": [
+    {
+     "easing": "cubic_in",
+     "yawSpeed": 7.96,
+     "yawDelta": 18.5,
+     "class": "DistancePanoramaCameraMovement"
+    },
+    {
+     "easing": "linear",
+     "yawSpeed": 7.96,
+     "yawDelta": 323,
+     "class": "DistancePanoramaCameraMovement"
+    },
+    {
+     "easing": "cubic_out",
+     "yawSpeed": 7.96,
+     "yawDelta": 18.5,
+     "class": "DistancePanoramaCameraMovement"
+    }
+   ]
+  },
+  "automaticZoomSpeed": 10,
+  "class": "PanoramaCamera"
+ },
+ {
+  "id": "camera_68B59C91_4B91_DD49_41B5_76EB5C999DBB",
+  "initialPosition": {
+   "yaw": -174.19,
+   "class": "PanoramaCameraPosition",
+   "pitch": 0
+  },
+  "initialSequence": {
+   "restartMovementOnUserInteraction": false,
+   "class": "PanoramaCameraSequence",
+   "movements": [
+    {
+     "easing": "cubic_in",
+     "yawSpeed": 7.96,
+     "yawDelta": 18.5,
+     "class": "DistancePanoramaCameraMovement"
+    },
+    {
+     "easing": "linear",
+     "yawSpeed": 7.96,
+     "yawDelta": 323,
+     "class": "DistancePanoramaCameraMovement"
+    },
+    {
+     "easing": "cubic_out",
+     "yawSpeed": 7.96,
+     "yawDelta": 18.5,
+     "class": "DistancePanoramaCameraMovement"
+    }
+   ]
+  },
+  "automaticZoomSpeed": 10,
+  "class": "PanoramaCamera"
+ },
+ {
+  "id": "camera_68BF8CA0_4B91_DD47_41D0_28ACA91FD48F",
+  "initialPosition": {
+   "yaw": -176.87,
+   "class": "PanoramaCameraPosition",
+   "pitch": 0
+  },
+  "initialSequence": {
+   "restartMovementOnUserInteraction": false,
+   "class": "PanoramaCameraSequence",
+   "movements": [
+    {
+     "easing": "cubic_in",
+     "yawSpeed": 7.96,
+     "yawDelta": 18.5,
+     "class": "DistancePanoramaCameraMovement"
+    },
+    {
+     "easing": "linear",
+     "yawSpeed": 7.96,
+     "yawDelta": 323,
+     "class": "DistancePanoramaCameraMovement"
+    },
+    {
+     "easing": "cubic_out",
+     "yawSpeed": 7.96,
+     "yawDelta": 18.5,
+     "class": "DistancePanoramaCameraMovement"
+    }
+   ]
+  },
+  "automaticZoomSpeed": 10,
+  "class": "PanoramaCamera"
+ },
+ {
+  "id": "camera_68A07CAF_4B91_DD59_41CA_43319CE3A0A0",
+  "initialPosition": {
+   "yaw": 173.76,
+   "class": "PanoramaCameraPosition",
+   "pitch": 0
+  },
+  "initialSequence": {
+   "restartMovementOnUserInteraction": false,
+   "class": "PanoramaCameraSequence",
+   "movements": [
+    {
+     "easing": "cubic_in",
+     "yawSpeed": 7.96,
+     "yawDelta": 18.5,
+     "class": "DistancePanoramaCameraMovement"
+    },
+    {
+     "easing": "linear",
+     "yawSpeed": 7.96,
+     "yawDelta": 323,
+     "class": "DistancePanoramaCameraMovement"
+    },
+    {
+     "easing": "cubic_out",
+     "yawSpeed": 7.96,
+     "yawDelta": 18.5,
+     "class": "DistancePanoramaCameraMovement"
+    }
+   ]
+  },
+  "automaticZoomSpeed": 10,
+  "class": "PanoramaCamera"
+ },
+ {
+  "id": "camera_68AAFCBD_4B91_DEB9_41A6_7DCAF8FF4A3B",
+  "initialPosition": {
+   "yaw": 0.41,
+   "class": "PanoramaCameraPosition",
+   "pitch": 0
+  },
+  "automaticZoomSpeed": 10,
+  "class": "PanoramaCamera"
+ },
+ {
+  "id": "camera_6F5DECD4_4B91_DEC8_41B4_77EE1CB883E1",
+  "initialPosition": {
+   "yaw": -5.54,
+   "class": "PanoramaCameraPosition",
+   "pitch": 0
+  },
+  "initialSequence": {
+   "restartMovementOnUserInteraction": false,
+   "class": "PanoramaCameraSequence",
+   "movements": [
+    {
+     "easing": "cubic_in",
+     "yawSpeed": 7.96,
+     "yawDelta": 18.5,
+     "class": "DistancePanoramaCameraMovement"
+    },
+    {
+     "easing": "linear",
+     "yawSpeed": 7.96,
+     "yawDelta": 323,
+     "class": "DistancePanoramaCameraMovement"
+    },
+    {
+     "easing": "cubic_out",
+     "yawSpeed": 7.96,
+     "yawDelta": 18.5,
+     "class": "DistancePanoramaCameraMovement"
+    }
+   ]
+  },
+  "automaticZoomSpeed": 10,
+  "class": "PanoramaCamera"
+ },
+ {
+  "id": "camera_6F455CF3_4B91_DEC8_41CF_C510BB35FB65",
   "initialPosition": {
    "yaw": 179.73,
    "class": "PanoramaCameraPosition",
@@ -9264,9 +9512,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5D88397A_4B73_C7B8_41C6_9F3972A6884F",
+  "id": "camera_6F482D14_4B91_DF48_41BE_FCE82567D0A1",
   "initialPosition": {
-   "yaw": 161.08,
+   "yaw": -177.07,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9298,9 +9546,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5D840990_4B73_C747_41D2_22E32EFCA581",
+  "id": "camera_6F72ED34_4B91_DF48_41CA_34DF141C0C17",
   "initialPosition": {
-   "yaw": -143.15,
+   "yaw": 42.59,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9332,9 +9580,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5D8219AE_4B73_C75B_4180_04A8F86DF9CD",
+  "id": "camera_6F640D52_4B91_DFC8_419A_F76C4177854A",
   "initialPosition": {
-   "yaw": -172.07,
+   "yaw": -168.1,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9366,9 +9614,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5D9829C1_4B73_C6C8_41D0_07C00E4448A9",
+  "id": "camera_6F6F3D71_4B91_DFC8_41C1_B3250CEA5EFF",
   "initialPosition": {
-   "yaw": -172.31,
+   "yaw": -49.13,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9400,9 +9648,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5D97C9DD_4B73_C6F9_41B3_12CCA7212794",
+  "id": "camera_6F103D8F_4B91_DF59_41CA_E3657E4CD5C9",
   "initialPosition": {
-   "yaw": 173.32,
+   "yaw": 8.11,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9434,9 +9682,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5D92B9F6_4B73_C6C8_41C5_A5B68668916A",
+  "id": "camera_6F05CDA7_4B91_DF49_41B4_96E53A69F3D5",
   "initialPosition": {
-   "yaw": 5.26,
+   "yaw": 144.41,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9444,43 +9692,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5DA8DA07_4B73_C549_41CF_6E803089D513",
+  "id": "camera_6F0A4DC7_4B91_DEC9_41C1_8C0D106A481C",
   "initialPosition": {
-   "yaw": 0.33,
-   "class": "PanoramaCameraPosition",
-   "pitch": 0
-  },
-  "initialSequence": {
-   "restartMovementOnUserInteraction": false,
-   "class": "PanoramaCameraSequence",
-   "movements": [
-    {
-     "easing": "cubic_in",
-     "yawSpeed": 7.96,
-     "yawDelta": 18.5,
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "easing": "linear",
-     "yawSpeed": 7.96,
-     "yawDelta": 323,
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "easing": "cubic_out",
-     "yawSpeed": 7.96,
-     "yawDelta": 18.5,
-     "class": "DistancePanoramaCameraMovement"
-    }
-   ]
-  },
-  "automaticZoomSpeed": 10,
-  "class": "PanoramaCamera"
- },
- {
-  "id": "camera_5DA47A22_4B73_C54B_41D2_74183093AE37",
-  "initialPosition": {
-   "yaw": 179.82,
+   "yaw": -156.19,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9512,9 +9726,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5DA21A3A_4B73_C5B8_4155_384DD5C78C7C",
+  "id": "camera_6F3E3DE9_4B91_DED9_41CA_AC9936C8D669",
   "initialPosition": {
-   "yaw": -179.75,
+   "yaw": 179.68,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9546,9 +9760,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5DB89A55_4B73_C5C9_41D2_4E29DEB980C5",
+  "id": "camera_6F2C9E09_4B91_DD59_41B8_38F7B7056A81",
   "initialPosition": {
-   "yaw": 36.86,
+   "yaw": -177.43,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9580,9 +9794,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5DB10A6F_4B73_C5D8_41C7_75CFB8B1AEA5",
+  "id": "camera_6FD06E29_4B91_DD59_41C6_39C95375467C",
   "initialPosition": {
-   "yaw": -175.26,
+   "yaw": 11.87,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9614,9 +9828,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5DCEFA87_4B73_C549_41B3_F743E6803D65",
+  "id": "camera_6FC6DE42_4B91_DDCB_41B0_6BA83D340723",
   "initialPosition": {
-   "yaw": -50.91,
+   "yaw": -4.6,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9648,9 +9862,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5DC73AA0_4B73_C547_41D2_74931861A78A",
+  "id": "camera_6FCA4E52_4B91_DDCB_41D0_704D05DA43F0",
   "initialPosition": {
-   "yaw": 5.36,
+   "yaw": 1.82,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9682,19 +9896,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5DDC7AB5_4B73_C548_41B6_36C46A009BD1",
+  "id": "camera_6FF8BE61_4B91_DDC8_41C8_4156D42C6027",
   "initialPosition": {
-   "yaw": 126.97,
-   "class": "PanoramaCameraPosition",
-   "pitch": 0
-  },
-  "automaticZoomSpeed": 10,
-  "class": "PanoramaCamera"
- },
- {
-  "id": "camera_5DD4DAD0_4B73_DAC7_41C7_1CABFE890672",
-  "initialPosition": {
-   "yaw": -175.23,
+   "yaw": 178.76,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9726,9 +9930,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5DD29AE4_4B73_DAC8_41B1_DDA7584FAA5E",
+  "id": "camera_6FEEAE6F_4B91_DDD8_41CC_CD6611F1B7DE",
   "initialPosition": {
-   "yaw": -179.65,
+   "yaw": 178.39,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9760,9 +9964,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5DEACAF8_4B73_DAC7_41C5_010A61ADD53C",
+  "id": "camera_6F92DE7E_4B91_DDBB_41BD_FCF4E1D2F7D8",
   "initialPosition": {
-   "yaw": -178.54,
+   "yaw": 0.57,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9794,9 +9998,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5DE0DB11_4B73_DB48_41B2_6510702EA77C",
+  "id": "camera_6F80AE8D_4B91_DD59_41A0_A636FC793D1F",
   "initialPosition": {
-   "yaw": 1.98,
+   "yaw": -178.3,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9828,9 +10032,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5DF84B27_4B73_DB49_41CB_2CEB95624830",
+  "id": "camera_6FB46EA1_4B91_DD49_41CC_B23C8A2C9CDD",
   "initialPosition": {
-   "yaw": 1.58,
+   "yaw": -3.97,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9862,9 +10066,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5DF05B40_4B73_DBC7_41BE_28A37319AF72",
+  "id": "camera_6FBAAEB1_4B91_DD49_41A0_D18D95540F43",
   "initialPosition": {
-   "yaw": 0.73,
+   "yaw": 2.14,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9896,9 +10100,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5C05DB57_4B73_DBC8_41CE_126F7CE4B918",
+  "id": "camera_6FA8AEC4_4B91_DACF_41AC_2B1863CF6E38",
   "initialPosition": {
-   "yaw": -179.97,
+   "yaw": 143.83,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9930,9 +10134,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5C197B6C_4B73_DBDF_4186_68AB4BA66677",
+  "id": "camera_6E5C2ED8_4B91_DAC7_41C6_9206B6E581E2",
   "initialPosition": {
-   "yaw": 179.12,
+   "yaw": -146.42,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9964,9 +10168,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5C120B85_4B73_DB48_41B9_6CB67CDAD7F6",
+  "id": "camera_6E428EE8_4B91_DAC7_41CE_9A44A10C2929",
   "initialPosition": {
-   "yaw": 0.72,
+   "yaw": -178.28,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -9998,9 +10202,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5C21ABA3_4B73_DB49_41BB_FA1851FEA8AC",
+  "id": "camera_6E767EFA_4B91_DABB_41D2_113165E82E9B",
   "initialPosition": {
-   "yaw": -179.36,
+   "yaw": 1.05,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -10032,9 +10236,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5C3ABBBE_4B73_DABB_41B9_945D7341AE3E",
+  "id": "camera_6E64CF0A_4B91_DB5B_41D0_2029B3E27860",
   "initialPosition": {
-   "yaw": 1.26,
+   "yaw": 177.5,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -10066,9 +10270,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5C497BDE_4B73_DAF8_41B9_9295B5EB5AC5",
+  "id": "camera_6E687F19_4B91_DB79_41C5_B1F40AFC4A38",
   "initialPosition": {
-   "yaw": -2.3,
+   "yaw": 1.62,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -10100,9 +10304,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5C5CFBF0_4B73_DAC7_41C1_C8D8F840A92F",
+  "id": "camera_6E1E4F28_4B91_DB47_41B4_37EC8B280FAC",
   "initialPosition": {
-   "yaw": 137.87,
+   "yaw": -89.32,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -10134,213 +10338,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "class": "PanoramaCamera"
  },
  {
-  "id": "camera_5C528C0C_4B73_DD5F_41B1_0D759CD9D660",
+  "id": "camera_6E0C7F37_4B91_DB49_41A6_3A8D662B980F",
   "initialPosition": {
-   "yaw": -154.33,
-   "class": "PanoramaCameraPosition",
-   "pitch": 0
-  },
-  "initialSequence": {
-   "restartMovementOnUserInteraction": false,
-   "class": "PanoramaCameraSequence",
-   "movements": [
-    {
-     "easing": "cubic_in",
-     "yawSpeed": 7.96,
-     "yawDelta": 18.5,
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "easing": "linear",
-     "yawSpeed": 7.96,
-     "yawDelta": 323,
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "easing": "cubic_out",
-     "yawSpeed": 7.96,
-     "yawDelta": 18.5,
-     "class": "DistancePanoramaCameraMovement"
-    }
-   ]
-  },
-  "automaticZoomSpeed": 10,
-  "class": "PanoramaCamera"
- },
- {
-  "id": "camera_5C607C21_4B73_DD49_41B8_99461FC258BD",
-  "initialPosition": {
-   "yaw": 179.05,
-   "class": "PanoramaCameraPosition",
-   "pitch": 0
-  },
-  "initialSequence": {
-   "restartMovementOnUserInteraction": false,
-   "class": "PanoramaCameraSequence",
-   "movements": [
-    {
-     "easing": "cubic_in",
-     "yawSpeed": 7.96,
-     "yawDelta": 18.5,
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "easing": "linear",
-     "yawSpeed": 7.96,
-     "yawDelta": 323,
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "easing": "cubic_out",
-     "yawSpeed": 7.96,
-     "yawDelta": 18.5,
-     "class": "DistancePanoramaCameraMovement"
-    }
-   ]
-  },
-  "automaticZoomSpeed": 10,
-  "class": "PanoramaCamera"
- },
- {
-  "id": "camera_5C77BC33_4B73_DD49_41C3_FE8F81978EE6",
-  "initialPosition": {
-   "yaw": 2.01,
-   "class": "PanoramaCameraPosition",
-   "pitch": 0
-  },
-  "initialSequence": {
-   "restartMovementOnUserInteraction": false,
-   "class": "PanoramaCameraSequence",
-   "movements": [
-    {
-     "easing": "cubic_in",
-     "yawSpeed": 7.96,
-     "yawDelta": 18.5,
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "easing": "linear",
-     "yawSpeed": 7.96,
-     "yawDelta": 323,
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "easing": "cubic_out",
-     "yawSpeed": 7.96,
-     "yawDelta": 18.5,
-     "class": "DistancePanoramaCameraMovement"
-    }
-   ]
-  },
-  "automaticZoomSpeed": 10,
-  "class": "PanoramaCamera"
- },
- {
-  "id": "camera_5C857C45_4B73_DDC9_41CF_FE2400A4967D",
-  "initialPosition": {
-   "yaw": 177.31,
-   "class": "PanoramaCameraPosition",
-   "pitch": 0
-  },
-  "initialSequence": {
-   "restartMovementOnUserInteraction": false,
-   "class": "PanoramaCameraSequence",
-   "movements": [
-    {
-     "easing": "cubic_in",
-     "yawSpeed": 7.96,
-     "yawDelta": 18.5,
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "easing": "linear",
-     "yawSpeed": 7.96,
-     "yawDelta": 323,
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "easing": "cubic_out",
-     "yawSpeed": 7.96,
-     "yawDelta": 18.5,
-     "class": "DistancePanoramaCameraMovement"
-    }
-   ]
-  },
-  "automaticZoomSpeed": 10,
-  "class": "PanoramaCamera"
- },
- {
-  "id": "camera_5C985C5C_4B73_DDFF_41C3_49A2259CE7D9",
-  "initialPosition": {
-   "yaw": 0.07,
-   "class": "PanoramaCameraPosition",
-   "pitch": 0
-  },
-  "initialSequence": {
-   "restartMovementOnUserInteraction": false,
-   "class": "PanoramaCameraSequence",
-   "movements": [
-    {
-     "easing": "cubic_in",
-     "yawSpeed": 7.96,
-     "yawDelta": 18.5,
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "easing": "linear",
-     "yawSpeed": 7.96,
-     "yawDelta": 323,
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "easing": "cubic_out",
-     "yawSpeed": 7.96,
-     "yawDelta": 18.5,
-     "class": "DistancePanoramaCameraMovement"
-    }
-   ]
-  },
-  "automaticZoomSpeed": 10,
-  "class": "PanoramaCamera"
- },
- {
-  "id": "camera_5CAE1C74_4B73_DDC8_41CC_FB99C39F0ADF",
-  "initialPosition": {
-   "yaw": -92.18,
-   "class": "PanoramaCameraPosition",
-   "pitch": 0
-  },
-  "initialSequence": {
-   "restartMovementOnUserInteraction": false,
-   "class": "PanoramaCameraSequence",
-   "movements": [
-    {
-     "easing": "cubic_in",
-     "yawSpeed": 7.96,
-     "yawDelta": 18.5,
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "easing": "linear",
-     "yawSpeed": 7.96,
-     "yawDelta": 323,
-     "class": "DistancePanoramaCameraMovement"
-    },
-    {
-     "easing": "cubic_out",
-     "yawSpeed": 7.96,
-     "yawDelta": 18.5,
-     "class": "DistancePanoramaCameraMovement"
-    }
-   ]
-  },
-  "automaticZoomSpeed": 10,
-  "class": "PanoramaCamera"
- },
- {
-  "id": "camera_5CBCCC88_4B73_DD47_41BC_9A3FFE7A0BC2",
-  "initialPosition": {
-   "yaw": 25.72,
+   "yaw": 11.32,
    "class": "PanoramaCameraPosition",
    "pitch": 0
   },
@@ -12296,7 +12296,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  "id": "rootPlayer",
  "gap": 10,
  "paddingTop": 0,
- "start": "this.mainPlayList.set('selectedIndex', 0); this.playList_5C7E6729_4B73_CB59_419F_B3B59CAD9477.set('selectedIndex', 0); var self = this; var autotriggerFunc = function(){ self.Image_19B2F4BC_0BF1_B12F_419C_772DA37A7B15.trigger('click') }; this.autotriggerAtStart(this.MainViewerPanoramaPlayer, autotriggerFunc)",
+ "start": "this.mainPlayList.set('selectedIndex', 0); this.playList_68369B6A_4B91_DBDB_41CF_C392FA5CE917.set('selectedIndex', 0); var self = this; var autotriggerFunc = function(){ self.Image_19B2F4BC_0BF1_B12F_419C_772DA37A7B15.trigger('click') }; this.autotriggerAtStart(this.MainViewerPanoramaPlayer, autotriggerFunc)",
  "minWidth": 20,
  "shadow": false,
  "scrollBarVisible": "rollOver"
