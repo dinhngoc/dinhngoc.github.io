@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AR Voucher Collection Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aframe/1.4.2/aframe.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js"></script>
+    <style>
+        .ui-overlay {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 999;
+            color: white;
+            font-family: Arial, sans-serif;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .voucher-collected {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 255, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            display: none;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div id="score" class="ui-overlay">Vouchers: 0</div>
+    <div id="collectedMessage" class="voucher-collected">Voucher Collected!</div>
+    
+    <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
+        <a-camera gps-camera rotation-reader></a-camera>
+        
+        <a-entity id="vouchersContainer"></a-entity>
+    </a-scene>
+
+    <script>
+        AFRAME.registerComponent('voucher', {
+            schema: {
+                value: {type: 'number', default: 10},
+                id: {type: 'string'}
+            },
+
+            init: function() {
+                this.el.addEventListener('click', () => this.collectVoucher());
+                
+                // Create voucher appearance
+                const geometry = new THREE.BoxGeometry(1, 1, 0.1);
+                const material = new THREE.MeshStandardMaterial({
+                    color: 0xffdd00,
+                    metalness: 0.5,
+                    roughness: 0.1
+                });
+                
+                this.el.setObject3D('mesh', new THREE.Mesh(geometry, material));
+                
+                // Add floating animation
+                this.el.setAttribute('animation', {
+                    property: 'position',
+                    dir: 'alternate',
+                    dur: 2000,
+                    easing: 'easeInOutQuad',
+                    loop: true,
+                    from: '0 0 0',
+                    to: '0 0.5 0'
+                });
+            },
+
+            collectVoucher: function() {
+                if (this.collected) return;
+                
+                this.collected = true;
+                
+                // Update score
+                const scoreEl = document.getElementById('score');
+                const currentScore = parseInt(scoreEl.textContent.split(': ')[1]);
+                scoreEl.textContent = `Vouchers: ${currentScore + 1}`;
+                
+                // Show collection message
+                const messageEl = document.getElementById('collectedMessage');
+                messageEl.style.display = 'block';
+                setTimeout(() => {
+                    messageEl.style.display = 'none';
+                }, 2000);
+                
+                // Animate voucher collection
+                this.el.setAttribute('animation', {
+                    property: 'scale',
+                    dur: 300,
+                    to: '0 0 0'
+                });
+                
+                setTimeout(() => {
+                    this.el.parentNode.removeChild(this.el);
+                }, 300);
+            }
+        });
+
+        // Spawn vouchers around the user
+        function spawnVouchers() {
+            const container = document.getElementById('vouchersContainer');
+            const numVouchers = 10;
+            
+            for (let i = 0; i < numVouchers; i++) {
+                const angle = (i / numVouchers) * Math.PI * 2;
+                const radius = 5 + Math.random() * 5; // Random distance 5-10 meters
+                
+                const voucher = document.createElement('a-entity');
+                voucher.setAttribute('voucher', {
+                    value: Math.floor(Math.random() * 50) + 10,
+                    id: `voucher-${i}`
+                });
+                
+                const x = Math.cos(angle) * radius;
+                const z = Math.sin(angle) * radius;
+                const y = 1.5 + Math.random(); // Random height between 1.5-2.5 meters
+                
+                voucher.setAttribute('position', `${x} ${y} ${z}`);
+                voucher.setAttribute('look-at', '[camera]');
+                
+                container.appendChild(voucher);
+            }
+        }
+
+        // Initialize game when scene is loaded
+        document.querySelector('a-scene').addEventListener('loaded', () => {
+            spawnVouchers();
+        });
+    </script>
+</body>
+</html>
