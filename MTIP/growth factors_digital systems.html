@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sankey D3 — Yếu tố đóng góp năng lực cạnh tranh</title>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+  <style>
+    :root {
+      --bg: #f8fafc; --card: #ffffff; --text: #0f172a; --muted: #64748b; --border:#e2e8f0;
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial, sans-serif; background:var(--bg); color:var(--text); }
+    header { padding: 26px 32px 10px; }
+    h1 { margin: 0 0 8px; font-size: clamp(24px, 3vw, 38px); line-height: 1.08; }
+    .subtitle { color: var(--muted); max-width: 1100px; line-height:1.5; }
+    .wrap { padding: 16px 28px 32px; }
+    .card { background: var(--card); border:1px solid var(--border); border-radius: 22px; box-shadow: 0 12px 30px rgba(15,23,42,.06); overflow:hidden; }
+    .toolbar { display:flex; gap:12px; flex-wrap:wrap; align-items:center; padding:16px 18px; border-bottom:1px solid var(--border); }
+    .pill { border:1px solid var(--border); background:#fff; border-radius:999px; padding:7px 12px; font-size:13px; color:#334155; }
+    #chart { width:100%; overflow-x:auto; }
+    svg { display:block; min-width: 1600px; }
+    .node rect { stroke: rgba(15,23,42,.16); stroke-width: .7px; rx: 5px; }
+    .node text { font-size: 12px; fill:#0f172a; pointer-events:none; paint-order: stroke; stroke:#fff; stroke-width:3px; stroke-linejoin:round; }
+    .link { fill:none; stroke-opacity:.24; mix-blend-mode:multiply; }
+    .link:hover { stroke-opacity:.58; }
+    .legend { display:flex; gap:10px; flex-wrap:wrap; padding:14px 18px 18px; border-top:1px solid var(--border); }
+    .legend span { display:flex; align-items:center; gap:7px; color:#475569; font-size:13px; }
+    .dot { width:12px; height:12px; border-radius:4px; display:inline-block; }
+    .tooltip { position:fixed; background:#0f172a; color:#fff; padding:10px 12px; border-radius:12px; max-width:420px; font-size:12px; line-height:1.4; pointer-events:none; opacity:0; transform:translate(8px,8px); transition: opacity .12s ease; z-index:10; }
+    table { border-collapse: collapse; width:100%; font-size:13px; }
+    th,td { border-top:1px solid var(--border); padding:10px 12px; text-align:left; vertical-align:top; }
+    th { background:#f1f5f9; color:#334155; }
+    .table-wrap { margin-top:18px; overflow:auto; border-radius:18px; border:1px solid var(--border); background:white; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sankey D3: Yếu tố → Hệ thống số → Tác động</h1>
+    <div class="subtitle">Tóm tắt nội dung file Excel theo luồng: <b>nhóm năng lực cạnh tranh</b> dẫn tới <b>yếu tố cụ thể</b>, được hỗ trợ bởi <b>digital systems</b>, rồi tạo ra <b>tác động chính</b>.</div>
+  </header>
+  <main class="wrap">
+    <section class="card">
+      <div class="toolbar">
+        <span class="pill">5 nhóm</span>
+        <span class="pill">18 yếu tố</span>
+        <span class="pill">Hệ thống số được tách theo “;” và “,”</span>
+        <span class="pill">Độ rộng luồng = số hệ thống/quan hệ</span>
+      </div>
+      <div id="chart"></div>
+      <div class="legend" id="legend"></div>
+    </section>
+    <section class="table-wrap">
+      <table>
+        <thead><tr><th>Nhóm</th><th>Yếu tố</th><th>Hệ thống số ảnh hưởng trực tiếp</th><th>Tác động chính</th></tr></thead>
+        <tbody id="summaryRows"></tbody>
+      </table>
+    </section>
+  </main>
+  <div class="tooltip" id="tooltip"></div>
+<script>
+const graph = {"nodes": [{"name": "1. Vị trí", "kind": "Nhóm", "group": "1. Vị trí"}, {"name": "1. Vị trí hàng hải & khả năng tiếp cận tàu", "kind": "Yếu tố", "group": "1. Vị trí"}, {"name": "Just-in-Time / Port Call Optimization", "kind": "Hệ thống số", "group": "1. Vị trí"}, {"name": "Tối ưu lịch tàu đến, giảm thời gian chờ, tăng khả năng khai thác lợi thế vị trí.", "kind": "Tác động", "group": "1. Vị trí"}, {"name": "VTMIS/PMS", "kind": "Hệ thống số", "group": "1. Vị trí"}, {"name": "2. Kết nối hậu phương", "kind": "Yếu tố", "group": "1. Vị trí"}, {"name": "PCS", "kind": "Hệ thống số", "group": "1. Vị trí"}, {"name": "Kết nối cảng với vận tải đường bộ/đường sắt/ICD/kho bãi.", "kind": "Tác động", "group": "1. Vị trí"}, {"name": "Port Management System", "kind": "Hệ thống số", "group": "1. Vị trí"}, {"name": "Digital logistics platform", "kind": "Hệ thống số", "group": "1. Vị trí"}, {"name": "3. Gần nguồn hàng/thị trường", "kind": "Yếu tố", "group": "1. Vị trí"}, {"name": "Tăng minh bạch dòng hàng, giúp cảng hấp dẫn hơn với chủ hàng và logistics.", "kind": "Tác động", "group": "1. Vị trí"}, {"name": "Data analytics", "kind": "Hệ thống số", "group": "1. Vị trí"}, {"name": "Cargo visibility systems", "kind": "Hệ thống số", "group": "1. Vị trí"}, {"name": "2. Hạ tầng", "kind": "Nhóm", "group": "2. Hạ tầng"}, {"name": "4. Chất lượng cầu bến, bãi, thiết bị", "kind": "Yếu tố", "group": "2. Hạ tầng"}, {"name": "Digital Twin", "kind": "Hệ thống số", "group": "2. Hạ tầng"}, {"name": "Mô phỏng năng lực hạ tầng, dự báo bảo trì, giảm sự cố thiết bị.", "kind": "Tác động", "group": "2. Hạ tầng"}, {"name": "IoT sensors", "kind": "Hệ thống số", "group": "2. Hạ tầng"}, {"name": "Predictive maintenance", "kind": "Hệ thống số", "group": "2. Hạ tầng"}, {"name": "5. Khả năng tiếp nhận tàu lớn", "kind": "Yếu tố", "group": "2. Hạ tầng"}, {"name": "Mô phỏng luồng, cầu bến, vùng quay trở; hỗ trợ lập kế hoạch tiếp nhận tàu.", "kind": "Tác động", "group": "2. Hạ tầng"}, {"name": "VTMIS", "kind": "Hệ thống số", "group": "2. Hạ tầng"}, {"name": "Berth Planning System", "kind": "Hệ thống số", "group": "2. Hạ tầng"}, {"name": "6. Khả năng mở rộng tương lai", "kind": "Yếu tố", "group": "2. Hạ tầng"}, {"name": "Đánh giá kịch bản mở rộng, năng lực bãi/cầu bến/thiết bị trước khi đầu tư.", "kind": "Tác động", "group": "2. Hạ tầng"}, {"name": "Capacity simulation", "kind": "Hệ thống số", "group": "2. Hạ tầng"}, {"name": "Smart port planning tools", "kind": "Hệ thống số", "group": "2. Hạ tầng"}, {"name": "7. Hạ tầng công nghệ", "kind": "Yếu tố", "group": "2. Hạ tầng"}, {"name": "Nền tảng để cảng chuyển từ vận hành rời rạc sang vận hành số.", "kind": "Tác động", "group": "2. Hạ tầng"}, {"name": "PMS", "kind": "Hệ thống số", "group": "2. Hạ tầng"}, {"name": "MSW", "kind": "Hệ thống số", "group": "2. Hạ tầng"}, {"name": "TOS", "kind": "Hệ thống số", "group": "2. Hạ tầng"}, {"name": "Cybersecurity platform", "kind": "Hệ thống số", "group": "2. Hạ tầng"}, {"name": "3. Chi phí", "kind": "Nhóm", "group": "3. Chi phí"}, {"name": "8. Tổng chi phí logistics", "kind": "Yếu tố", "group": "3. Chi phí"}, {"name": "Giảm giấy tờ, lỗi chứng từ, thời gian chờ và chi phí giao dịch.", "kind": "Tác động", "group": "3. Chi phí"}, {"name": "e-Bill of Lading", "kind": "Hệ thống số", "group": "3. Chi phí"}, {"name": "Blockchain documentation", "kind": "Hệ thống số", "group": "3. Chi phí"}, {"name": "9. Chi phí khai thác cảng", "kind": "Yếu tố", "group": "3. Chi phí"}, {"name": "Automation of cargo handling", "kind": "Hệ thống số", "group": "3. Chi phí"}, {"name": "Giảm chi phí nhân công thủ công, nhiên liệu, thiết bị nhàn rỗi.", "kind": "Tác động", "group": "3. Chi phí"}, {"name": "Equipment optimization", "kind": "Hệ thống số", "group": "3. Chi phí"}, {"name": "10. Chi phí tuân thủ/thủ tục", "kind": "Yếu tố", "group": "3. Chi phí"}, {"name": "Maritime Single Window", "kind": "Hệ thống số", "group": "3. Chi phí"}, {"name": "Giảm số lượng chứng từ, rút ngắn thủ tục với cơ quan nhà nước.", "kind": "Tác động", "group": "3. Chi phí"}, {"name": "Trade Single Window", "kind": "Hệ thống số", "group": "3. Chi phí"}, {"name": "e-documentation", "kind": "Hệ thống số", "group": "3. Chi phí"}, {"name": "4. Hiệu quả vận hành", "kind": "Nhóm", "group": "4. Hiệu quả vận hành"}, {"name": "11. Năng suất xếp dỡ", "kind": "Yếu tố", "group": "4. Hiệu quả vận hành"}, {"name": "Tăng tốc độ xếp dỡ, giảm lỗi con người, tăng năng suất cầu bến.", "kind": "Tác động", "group": "4. Hiệu quả vận hành"}, {"name": "Automated cranes/AGV/robotics", "kind": "Hệ thống số", "group": "4. Hiệu quả vận hành"}, {"name": "12. Thời gian tàu nằm bến", "kind": "Yếu tố", "group": "4. Hiệu quả vận hành"}, {"name": "JIT Arrival", "kind": "Hệ thống số", "group": "4. Hiệu quả vận hành"}, {"name": "Tối ưu lịch tàu, cầu bến, hoa tiêu, lai dắt; giảm thời gian quay vòng tàu.", "kind": "Tác động", "group": "4. Hiệu quả vận hành"}, {"name": "Berth Planning", "kind": "Hệ thống số", "group": "4. Hiệu quả vận hành"}, {"name": "13. Thời gian lưu hàng/lưu container", "kind": "Yếu tố", "group": "4. Hiệu quả vận hành"}, {"name": "Tăng visibility, giảm chờ chứng từ, giảm ùn tắc bãi.", "kind": "Tác động", "group": "4. Hiệu quả vận hành"}, {"name": "Cargo tracking", "kind": "Hệ thống số", "group": "4. Hiệu quả vận hành"}, {"name": "14. Độ tin cậy dịch vụ", "kind": "Yếu tố", "group": "4. Hiệu quả vận hành"}, {"name": "Cybersecurity enhancements", "kind": "Hệ thống số", "group": "4. Hiệu quả vận hành"}, {"name": "Giảm downtime, tăng khả năng phục hồi và đảm bảo liên tục vận hành.", "kind": "Tác động", "group": "4. Hiệu quả vận hành"}, {"name": "Real-time monitoring", "kind": "Hệ thống số", "group": "4. Hiệu quả vận hành"}, {"name": "15. An toàn, an ninh, môi trường", "kind": "Yếu tố", "group": "4. Hiệu quả vận hành"}, {"name": "Cybersecurity", "kind": "Hệ thống số", "group": "4. Hiệu quả vận hành"}, {"name": "Giám sát rủi ro, phát thải, an toàn thiết bị và an ninh dữ liệu.", "kind": "Tác động", "group": "4. Hiệu quả vận hành"}, {"name": "IoT monitoring", "kind": "Hệ thống số", "group": "4. Hiệu quả vận hành"}, {"name": "Environmental monitoring systems", "kind": "Hệ thống số", "group": "4. Hiệu quả vận hành"}, {"name": "5. Kết nối thị trường / chuỗi cung ứng", "kind": "Nhóm", "group": "5. Kết nối thị trường / chuỗi cung ứng"}, {"name": "16. Mạng lưới tuyến tàu & hãng tàu", "kind": "Yếu tố", "group": "5. Kết nối thị trường / chuỗi cung ứng"}, {"name": "Tăng độ tin cậy cho hãng tàu, giúp cảng dễ thu hút tuyến mới.", "kind": "Tác động", "group": "5. Kết nối thị trường / chuỗi cung ứng"}, {"name": "JIT", "kind": "Hệ thống số", "group": "5. Kết nối thị trường / chuỗi cung ứng"}, {"name": "Real-time port call data", "kind": "Hệ thống số", "group": "5. Kết nối thị trường / chuỗi cung ứng"}, {"name": "17. Quan hệ với chủ hàng, hãng tàu, logistics", "kind": "Yếu tố", "group": "5. Kết nối thị trường / chuỗi cung ứng"}, {"name": "Một cửa giao dịch, minh bạch trạng thái hàng/tàu, giảm ma sát dịch vụ.", "kind": "Tác động", "group": "5. Kết nối thị trường / chuỗi cung ứng"}, {"name": "Customer portal", "kind": "Hệ thống số", "group": "5. Kết nối thị trường / chuỗi cung ứng"}, {"name": "e-payment", "kind": "Hệ thống số", "group": "5. Kết nối thị trường / chuỗi cung ứng"}, {"name": "Track & Trace", "kind": "Hệ thống số", "group": "5. Kết nối thị trường / chuỗi cung ứng"}, {"name": "18. Tích hợp chuỗi cung ứng", "kind": "Yếu tố", "group": "5. Kết nối thị trường / chuỗi cung ứng"}, {"name": "Kết nối cảng với hải quan, hãng tàu, forwarder, kho, vận tải và chủ hàng.", "kind": "Tác động", "group": "5. Kết nối thị trường / chuỗi cung ứng"}], "links": [{"source": 0, "target": 1, "value": 2, "label": "gồm"}, {"source": 1, "target": 2, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 2, "target": 3, "value": 1, "label": "tạo tác động"}, {"source": 1, "target": 4, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 4, "target": 3, "value": 1, "label": "tạo tác động"}, {"source": 0, "target": 5, "value": 3, "label": "gồm"}, {"source": 5, "target": 6, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 6, "target": 7, "value": 1, "label": "tạo tác động"}, {"source": 5, "target": 8, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 8, "target": 7, "value": 1, "label": "tạo tác động"}, {"source": 5, "target": 9, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 9, "target": 7, "value": 1, "label": "tạo tác động"}, {"source": 0, "target": 10, "value": 3, "label": "gồm"}, {"source": 10, "target": 6, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 6, "target": 11, "value": 1, "label": "tạo tác động"}, {"source": 10, "target": 12, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 12, "target": 11, "value": 1, "label": "tạo tác động"}, {"source": 10, "target": 13, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 13, "target": 11, "value": 1, "label": "tạo tác động"}, {"source": 14, "target": 15, "value": 3, "label": "gồm"}, {"source": 15, "target": 16, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 16, "target": 17, "value": 1, "label": "tạo tác động"}, {"source": 15, "target": 18, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 18, "target": 17, "value": 1, "label": "tạo tác động"}, {"source": 15, "target": 19, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 19, "target": 17, "value": 1, "label": "tạo tác động"}, {"source": 14, "target": 20, "value": 3, "label": "gồm"}, {"source": 20, "target": 16, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 16, "target": 21, "value": 1, "label": "tạo tác động"}, {"source": 20, "target": 22, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 22, "target": 21, "value": 1, "label": "tạo tác động"}, {"source": 20, "target": 23, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 23, "target": 21, "value": 1, "label": "tạo tác động"}, {"source": 14, "target": 24, "value": 3, "label": "gồm"}, {"source": 24, "target": 16, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 16, "target": 25, "value": 1, "label": "tạo tác động"}, {"source": 24, "target": 26, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 26, "target": 25, "value": 1, "label": "tạo tác động"}, {"source": 24, "target": 27, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 27, "target": 25, "value": 1, "label": "tạo tác động"}, {"source": 14, "target": 28, "value": 5, "label": "gồm"}, {"source": 28, "target": 6, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 6, "target": 29, "value": 1, "label": "tạo tác động"}, {"source": 28, "target": 30, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 30, "target": 29, "value": 1, "label": "tạo tác động"}, {"source": 28, "target": 31, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 31, "target": 29, "value": 1, "label": "tạo tác động"}, {"source": 28, "target": 32, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 32, "target": 29, "value": 1, "label": "tạo tác động"}, {"source": 28, "target": 33, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 33, "target": 29, "value": 1, "label": "tạo tác động"}, {"source": 34, "target": 35, "value": 4, "label": "gồm"}, {"source": 35, "target": 31, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 31, "target": 36, "value": 1, "label": "tạo tác động"}, {"source": 35, "target": 37, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 37, "target": 36, "value": 1, "label": "tạo tác động"}, {"source": 35, "target": 6, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 6, "target": 36, "value": 1, "label": "tạo tác động"}, {"source": 35, "target": 38, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 38, "target": 36, "value": 1, "label": "tạo tác động"}, {"source": 34, "target": 39, "value": 3, "label": "gồm"}, {"source": 39, "target": 40, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 40, "target": 41, "value": 1, "label": "tạo tác động"}, {"source": 39, "target": 32, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 32, "target": 41, "value": 1, "label": "tạo tác động"}, {"source": 39, "target": 42, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 42, "target": 41, "value": 1, "label": "tạo tác động"}, {"source": 34, "target": 43, "value": 3, "label": "gồm"}, {"source": 43, "target": 44, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 44, "target": 45, "value": 1, "label": "tạo tác động"}, {"source": 43, "target": 46, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 46, "target": 45, "value": 1, "label": "tạo tác động"}, {"source": 43, "target": 47, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 47, "target": 45, "value": 1, "label": "tạo tác động"}, {"source": 48, "target": 49, "value": 3, "label": "gồm"}, {"source": 49, "target": 40, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 40, "target": 50, "value": 1, "label": "tạo tác động"}, {"source": 49, "target": 32, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 32, "target": 50, "value": 1, "label": "tạo tác động"}, {"source": 49, "target": 51, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 51, "target": 50, "value": 1, "label": "tạo tác động"}, {"source": 48, "target": 52, "value": 4, "label": "gồm"}, {"source": 52, "target": 53, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 53, "target": 54, "value": 1, "label": "tạo tác động"}, {"source": 52, "target": 55, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 55, "target": 54, "value": 1, "label": "tạo tác động"}, {"source": 52, "target": 30, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 30, "target": 54, "value": 1, "label": "tạo tác động"}, {"source": 52, "target": 22, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 22, "target": 54, "value": 1, "label": "tạo tác động"}, {"source": 48, "target": 56, "value": 4, "label": "gồm"}, {"source": 56, "target": 6, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 6, "target": 57, "value": 1, "label": "tạo tác động"}, {"source": 56, "target": 32, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 32, "target": 57, "value": 1, "label": "tạo tác động"}, {"source": 56, "target": 58, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 58, "target": 57, "value": 1, "label": "tạo tác động"}, {"source": 56, "target": 31, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 31, "target": 57, "value": 1, "label": "tạo tác động"}, {"source": 48, "target": 59, "value": 4, "label": "gồm"}, {"source": 59, "target": 60, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 60, "target": 61, "value": 1, "label": "tạo tác động"}, {"source": 59, "target": 30, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 30, "target": 61, "value": 1, "label": "tạo tác động"}, {"source": 59, "target": 6, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 6, "target": 61, "value": 1, "label": "tạo tác động"}, {"source": 59, "target": 62, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 62, "target": 61, "value": 1, "label": "tạo tác động"}, {"source": 48, "target": 63, "value": 4, "label": "gồm"}, {"source": 63, "target": 64, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 64, "target": 65, "value": 1, "label": "tạo tác động"}, {"source": 63, "target": 66, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 66, "target": 65, "value": 1, "label": "tạo tác động"}, {"source": 63, "target": 16, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 16, "target": 65, "value": 1, "label": "tạo tác động"}, {"source": 63, "target": 67, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 67, "target": 65, "value": 1, "label": "tạo tác động"}, {"source": 68, "target": 69, "value": 4, "label": "gồm"}, {"source": 69, "target": 6, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 6, "target": 70, "value": 1, "label": "tạo tác động"}, {"source": 69, "target": 71, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 71, "target": 70, "value": 1, "label": "tạo tác động"}, {"source": 69, "target": 30, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 30, "target": 70, "value": 1, "label": "tạo tác động"}, {"source": 69, "target": 72, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 72, "target": 70, "value": 1, "label": "tạo tác động"}, {"source": 68, "target": 73, "value": 4, "label": "gồm"}, {"source": 73, "target": 6, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 6, "target": 74, "value": 1, "label": "tạo tác động"}, {"source": 73, "target": 75, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 75, "target": 74, "value": 1, "label": "tạo tác động"}, {"source": 73, "target": 76, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 76, "target": 74, "value": 1, "label": "tạo tác động"}, {"source": 73, "target": 77, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 77, "target": 74, "value": 1, "label": "tạo tác động"}, {"source": 68, "target": 78, "value": 4, "label": "gồm"}, {"source": 78, "target": 6, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 6, "target": 79, "value": 1, "label": "tạo tác động"}, {"source": 78, "target": 38, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 38, "target": 79, "value": 1, "label": "tạo tác động"}, {"source": 78, "target": 37, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 37, "target": 79, "value": 1, "label": "tạo tác động"}, {"source": 78, "target": 46, "value": 1, "label": "ảnh hưởng trực tiếp"}, {"source": 46, "target": 79, "value": 1, "label": "tạo tác động"}], "raw": [{"group": "1. Vị trí", "factor": "1. Vị trí hàng hải & khả năng tiếp cận tàu", "systems": ["Just-in-Time / Port Call Optimization", "VTMIS/PMS"], "impact": "Tối ưu lịch tàu đến, giảm thời gian chờ, tăng khả năng khai thác lợi thế vị trí."}, {"group": "1. Vị trí", "factor": "2. Kết nối hậu phương", "systems": ["PCS", "Port Management System", "Digital logistics platform"], "impact": "Kết nối cảng với vận tải đường bộ/đường sắt/ICD/kho bãi."}, {"group": "1. Vị trí", "factor": "3. Gần nguồn hàng/thị trường", "systems": ["PCS", "Data analytics", "Cargo visibility systems"], "impact": "Tăng minh bạch dòng hàng, giúp cảng hấp dẫn hơn với chủ hàng và logistics."}, {"group": "2. Hạ tầng", "factor": "4. Chất lượng cầu bến, bãi, thiết bị", "systems": ["Digital Twin", "IoT sensors", "Predictive maintenance"], "impact": "Mô phỏng năng lực hạ tầng, dự báo bảo trì, giảm sự cố thiết bị."}, {"group": "2. Hạ tầng", "factor": "5. Khả năng tiếp nhận tàu lớn", "systems": ["Digital Twin", "VTMIS", "Berth Planning System"], "impact": "Mô phỏng luồng, cầu bến, vùng quay trở; hỗ trợ lập kế hoạch tiếp nhận tàu."}, {"group": "2. Hạ tầng", "factor": "6. Khả năng mở rộng tương lai", "systems": ["Digital Twin", "Capacity simulation", "Smart port planning tools"], "impact": "Đánh giá kịch bản mở rộng, năng lực bãi/cầu bến/thiết bị trước khi đầu tư."}, {"group": "2. Hạ tầng", "factor": "7. Hạ tầng công nghệ", "systems": ["PCS", "PMS", "MSW", "TOS", "Cybersecurity platform"], "impact": "Nền tảng để cảng chuyển từ vận hành rời rạc sang vận hành số."}, {"group": "3. Chi phí", "factor": "8. Tổng chi phí logistics", "systems": ["MSW", "e-Bill of Lading", "PCS", "Blockchain documentation"], "impact": "Giảm giấy tờ, lỗi chứng từ, thời gian chờ và chi phí giao dịch."}, {"group": "3. Chi phí", "factor": "9. Chi phí khai thác cảng", "systems": ["Automation of cargo handling", "TOS", "Equipment optimization"], "impact": "Giảm chi phí nhân công thủ công, nhiên liệu, thiết bị nhàn rỗi."}, {"group": "3. Chi phí", "factor": "10. Chi phí tuân thủ/thủ tục", "systems": ["Maritime Single Window", "Trade Single Window", "e-documentation"], "impact": "Giảm số lượng chứng từ, rút ngắn thủ tục với cơ quan nhà nước."}, {"group": "4. Hiệu quả vận hành", "factor": "11. Năng suất xếp dỡ", "systems": ["Automation of cargo handling", "TOS", "Automated cranes/AGV/robotics"], "impact": "Tăng tốc độ xếp dỡ, giảm lỗi con người, tăng năng suất cầu bến."}, {"group": "4. Hiệu quả vận hành", "factor": "12. Thời gian tàu nằm bến", "systems": ["JIT Arrival", "Berth Planning", "PMS", "VTMIS"], "impact": "Tối ưu lịch tàu, cầu bến, hoa tiêu, lai dắt; giảm thời gian quay vòng tàu."}, {"group": "4. Hiệu quả vận hành", "factor": "13. Thời gian lưu hàng/lưu container", "systems": ["PCS", "TOS", "Cargo tracking", "MSW"], "impact": "Tăng visibility, giảm chờ chứng từ, giảm ùn tắc bãi."}, {"group": "4. Hiệu quả vận hành", "factor": "14. Độ tin cậy dịch vụ", "systems": ["Cybersecurity enhancements", "PMS", "PCS", "Real-time monitoring"], "impact": "Giảm downtime, tăng khả năng phục hồi và đảm bảo liên tục vận hành."}, {"group": "4. Hiệu quả vận hành", "factor": "15. An toàn, an ninh, môi trường", "systems": ["Cybersecurity", "IoT monitoring", "Digital Twin", "Environmental monitoring systems"], "impact": "Giám sát rủi ro, phát thải, an toàn thiết bị và an ninh dữ liệu."}, {"group": "5. Kết nối thị trường / chuỗi cung ứng", "factor": "16. Mạng lưới tuyến tàu & hãng tàu", "systems": ["PCS", "JIT", "PMS", "Real-time port call data"], "impact": "Tăng độ tin cậy cho hãng tàu, giúp cảng dễ thu hút tuyến mới."}, {"group": "5. Kết nối thị trường / chuỗi cung ứng", "factor": "17. Quan hệ với chủ hàng, hãng tàu, logistics", "systems": ["PCS", "Customer portal", "e-payment", "Track & Trace"], "impact": "Một cửa giao dịch, minh bạch trạng thái hàng/tàu, giảm ma sát dịch vụ."}, {"group": "5. Kết nối thị trường / chuỗi cung ứng", "factor": "18. Tích hợp chuỗi cung ứng", "systems": ["PCS", "Blockchain documentation", "e-Bill of Lading", "Trade Single Window"], "impact": "Kết nối cảng với hải quan, hãng tàu, forwarder, kho, vận tải và chủ hàng."}]};
+const colors = new Map([
+  ['Nhóm', '#2563eb'], ['Yếu tố', '#0f766e'], ['Hệ thống số', '#f97316'], ['Tác động', '#7c3aed']
+]);
+const groupColors = new Map([
+  ['1. Vị trí', '#2563eb'], ['2. Hạ tầng', '#0891b2'], ['3. Chi phí', '#ea580c'], ['4. Hiệu quả vận hành', '#16a34a'], ['5. Kết nối thị trường / chuỗi cung ứng', '#9333ea']
+]);
+const width = 1800, height = Math.max(980, graph.nodes.length * 9);
+const margin = {top: 28, right: 360, bottom: 22, left: 260};
+const svg = d3.select('#chart').append('svg').attr('viewBox', [0,0,width,height]).attr('width', width).attr('height', height);
+const sankey = d3.sankey()
+  .nodeId((d, i) => i)
+  .nodeWidth(18)
+  .nodePadding(12)
+  .nodeAlign(d3.sankeyJustify)
+  .extent([[margin.left, margin.top], [width - margin.right, height - margin.bottom]]);
+const data = sankey({
+  nodes: graph.nodes.map(d => Object.assign({}, d)),
+  links: graph.links.map(d => Object.assign({}, d))
+});
+const tooltip = d3.select('#tooltip');
+const link = svg.append('g')
+  .selectAll('path')
+  .data(data.links)
+  .join('path')
+    .attr('class','link')
+    .attr('d', d3.sankeyLinkHorizontal())
+    .attr('stroke', d => groupColors.get(d.source.group) || colors.get(d.source.kind) || '#64748b')
+    .attr('stroke-width', d => Math.max(1, d.width))
+  .on('mousemove', (event,d) => {
+    tooltip.style('opacity',1).style('left', event.clientX+'px').style('top', event.clientY+'px')
+      .html(`<b>${d.source.name}</b><br/>→ ${d.target.name}<br/><span style="color:#cbd5e1">${d.label} · giá trị: ${d.value}</span>`);
+  })
+  .on('mouseleave', () => tooltip.style('opacity',0));
+link.append('title').text(d => `${d.source.name} → ${d.target.name}
+${d.label} · ${d.value}`);
+const node = svg.append('g')
+  .selectAll('g')
+  .data(data.nodes)
+  .join('g')
+    .attr('class','node');
+node.append('rect')
+  .attr('x', d => d.x0).attr('y', d => d.y0)
+  .attr('height', d => Math.max(1, d.y1 - d.y0))
+  .attr('width', d => d.x1 - d.x0)
+  .attr('fill', d => d.kind === 'Nhóm' ? groupColors.get(d.name) : colors.get(d.kind));
+function wrapText(sel, widthPx) {
+  sel.each(function(d) {
+    const text = d3.select(this), words = d.name.split(/\s+/).reverse();
+    let word, line=[], lineNumber=0; const lineHeight=1.1; const y=text.attr('y'); const x=text.attr('x');
+    let tspan=text.text(null).append('tspan').attr('x',x).attr('y',y).attr('dy','0em');
+    while (word=words.pop()) {
+      line.push(word); tspan.text(line.join(' '));
+      if (tspan.node().getComputedTextLength() > widthPx && line.length>1) {
+        line.pop(); tspan.text(line.join(' ')); line=[word];
+        tspan=text.append('tspan').attr('x',x).attr('y',y).attr('dy', (++lineNumber*lineHeight)+'em').text(word);
+      }
+    }
+  });
+}
+node.append('text')
+  .attr('x', d => d.x0 < width/2 ? d.x1 + 7 : d.x0 - 7)
+  .attr('y', d => (d.y0 + d.y1)/2)
+  .attr('dy','0.35em')
+  .attr('text-anchor', d => d.x0 < width/2 ? 'start' : 'end')
+  .text(d => d.name)
+  .call(wrapText, 230);
+node.on('mousemove', (event,d) => {
+  tooltip.style('opacity',1).style('left', event.clientX+'px').style('top', event.clientY+'px')
+    .html(`<b>${d.kind}</b><br/>${d.name}<br/><span style="color:#cbd5e1">Nhóm: ${d.group || d.name}</span>`);
+}).on('mouseleave', () => tooltip.style('opacity',0));
+const legend = d3.select('#legend');
+for (const [name, color] of colors) {
+  legend.append('span').html(`<i class="dot" style="background:${color}"></i>${name}`);
+}
+const tbody = d3.select('#summaryRows');
+graph.raw.forEach(r => {
+  const tr=tbody.append('tr');
+  tr.append('td').text(r.group); tr.append('td').text(r.factor); tr.append('td').text(r.systems.join('; ')); tr.append('td').text(r.impact);
+});
+</script>
+</body>
+</html>
